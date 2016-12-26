@@ -13,8 +13,20 @@ function Page(){
     }
 
     this.jquery = function(){
+        $('.icon-three').click(function (e) {
+            e.stopPropagation();
+            $('.menu-box').toggleClass('open');
+        });
+        $('.menu-box').click(function (e) {
+            e.stopPropagation();
+        })
+        body.click(function () {
+            $('.menu-box').removeClass('open');
+        })
+
         if(isMobile()){
             $('body').addClass('touch-device');
+
         }
     }
 }

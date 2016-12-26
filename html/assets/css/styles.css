@@ -1187,12 +1187,11 @@ header {
   background: #e7e7e9;
   padding: 10px 20px 0px 20px; }
 
-.select-wrapper {
-  width: 210px;
-  float: left; }
+.box-menu {
+  float: left;
+  width: 610px; }
 
 .menu-wrapper {
-  width: 400px;
   float: left; }
   .menu-wrapper .menu {
     display: inline-block; }
@@ -1207,17 +1206,13 @@ header {
       -moz-border-radius: 10px;
       border-radius: 10px;
       font-size: 18px; }
-      .menu-wrapper .menu .item img {
-        -webkit-border-radius: 100%;
-        -moz-border-radius: 100%;
-        border-radius: 100%; }
     .menu-wrapper .menu .item.active {
       background: #f8931d;
       color: #fff; }
 
 .icon-wrapper {
   width: 210px;
-  float: left; }
+  float: right; }
   .icon-wrapper .menu {
     display: inline-block; }
     .icon-wrapper .menu .item {
@@ -1227,6 +1222,10 @@ header {
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       border-radius: 10px; }
+      .icon-wrapper .menu .item img {
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%; }
 
 select {
   -webkit-appearance: none;

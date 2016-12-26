@@ -1,0 +1,72 @@
+.heading-wrapper{
+  margin-bottom: 20px;
+  .logo-title{
+  float: left;
+  margin-right: 20px;
+  }
+  .text-title{
+  float: left;
+  font-size: 30px;
+  color: #000000;
+  .text-logo-color{
+    color: #89c5e7;
+    }
+  }
+}
+
+header{
+  background: #fff;
+  padding-top: 85px;
+}
+
+.main-wrapper{
+  background: #e7e7e9;
+  padding: 10px 20px 0px 20px;
+}
+.select-wrapper{
+  width: 210px;
+  float: left;
+}
+.menu-wrapper{
+  width: 400px;
+  float: left;
+  .menu{
+    display: inline-block;
+    .item{
+      float: left;
+      margin: 0 10px;
+      list-style-type: none;
+      color: #cdcdcf;
+      background: #fff;
+      padding: 4px 20px;
+      @include border-radius(10px);
+      font-size: 18px;
+    }
+    .item.active{
+      background: #f8931d;
+      color: #fff;
+    }
+  }
+}
+.icon-wrapper{
+  width: 210px;
+  float: left;
+  .menu{
+    display: inline-block;
+    .item{
+      float: left;
+      margin: 0 10px;
+      list-style-type: none;
+      @include border-radius(10px);
+    }
+  }
+}
+
+select{
+  @include appearance (none);
+  background: url('http://localhost/sadlier/html/assets/images/arrow.jpg') #ffffff right center no-repeat;
+  padding: 7px 20px 7px 15px;
+  @include border-radius(10px);
+  border: 0;
+  font-size: 18px;
+}

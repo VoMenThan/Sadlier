@@ -80,12 +80,12 @@ header{
   background: #e7e7e9;
   padding: 10px 20px 0px 20px;
 }
-.select-wrapper{
-  width: 210px;
+
+.box-menu{
   float: left;
+  width: 610px;
 }
 .menu-wrapper{
-  width: 400px;
   float: left;
   .menu{
     display: inline-block;
@@ -98,9 +98,6 @@ header{
       padding: 4px 20px;
       @include border-radius(10px);
       font-size: 18px;
-      img{
-        @include border-radius(100%);
-      }
     }
     .item.active{
       background: #f8931d;
@@ -110,7 +107,7 @@ header{
 }
 .icon-wrapper{
   width: 210px;
-  float: left;
+  float: right;
   .menu{
     display: inline-block;
     .item{
@@ -118,6 +115,9 @@ header{
       margin: 0 10px;
       list-style-type: none;
       @include border-radius(10px);
+      img{
+        @include border-radius(100%);
+      }
     }
   }
 }

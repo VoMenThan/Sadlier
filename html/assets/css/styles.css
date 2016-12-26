@@ -1069,6 +1069,12 @@ a {
   font-weight: normal;
   font-style: normal; }
 /*than css*/
+.flag_cards {
+  background: red;
+  padding: 50px; }
+  .flag_cards .content {
+    border: 2px solid #ffcb2f; }
+
 /*than end css*/
 body {
   font-size: 12px;

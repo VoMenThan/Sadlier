@@ -17,7 +17,6 @@ function Page(){
             $('body').addClass('touch-device');
         }
     }
-
 }
 Page = new Page();
 $(document).ready(function() {

@@ -1,0 +1,114 @@
+.header-page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include size(100%, 85px);
+  background: #fff;
+  color: #000;
+  font-size: 26px;
+  padding-top: 35px;
+  img{
+    margin-left: 15px;
+    float: left;
+    margin-right: 12px;
+  }
+  span{
+    color: #2494c4;
+  }
+  @include respond-to($break-991){
+    display: none;
+  }
+}
+.iwords-page{
+  background: #ed3729;
+}
+.iwords-page{
+  .box-content{
+    max-width: 725px;
+    background: #fff;
+    margin: 0 auto;
+    .bar-top{
+      height: 48px;
+      .word{
+        float: left;
+        font-size: 16px;
+        color: #f26631;
+        padding-left: 45px;
+        line-height: 48px;
+        font-family: $main-b;
+      }
+      .audio-iword{
+        float: right;
+      }
+    }
+  }
+}
+
+.audio-iword{
+  position: relative;
+  @include clearfix;
+  padding: 8px 0;
+  position: relative;
+  audio{
+    display: none;
+  }
+  .playpause{
+    float: left;
+    width: 54px;
+    height: 32px;
+    border-left: 2px solid $cl-line;
+    text-align: center;
+    cursor: pointer;
+    &.pause{
+      .play-icon{display: inline-block;}
+      .pause-icon{display: none;}
+    }
+    &.play{
+      .play-icon{display: none;}
+      .pause-icon{display: inline-block;}
+    }
+  }
+  #songSlider{
+    float: left;
+    .line-song{
+      position: relative;
+      height: 32px;
+      width: 190px;
+      &:after{
+        content: '';
+        display: block;
+        border: 1px solid $cl-line;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        margin-top: -1px;
+        z-index: 0;
+      }
+    }
+    #trackProgress{
+      position: absolute;
+      top: 50%;
+      @include translate(-50%, -50%);
+      @include size(12px, 12px);
+      @include border-radius(50%);
+      background: url("../images/icon/process.jpg");
+      z-index: 1;
+    }
+  }
+  .time{
+    float: left;
+    line-height:32px;
+    color: #000;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+  }
+  .prev{
+    float: left;
+    width: 48px;
+    text-align: center;
+    border-left: 2px solid $cl-line;
+    border-right: 2px solid $cl-line;
+  }
+}

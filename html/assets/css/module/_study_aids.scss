@@ -1,7 +1,6 @@
 /*than css*/
 .flag_cards{
   background: #ec3829;
-  padding: 50px;
   .page-number{
     text-align: center;
     font-size: 50px;
@@ -19,9 +18,6 @@
       border-radius: 10px;
       .flag{
         text-align: right;
-        img{
-          width: 50px;
-        }
       }
       .box-content{
         font-size: 60px;
@@ -39,12 +35,13 @@
             color: #2c9acf ;
             border-radius: 50%;
             overflow: hidden;
-            img{
-              width: 50px;
-            }
+            margin-right: 35px;
             a{
               text-decoration: none;
             }
+          }
+          li:last-child{
+            margin-right: 0px;
           }
         }
       }
@@ -62,15 +59,31 @@
         border-radius: 50%;
         display: inline-block;
         margin-right: 50px;
-        img{
-          width:50px;
-        }
       }
       li:last-child{
         margin-right: 0px;
       }
     }
   }
+}
+.dark{
+  position: relative;
+  }
+.dark:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  top:0;
+  z-index: 0;
+  opacity: 0.4;
+}
+.dark a{
+  position: relative;
+  z-index: 1;
 }
 
 

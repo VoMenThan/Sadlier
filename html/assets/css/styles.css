@@ -1132,6 +1132,46 @@ select {
   font-size: 18px; }
 
 /*than css*/
+.flag_cards {
+  background: #ec3829;
+  padding: 50px; }
+  .flag_cards .page-number {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px; }
+  .flag_cards .bg-white {
+    background: #fff;
+    width: 85%;
+    margin: auto;
+    padding: 20px; }
+    .flag_cards .bg-white .content {
+      border: 2px solid #ffcb2f;
+      padding: 20px;
+      border-radius: 10px; }
+      .flag_cards .bg-white .content .flag {
+        text-align: right; }
+        .flag_cards .bg-white .content .flag img {
+          width: 50px; }
+      .flag_cards .bg-white .content .box-content {
+        font-size: 60px;
+        color: #000;
+        text-align: center; }
+      .flag_cards .bg-white .content .box-control {
+        text-align: center;
+        margin-top: 50px; }
+        .flag_cards .bg-white .content .box-control .tool-control .control {
+          width: 50px;
+          height: 50px;
+          display: inline-block;
+          color: #2c9acf;
+          border-radius: 50%;
+          overflow: hidden; }
+          .flag_cards .bg-white .content .box-control .tool-control .control img {
+            width: 50px; }
+          .flag_cards .bg-white .content .box-control .tool-control .control a {
+            text-decoration: none; }
+
 /*than end css*/
 body {
   font-size: 12px;

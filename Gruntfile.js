@@ -74,7 +74,7 @@ module.exports = function(grunt){
                     style: 'compressed'
                 },
                 files: {
-                    'html/assets/css/styles.min.css': 'html/assets/css/styles.scss'
+                    'html/assets/css/styles.css': 'html/assets/css/styles.scss'
                 }
             },
             // connect: {

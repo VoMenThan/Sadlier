@@ -1,0 +1,24 @@
+heading-wrapper{
+  margin-bottom: 20px;
+  .logo-title{
+  float: left;
+  margin-right: 20px;
+  }
+  .text-title{
+  float: left;
+  font-size: 30px;
+  color: #000000;
+  .text-logo-color{
+    color: #89c5e7;
+    }
+  }
+}
+
+select{
+  @include appearance (none);
+  background: url('http://localhost/sadlier/html/assets/images/arrow.jpg') #ffffff right center no-repeat;
+  font-size: 18px;
+  padding: 7px 20px 7px 15px;
+  @include border-radius(10px);
+  border: 0;
+}

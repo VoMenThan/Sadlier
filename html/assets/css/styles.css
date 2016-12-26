@@ -1068,6 +1068,30 @@ a {
   src: url("../fonts/TimesNewRomanPSMT.eot?#iefix") format("embedded-opentype"), url("../fonts/TimesNewRomanPSMT.woff") format("woff"), url("../fonts/TimesNewRomanPSMT.woff2") format("woff2"), url("../fonts/TimesNewRomanPSMT.ttf") format("truetype"), url("../fonts/TimesNewRomanPSMT.svg#TimesNewRomanPSMT") format("svg");
   font-weight: normal;
   font-style: normal; }
+heading-wrapper {
+  margin-bottom: 20px; }
+  heading-wrapper .logo-title {
+    float: left;
+    margin-right: 20px; }
+  heading-wrapper .text-title {
+    float: left;
+    font-size: 30px;
+    color: #000000; }
+    heading-wrapper .text-title .text-logo-color {
+      color: #89c5e7; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("http://localhost/sadlier/html/assets/images/arrow.jpg") #ffffff right center no-repeat;
+  font-size: 18px;
+  padding: 7px 20px 7px 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 0; }
+
 /*than css*/
 .flag_cards {
   background: red;

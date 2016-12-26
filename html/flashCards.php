@@ -17,6 +17,13 @@
             </div>
         </div>
     </div>
+    <div class="nav-tool">
+        <ul class ="nav-control">
+            <li class="control"><a href="#"><img src="assets/images/btn_pre.jpg" alt=""></a></li>
+            <li class="control"><a href="#"><img src="assets/images/btn_refesh.jpg" alt=""></a></li>
+            <li class="control"><a href="#"><img src="assets/images/btn_next.jpg" alt=""></a></li>
+        </ul>
+    </div>
 
 
 

@@ -14,11 +14,17 @@
   }
 }
 
+header{
+  background: #fff;
+  padding-top: 85px;
+}
+
 .main-wrapper{
-  font-size: 18px;
+  background: #e7e7e9;
+  padding: 10px 20px 0px 20px;
 }
 .select-wrapper{
-  width: 160px;
+  width: 210px;
   float: left;
 }
 .menu-wrapper{
@@ -34,6 +40,7 @@
       background: #fff;
       padding: 4px 20px;
       @include border-radius(10px);
+      font-size: 18px;
     }
     .item.active{
       background: #f8931d;
@@ -42,7 +49,7 @@
   }
 }
 .icon-wrapper{
-  width: 160px;
+  width: 210px;
   float: left;
   .menu{
     display: inline-block;

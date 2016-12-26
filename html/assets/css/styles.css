@@ -1080,11 +1080,16 @@ a {
     .heading-wrapper .text-title .text-logo-color {
       color: #89c5e7; }
 
+header {
+  background: #fff;
+  padding-top: 85px; }
+
 .main-wrapper {
-  font-size: 18px; }
+  background: #e7e7e9;
+  padding: 10px 20px 0px 20px; }
 
 .select-wrapper {
-  width: 160px;
+  width: 210px;
   float: left; }
 
 .menu-wrapper {
@@ -1101,13 +1106,14 @@ a {
       padding: 4px 20px;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
-      border-radius: 10px; }
+      border-radius: 10px;
+      font-size: 18px; }
     .menu-wrapper .menu .item.active {
       background: #f8931d;
       color: #fff; }
 
 .icon-wrapper {
-  width: 160px;
+  width: 210px;
   float: left; }
   .icon-wrapper .menu {
     display: inline-block; }

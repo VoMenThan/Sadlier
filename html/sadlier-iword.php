@@ -14,7 +14,7 @@
                         </a>
                     </div>
                     <audio id="song" ontimeupdate="updateTime()" onloadeddata="myOnLoadedData()">
-                        <source src="phiasaumotcogai.mp3" type="audio/mp3"/>
+                        <source src="audioFile.mp3" type="audio/mp3"/>
                         Your browser does not support the audio tag.
                     </audio>
                     <div class="time process-time">00:00</div>

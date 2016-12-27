@@ -100,7 +100,7 @@
       @include respond-to($break-640){
         width: 50%;
         font-size: 18px;
-        select{
+        select {
           font-size: 18px;
         }
       }
@@ -141,6 +141,7 @@
 
   #songSlider{
     float: left;
+    width: 190px;
     @include respond-to($break-767){
       @include calc('width', '100% - 222px');
 

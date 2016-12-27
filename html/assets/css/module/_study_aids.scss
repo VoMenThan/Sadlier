@@ -101,16 +101,17 @@
     font-size: 45px;
   }
 }
-@include respond-to($break-767) {
-  .flag_cards .bg-white .content .box-content {
-    font-size: 45px;
-  }
-    .flag_cards .page-number{
-    font-size: 35px;
+//@include respond-to($break-767) {
+//  .flag_cards .bg-white .content .box-content {
+//    font-size: 45px;
+//  }
+//    .flag_cards .page-number{
+//    font-size: 35px;
+//
+//  }
+//}
 
-  }
-}
-@include respond-to($break-320) {
+@include respond-to($break-767) {
   .flag_cards .bg-white .content .box-content {
     font-size: 30px;
   }
@@ -154,7 +155,7 @@
     color: #fff;
     .cup{
       display: inline-block;
-      margin-right: 30px;
+      margin: 0 15px;
       .text{
         padding-left: 10px;
         font-size: 30px;
@@ -194,17 +195,21 @@
     }
   }
   .input{
+    display: inline-block;
     text-align: center;
     .box-input{
+      float: left;
+      text-transform: uppercase;
       height: 30px;
       width: 30px;
       border-bottom: 2px solid #5a5b5c;
       margin-right: 10px;
-      display: inline-block;
+      font-weight: bold;
+      font-size: 24px;
     }
   }
 }
-@include respond-to($break-320) {
+@include respond-to($break-767) {
   .content .box-control .tool-control .control{
     width: 30px;
     height: 30px;
@@ -220,14 +225,23 @@
 
     }
   }
-  .bg-content .box-alpha .word{
-
-    width: 20px;
-    height: 20px;
-    font-size: 17px;
-    border-radius: 3px;
-    margin-top: 5px;
-    margin-right: 5px;
+  .bg-content{
+    .input{
+      .box-input{
+        @include size(20px);
+        font-size: 17px;
+      }
+    }
+    .box-alpha{
+      .word{
+        width: 20px;
+        height: 20px;
+        font-size: 17px;
+        border-radius: 3px;
+        margin-top: 5px;
+        margin-right: 5px;
+      }
+    }
   }
 }
 
@@ -261,22 +275,22 @@
     }
   }
 }
+//@include respond-to($break-767) {
+//  .test_vocab .test-vocab-content .box-content{
+//    font-size: 22px;
+//  }
+//  .test_vocab .test-vocab-content .answer{
+//    font-size: 22px;
+//    padding-left: 10%;
+//
+//  }
+//  .box-submit{
+//    .btn-submit{
+//      width:140px;
+//    }
+//  }
+//}
 @include respond-to($break-767) {
-  .test_vocab .test-vocab-content .box-content{
-    font-size: 22px;
-  }
-  .test_vocab .test-vocab-content .answer{
-    font-size: 22px;
-    padding-left: 10%;
-
-  }
-  .box-submit{
-    .btn-submit{
-      width:140px;
-    }
-  }
-}
-@include respond-to($break-320) {
   .test_vocab .test-vocab-content .box-content{
     font-size: 18px;
   }

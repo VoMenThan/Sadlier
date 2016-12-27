@@ -43,15 +43,17 @@
             <div class="box-content">
                 <img src="assets/images/img/hangman.jpg" alt="">
             </div>
-            <div class="input">
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
-                <div class="box-input"></div>
+            <div class="text-center">
+                <div class="input clearfix">
+                    <div class="box-input">A</div>
+                    <div class="box-input">A</div>
+                    <div class="box-input"></div>
+                    <div class="box-input"></div>
+                    <div class="box-input"></div>
+                    <div class="box-input"></div>
+                    <div class="box-input"></div>
+                    <div class="box-input"></div>
+                </div>
             </div>
         </div>
     </div>

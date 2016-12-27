@@ -1506,6 +1506,10 @@ a {
       -ms-transform: rotateY(-180deg);
       -o-transform: rotateY(-180deg);
       transform: rotateY(-180deg); }
+      .box-content #card.flipped .front {
+        z-index: 0; }
+      .box-content #card.flipped .back {
+        z-index: 1; }
 
 /*than end css*/
 body {

@@ -28,6 +28,14 @@ function Page(){
             $('body').addClass('touch-device');
 
         }
+
+    //    flip flash cards
+        $(document).on('click', '#flip', function(){
+            var $this = $(this);
+            if(!$this.hasClass('flipped')){
+                $('#card').addClass('flipped');
+            }
+        });
     }
 }
 Page = new Page();

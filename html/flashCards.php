@@ -8,13 +8,17 @@
     <div class="bg-white">
         <div class="content">
             <div class="flag"><a href="#"><img src="assets/images/icon/icon_flag.jpg" alt=""></a></div>
+
             <div class="box-content">
-                to give advice <br> or an opinion;<br> to offer help
+                <div id="card" class=" ">
+                    <figure class="front" >to give advice <br> or an opinion;<br> to offer help</figure>
+                    <figure class="back">result</figure>
+                </div>
             </div>
             <div class="box-control">
                 <ul class ="tool-control">
                     <li class="control"><a href="#"><img src="assets/images/icon/btn_pre.jpg" alt=""></a></li>
-                    <li class="control"><a href="#"><img src="assets/images/icon/btn_refesh.jpg" alt=""></a></li>
+                    <li class="control"><a href="javascript:;" id="flip"><img src="assets/images/icon/btn_refesh.jpg" alt=""></a></li>
                     <li class="control"><a href="#"><img src="assets/images/icon/btn_next.jpg" alt=""></a></li>
                 </ul>
 

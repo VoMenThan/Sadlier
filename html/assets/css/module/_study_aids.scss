@@ -341,6 +341,12 @@
     }
     &.flipped{
       @include transform(rotateY(-180deg));
+      .front{
+        z-index: 0;
+    }
+      .back{
+        z-index: 1;
+      }
     }
   }
 }

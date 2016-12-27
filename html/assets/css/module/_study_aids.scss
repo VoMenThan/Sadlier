@@ -1,12 +1,16 @@
 /*than css*/
 .flag_cards {
   background: #ec3829;
+  .header-page{
+    span{
+      color: #4fbdbe;
+    }
+  }
 }
 .page-number{
   text-align: center;
   font-size: 50px;
   color: #fff;
-  padding-top: 30px;
   padding-bottom: 20px;
 }
 .bg-white {
@@ -137,6 +141,11 @@
 /*css hangman*/
 .hang_man {
   background: #181b2a;
+  .header-page{
+    span{
+      color: #f48625;
+    }
+  }
 }
 .box-score{
   text-align: center;
@@ -157,7 +166,7 @@
   background: #fff;
   width: 75%;
   margin: auto;
-  padding: 2% 4%;
+  padding: 2% 3%;
   text-align: center;
   border-radius: 10px;
 }
@@ -225,6 +234,11 @@
 
 .test_vocab{
   background: #44c2f3;
+  .header-page{
+    span{
+      color: #f48625;
+    }
+  }
   .test-vocab-content{
     background: #ffffff;
     padding: 5%;
@@ -276,6 +290,7 @@
       width:120px;
     }
   }
+
 }
 
 /*than end css*/

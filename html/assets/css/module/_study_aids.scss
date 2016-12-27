@@ -55,7 +55,6 @@
     margin: auto;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
     .control{
       width: 50px;
       height:50px;
@@ -138,18 +137,18 @@
 /*css hangman*/
 .hang_man {
   background: #181b2a;
-  .box-score{
-    text-align: center;
-    padding: 30px 0;
-    .cup-time{
-      color: #fff;
-      .cup{
-        display: inline-block;
-        margin-right: 30px;
-        .text{
-          padding-left: 10px;
-          font-size: 30px;
-        }
+}
+.box-score{
+  text-align: center;
+  padding-bottom: 30px;
+  .cup-time{
+    color: #fff;
+    .cup{
+      display: inline-block;
+      margin-right: 30px;
+      .text{
+        padding-left: 10px;
+        font-size: 30px;
       }
     }
   }
@@ -222,4 +221,61 @@
     margin-right: 5px;
   }
 }
+
+
+.test_vocab{
+  background: #44c2f3;
+  .test-vocab-content{
+    background: #ffffff;
+    padding: 5%;
+    width: 70%;
+    margin: auto;
+    .box-content{
+      font-size: 25px;
+      text-align: left;
+      color: #000000;
+    }
+    .answer{
+        font-size: 25px;
+        padding-left: 32%;
+      padding-top: 2%;
+      color: #000000;
+    }
+    .box-submit{
+      text-align: center;
+      padding-top: 5%;
+    }
+  }
+}
+@include respond-to($break-767) {
+  .test_vocab .test-vocab-content .box-content{
+    font-size: 22px;
+  }
+  .test_vocab .test-vocab-content .answer{
+    font-size: 22px;
+    padding-left: 10%;
+
+  }
+  .box-submit{
+    .btn-submit{
+      width:140px;
+    }
+  }
+}
+@include respond-to($break-320) {
+  .test_vocab .test-vocab-content .box-content{
+    font-size: 18px;
+  }
+  .test_vocab .test-vocab-content .answer{
+    font-size: 18px;
+    padding-left: 5%;
+
+  }
+  .box-submit{
+    .btn-submit{
+      width:120px;
+    }
+  }
+}
+
 /*than end css*/

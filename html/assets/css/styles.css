@@ -1179,12 +1179,13 @@ a {
 /*than css*/
 .flag_cards {
   background: #ec3829; }
+  .flag_cards .header-page span {
+    color: #4fbdbe; }
 
 .page-number {
   text-align: center;
   font-size: 50px;
   color: #fff;
-  padding-top: 30px;
   padding-bottom: 20px; }
 
 .bg-white {
@@ -1288,6 +1289,8 @@ a {
 /*css hangman*/
 .hang_man {
   background: #181b2a; }
+  .hang_man .header-page span {
+    color: #f48625; }
 
 .box-score {
   text-align: center;
@@ -1305,7 +1308,7 @@ a {
   background: #fff;
   width: 75%;
   margin: auto;
-  padding: 2% 4%;
+  padding: 2% 3%;
   text-align: center;
   border-radius: 10px; }
 
@@ -1356,6 +1359,8 @@ a {
     margin-right: 5px; } }
 .test_vocab {
   background: #44c2f3; }
+  .test_vocab .header-page span {
+    color: #f48625; }
   .test_vocab .test-vocab-content {
     background: #ffffff;
     padding: 5%;
@@ -1468,7 +1473,10 @@ strong {
 
 header {
   background: #fff;
-  padding-top: 41px; }
+  padding-top: 85px; }
+  @media only screen and (max-width: 991px) {
+    header {
+      padding-top: 41px; } }
 
 .main-wrapper {
   background: #e7e7e9;
@@ -1536,6 +1544,76 @@ select {
   border: 0;
   font-size: 18px; }
 
+.menu-box {
+  width: 300px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 1000;
+  background: #fff;
+  top: 0;
+  opacity: 0;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+  pointer-events: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease; }
+  .menu-box.open {
+    opacity: 1;
+    pointer-events: auto; }
+  .menu-box .box-prev {
+    background: #f3f3f5;
+    padding: 10px 20px;
+    height: 45px; }
+    .menu-box .box-prev img {
+      transform: rotateY(180deg);
+      position: absolute;
+      right: 5%; }
+  @media only screen and (min-width: 992px) {
+    .menu-box {
+      left: 50%;
+      margin-left: 430px; }
+      .menu-box.open {
+        margin-left: 130px; } }
+  @media only screen and (max-width: 991px) {
+    .menu-box {
+      right: 50%;
+      margin-right: 430px; }
+      .menu-box.open {
+        margin-right: 130px; }
+      .menu-box .box-prev img {
+        transform: rotateY(0deg);
+        left: 10%; } }
+  @media only screen and (max-width: 860px) {
+    .menu-box {
+      left: -100%;
+      margin-right: 0; }
+      .menu-box.open {
+        left: 0;
+        margin-right: 0; } }
+
+.box-li .menu {
+  padding: 35px 0;
+  border-bottom: 1px solid #dadada;
+  margin: 0 15px; }
+  .box-li .menu .item {
+    list-style-type: none;
+    padding: 5px 0px 0 15px; }
+    .box-li .menu .item a {
+      color: #000;
+      font-size: 20px; }
+    .box-li .menu .item img {
+      float: right; }
+
+.box-li:last-child .menu {
+  border-bottom: none; }
+
 @media only screen and (max-width: 991px) {
   .icon-wrapper {
     width: 100%;
@@ -1570,16 +1648,7 @@ select {
     float: left;
     width: 610px;
     margin-top: -10px;
-    margin-bottom: 10px; }
-
-  .menu-box {
-    left: -300px; }
-    .menu-box .box-prev img {
-      transform: rotateY(0deg) !important;
-      left: 10%; }
-
-  .open {
-    left: 0; } }
+    margin-bottom: 10px; } }
 @media only screen and (max-width: 767px) {
   .main-wrapper {
     padding: 5px 0 0px 10px; }
@@ -1601,43 +1670,5 @@ select {
 
   select {
     padding: 4px 5px 4px 10px; } }
-.open {
-  right: 18.5% !important;
-  opacity: 1 !important; }
-
-.menu-box {
-  width: 300px;
-  right: -48px;
-  min-height: 500px;
-  position: fixed;
-  z-index: 1000;
-  background: #ff3300;
-  transition: 0.5s all;
-  top: 0;
-  opacity: 0; }
-  .menu-box .box-prev {
-    background: #f3f3f5;
-    padding: 10px 20px;
-    height: 45px; }
-    .menu-box .box-prev img {
-      transform: rotateY(180deg);
-      position: absolute;
-      right: 5%; }
-
-.box-li .menu {
-  padding: 35px 0;
-  border-bottom: 1px solid #dadada;
-  margin: 0 15px; }
-  .box-li .menu .item {
-    list-style-type: none;
-    padding: 5px 0px 0 15px; }
-    .box-li .menu .item a {
-      color: #000;
-      font-size: 20px; }
-    .box-li .menu .item img {
-      float: right; }
-
-.box-li:last-child .menu {
-  border-bottom: none; }
 
 /*# sourceMappingURL=styles.css.map */

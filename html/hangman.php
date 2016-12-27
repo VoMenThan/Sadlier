@@ -1,5 +1,9 @@
 <?php include('header.php'); ?>
 <div class="wrap-page hang_man">
+    <div class="header-page clearfix">
+        <img src="assets/images/img/icon-game.jpg" alt="">
+        <p><span>Games:</span> Hangman</p>
+    </div>
     <div class="box-score">
         <ul class="cup-time">
             <li class="cup"><i class="fa fa-clock-o fa-3x" aria-hidden="true"><span class="text">4000</span></i></li>

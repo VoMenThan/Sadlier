@@ -142,8 +142,8 @@ header{
 
 select{
   @include appearance (none);
-  background: url('http://localhost/sadlier/html/assets/images/icon/arrow.jpg') #ffffff right center no-repeat;
-  padding: 7px 20px 7px 15px;
+  background: url('../images/icon/arrow.jpg') #ffffff right center no-repeat;
+  padding: 7px 40px 7px 15px;
   @include border-radius(10px);
   border: 0;
   font-size: 18px;
@@ -302,6 +302,8 @@ select{
     width: 100%;
   }
   select{
-    padding: 4px 5px 4px 10px;
+    background: url('../images/icon/arrow2.jpg') #ffffff right center no-repeat;
+    padding: 5px 25px 7px 10px;
+    font-size: 14px;
   }
 }

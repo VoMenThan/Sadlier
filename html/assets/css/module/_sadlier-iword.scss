@@ -29,16 +29,86 @@
     margin: 0 auto;
     .bar-top{
       height: 48px;
+      border-bottom: 1px solid $cl-line;
       .word{
         float: left;
         font-size: 16px;
         color: #f26631;
-        padding-left: 45px;
+        padding-left: 35px;
         line-height: 48px;
         font-family: $main-b;
       }
       .audio-iword{
         float: right;
+      }
+      @include respond-to($break-767){
+        height: auto;
+        .word,
+        .audio-iword{
+          float: none;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .top-word{
+    border-bottom: 1px solid $cl-line;
+    .text{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      float: left;
+      @include calc('width', '100% - 70px');
+      .unit{
+        font-family: $main-b;
+        color: #14284d;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .desc{
+        font-family: $main-t;
+        color: #2867b6;
+        font-size: 20px;
+      }
+    }
+    .down{
+      margin-top: 25px;
+      float: left;
+      width: 70px;
+      border-left: 1px solid $cl-line;
+    }
+  }
+  .lesson-show{
+    padding: 0 35px;
+    .content-show{
+      padding: 15px 0 35px;
+    }
+    p{
+      float: left;
+      @include calc('width', '100% / 3');
+      font-size: 20px;
+      font-family: $main-t;
+      color: #2867b6;
+      select{
+        padding: 0 25px 0 0;
+        background: url("../images/icon/arrow2.jpg") right center no-repeat;
+        font-size: 20px;
+        font-family: $main-t;
+        color: #2867b6;
+      }
+      @include respond-to($break-640){
+        width: 50%;
+        font-size: 18px;
+        select{
+          font-size: 18px;
+        }
+      }
+    }
+    @include respond-to($break-480){
+      padding: 0 10px;
+      p {
+        width: 100%;
       }
     }
   }
@@ -71,14 +141,19 @@
 
   #songSlider{
     float: left;
+    @include respond-to($break-767){
+      @include calc('width', '100% - 222px');
+
+    }
     .line-song{
       position: relative;
       height: 32px;
-      width: 190px;
+      width: 100%;
       &:after{
         content: '';
         display: block;
-        border: 1px solid $cl-line;
+        border-top: 1px solid $cl-line;
+        border-bottom: 1px solid $cl-line;
         position: absolute;
         width: 100%;
         top: 50%;
@@ -111,5 +186,8 @@
     text-align: center;
     border-left: 2px solid $cl-line;
     border-right: 2px solid $cl-line;
+    @include respond-to($break-767){
+      border-left: none;
+    }
   }
 }

@@ -83,6 +83,11 @@
     padding: 0 35px;
     .content-show{
       padding: 15px 0 35px;
+      @include respond-to($break-480){
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 300px;
+      }
     }
     p{
       float: left;

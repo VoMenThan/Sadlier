@@ -18,10 +18,13 @@
   width: 85%;
   margin: auto;
   padding: 2%;
+  @include respond-to($break-767){
+    width: 95%;
+  }
 }
 .content{
   border: 2px solid #ffcb2f;
-  padding: 20px;
+  padding: 20px 40px;
   @include radius(10px);
   .flag{
     text-align: right;
@@ -52,6 +55,9 @@
       }
     }
   }
+  @include respond-to($break-767){
+    padding: 20px;
+  }
 }
 
 .nav-tool{
@@ -63,9 +69,12 @@
       width: 50px;
       height:50px;
       overflow: hidden;
-      @include radius(50%);
       display: inline-block;
       margin-right: 7%;
+      img{
+        background: rgba(0, 0, 0, 0.4);
+        @include radius(50%);
+      }
     }
     li:last-child{
       margin-right: 0px;
@@ -170,6 +179,9 @@
   padding: 2% 3%;
   text-align: center;
   @include radius(10px);
+  @include respond-to($break-767){
+    width: 95%;
+  }
 }
 .bg-content{
     .box-alpha{
@@ -273,6 +285,9 @@
       text-align: center;
       padding-top: 5%;
     }
+    @include respond-to($break-767){
+      width: 95%;
+    }
   }
 }
 //@include respond-to($break-767) {
@@ -313,7 +328,6 @@
   perspective: 800px;
   #card {
     width: 100%;
-    height: 100%;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -323,20 +337,32 @@
       display: block;
       background: #ffffff;
       width: 100%;
-      height: 100%;
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -moz-backface-visibility: hidden;
+      .tbl{
+        display: table;
+        @include size(100%, 100%);
+        .td{
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
     }
     .front{
       z-index: 1;
-      position: relative;
-    }
-    .back{
       position: absolute;
       left: 0px;
       top:0px;
+      height: 100%;
+    }
+    .back{
+      position: relative;
       z-index: 0;
+      z-index: 1;
+      line-height: 1.2;
+      font-size: 46px;
       @include transform(rotateY(180deg));
     }
     &.flipped{

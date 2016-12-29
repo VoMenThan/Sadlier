@@ -33,7 +33,7 @@ function Page(){
         $(document).on('click', '#flip', function(){
             var $this = $(this);
             if(!$this.hasClass('flipped')){
-                $('#card').addClass('flipped');
+                $('#card').toggleClass('flipped');
             }
         });
     }

@@ -11,8 +11,20 @@
 
             <div class="box-content">
                 <div id="card" class=" ">
-                    <figure class="front" >to give advice <br> or an opinion;<br> to offer help</figure>
-                    <figure class="back">result</figure>
+                    <figure class="front">
+                        <div class="tbl">
+                            <div class="td">
+                                result
+                            </div>
+                        </div>
+                    </figure>
+                    <figure class="back">
+                        <div class="tbl">
+                            <div class="td">
+                                to give advice <br> or an opinion;<br> to offer help
+                            </div>
+                        </div>
+                    </figure>
                 </div>
             </div>
             <div class="box-control">
@@ -21,15 +33,14 @@
                     <li class="control"><a href="javascript:;" id="flip"><img src="assets/images/icon/btn_refesh.jpg" alt=""></a></li>
                     <li class="control"><a href="#"><img src="assets/images/icon/btn_next.jpg" alt=""></a></li>
                 </ul>
-
             </div>
         </div>
     </div>
     <div class="nav-tool">
         <ul class ="nav-control">
-            <li class="control dark"><a href="#"><img src="assets/images/icon/btn-random.png" alt=""></a></li>
-            <li class="control dark"><a href="#"><img src="assets/images/icon/btn-play.png" alt=""></a></li>
-            <li class="control dark"><a href="#"><img src="assets/images/icon/btn-reload.png" alt=""></a></li>
+            <li class="control"><a href="#"><img src="assets/images/icon/btn-random.png" alt=""></a></li>
+            <li class="control"><a href="#"><img src="assets/images/icon/btn-play.png" alt=""></a></li>
+            <li class="control"><a href="#"><img src="assets/images/icon/btn-reload.png" alt=""></a></li>
         </ul>
     </div>
 

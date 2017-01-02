@@ -39,6 +39,9 @@ function Page(){
             e.stopPropagation();
         })
 
+        $(document).on('click', 'btn-submit', function () {
+            $('.pupup-submit').fadeIn();
+        })
 
     //    flip flash cards
         $(document).on('click', '#flip', function(){

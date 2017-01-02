@@ -19,6 +19,13 @@
       background: url("../images/img/icon-flash.jpg") 0 0 no-repeat;
     }
   }
+  .test_vocab &{
+    &:before{
+      @include  size(39px, 40px);
+      background: url("../images/img/icon-game.jpg") 0 0 no-repeat;
+    }
+  }
+
   span{
     color: #2494c4;
   }

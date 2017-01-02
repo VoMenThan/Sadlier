@@ -352,8 +352,10 @@
   .test-vocab-content{
     background: #ffffff;
     padding: 5%;
+    padding-bottom: 20px;
     width: 70%;
     margin: auto;
+    position: relative;
     .box-content{
       font-size: 25px;
       text-align: left;
@@ -364,16 +366,115 @@
         padding-left: 32%;
       padding-top: 2%;
       color: #000000;
+      input[type="radio"] {
+        display:none;
+      }
+      input[type="radio"] + label:before {
+        content: "";
+        display:inline-block;
+        width:15px;
+        height:15px;
+        margin:-1px 4px 0 0;
+        vertical-align:middle;
+        cursor:pointer;
+        @include radius(50%);
+      }
+      input[type="radio"] + label:before {
+        background-color:#aaaaaa;
+      }
+      input[type="radio"]:checked + label:before{
+        background-color:#5a5b5c;
+      }
+      input[type="radio"] + label:before,
+      input[type="radio"]:checked + label:before {
+        @include transition(0.3s);
+      }
     }
     .box-submit{
       text-align: center;
       padding-top: 5%;
+      @include size(174px, 50px);
+      background: url("../images/img/btn-submit.jpg") 0 0 no-repeat;
+      margin: 20px auto 3px;
+      cursor: pointer;
+    }
+    .pup-h40{
+      height: 40px;
+      .right-btn{
+        @include  size (126px, 40px);
+        background: url("../images/icon/right_btn.png") 0 0 no-repeat;
+        margin: 0 auto;
+        font-size: 32px;
+        color: #02903a;
+      }
+      .wrong-btn{
+        @include  size (145px, 40px);
+        background: url("../images/icon/wrong_btn.png") 0 0 no-repeat;
+        margin: 0 auto;
+        font-size: 32px;
+        color: #f71132;
+      }
     }
     @include respond-to($break-767){
       width: 95%;
     }
+    .popup-result{
+      display: none;
+      background: rgba(0,0,0,0.8);
+      position: absolute;
+      @include size(100%);
+      top: 0;
+      left: 0;
+      z-index: 99;
+    }
+    .bg-submit{
+      @include radius(5px);
+      background: #ffffff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include translate(-50%, -50%);
+      width: 300px;
+      height: 200px;
+      background: #f8931d;
+      background-size: 6px 6px;
+      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
+              transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+              transparent 75%, transparent);
+      padding: 15px;
+      .pupup-submit{
+        text-align: center;
+        @include radius(5px);
+        font-size:20px;
+        padding: 10px;
+        background: #ffffff;
+        color: #000000;
+        .result{
+          color: green;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        .score{
+          .gray{
+            color: #5a5b5c;
+          }
+        }
+        .play-again{
+          border: 1px solid #ececec;
+          width: 50%;
+          margin: 0 auto;
+          @include radius(5px);
+          margin-top: 15px;
+          color: #2c9acf;
+          cursor: pointer;
+          background: #aaaaaa;
+        }
+      }
+    }
+
   }
 }
+
 //@include respond-to($break-767) {
 //  .test_vocab .test-vocab-content .box-content{
 //    font-size: 22px;

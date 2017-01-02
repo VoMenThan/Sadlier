@@ -1,7 +1,6 @@
 <?php include('header.php'); ?>
 <div class="wrap-page flag_cards">
     <div class="header-page clearfix">
-        <img src="assets/images/img/icon-flash.jpg" alt="">
         <p><span>Study Aids:</span> Flash Cards</p>
     </div>
     <div class="page-number">1 of 8</div>

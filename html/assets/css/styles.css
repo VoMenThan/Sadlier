@@ -1078,10 +1078,15 @@ a {
   color: #000;
   font-size: 26px;
   padding-top: 35px; }
-  .header-page img {
+  .header-page:before {
+    content: '';
     margin-left: 15px;
     float: left;
     margin-right: 12px; }
+  .flag_cards .header-page:before {
+    width: 39px;
+    height: 40px;
+    background: url("../images/img/icon-flash.jpg") 0 0 no-repeat; }
   .header-page span {
     color: #2494c4; }
   @media only screen and (max-width: 991px) {

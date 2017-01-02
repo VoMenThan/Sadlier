@@ -56,6 +56,10 @@ strong{
 }
 .wrap-page{
   padding: 50px 10px;
+  @include respond-to($break-767){
+    padding: 20px 10px;
+
+  }
 }
 .heading-wrapper{
   margin-bottom: 20px;
@@ -105,15 +109,20 @@ header{
       float: left;
       margin: 0 10px;
       list-style-type: none;
-      color: #cdcdcf;
       background: #fff;
-      padding: 4px 20px;
       @include border-radius(10px);
       font-size: 18px;
+      a{
+        color: #cdcdcf;
+        padding: 4px 20px;
+        display: block;
+      }
     }
     .item.active{
       background: #f8931d;
-      color: #fff;
+      a{
+        color: #fff;
+      }
     }
   }
 }
@@ -127,10 +136,59 @@ header{
       margin: 0 10px;
       list-style-type: none;
       @include border-radius(10px);
-      img{
-        @include border-radius(100%);
+      a {
+        @include size(39px);
+        display: block;
+        @include border-radius(50%);
+        @include respond-to($break-767){
+          @include size(27px, 27px);
+          margin-top: 6px;
+        }
+      }
+      &.logo-tm{
+        a{
+          @include size(166px, 41px);
+          @include border-radius(0);
+          background: url("../images/icon/logo.jpg") center center no-repeat;
+          @include respond-to($break-767){
+            margin-top: 0;
+          }
+        }
+      }
+      &.icon-one{
+        a{
+          background: url("../images/icon/icon-info.jpg") center center no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
+      &.icon-two{
+        a{
+          background: url("../images/icon/icon-sound.jpg") center center no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+        &.mute{
+          a{
+            background: url("../images/icon/icon-sound-mute.jpg") center center no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+          }
+        }
+      }
+      &.icon-three{
+        a{
+          background: url("../images/icon/icon-cham.png") center center no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
       }
     }
+
     .logo-tm{
       display: none;
       @include respond-to($break-991){
@@ -287,7 +345,9 @@ select{
     .menu{
       .item{
         margin: 0 5px;
-        padding: 2px 6px;
+        a{
+          padding: 2px 6px;
+        }
       }
     }
   }
@@ -305,5 +365,69 @@ select{
     background: url('../images/icon/arrow2.jpg') #ffffff right center no-repeat;
     padding: 5px 25px 7px 10px;
     font-size: 14px;
+  }
+}
+
+
+.popup-infomation{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include size(100%);
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+  .cl-popup{
+    display: block;
+    @include size(40px);
+    @include border-radius(50%);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #666;
+    &:after,
+    &:before{
+      content: '';
+      display: block;
+      width: 60%;
+      height: 3px;
+      background: #666;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+    }
+    &:after{@include transform(translate(-50%, -50%) rotate(45deg));}
+    &:before{@include transform(translate(-50%, -50%) rotate(-45deg));}
+    &:hover{
+      border-color: #000;
+      &:after,
+      &:before{
+        background: #000;
+      }
+    }
+  }
+  .table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, -50%);
+    max-width: 714px;
+    @include calc('width', '100% - 20px');
+    display: table;
+    background: #fff;
+    @include border-radius(20px);
+    .td{
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 20px;
+      color: #000;
+      padding: 50px 30px;
+      text-align: center;
+    }
+    @include respond-to($break-767){
+      .td{
+        font-size: 14px;
+      }
+    }
   }
 }

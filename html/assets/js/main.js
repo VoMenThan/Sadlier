@@ -28,6 +28,17 @@ function Page(){
             $('body').addClass('touch-device');
 
         }
+        $(document).on('click', '.tooltip-infomation', function(){
+            $('.popup-infomation').fadeIn();
+        })
+        $(document).on('click', '.cl-popup, .popup-infomation', function(e){
+            e.stopPropagation();
+            $('.popup-infomation').fadeOut();
+        })
+        $(document).on('click', '.popup-infomation .table', function(e){
+            e.stopPropagation();
+        })
+
 
     //    flip flash cards
         $(document).on('click', '#flip', function(){
@@ -36,6 +47,8 @@ function Page(){
                 $('#card').toggleClass('flipped');
             }
         });
+
+    //
     }
 }
 Page = new Page();

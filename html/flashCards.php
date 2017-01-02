@@ -7,7 +7,7 @@
     <div class="page-number">1 of 8</div>
     <div class="bg-white">
         <div class="content">
-            <div class="flag"><a href="#"><img src="assets/images/icon/icon_flag.jpg" alt=""></a></div>
+            <div class="flag active"><a href="javascript:;"></a></div>
 
             <div class="box-content">
                 <div id="card" class=" ">
@@ -19,28 +19,24 @@
                         </div>
                     </figure>
                     <figure class="back">
-                        <div class="tbl">
-                            <div class="td">
-                                to give advice <br> or an opinion;<br> to offer help
-                            </div>
-                        </div>
+                        to give advice <br> or an opinion;<br> to offer help
                     </figure>
                 </div>
             </div>
             <div class="box-control">
                 <ul class ="tool-control">
-                    <li class="control"><a href="#"><img src="assets/images/icon/btn_pre.jpg" alt=""></a></li>
-                    <li class="control"><a href="javascript:;" id="flip"><img src="assets/images/icon/btn_refesh.jpg" alt=""></a></li>
-                    <li class="control"><a href="#"><img src="assets/images/icon/btn_next.jpg" alt=""></a></li>
+                    <li class="control ctrl-prev"><a href="#" disabled="disabled"></a></li>
+                    <li class="control ctrl-flip"><a href="javascript:;" id="flip"></a></li>
+                    <li class="control ctrl-next"><a href="#"></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="nav-tool">
         <ul class ="nav-control">
-            <li class="control"><a href="#"><img src="assets/images/icon/btn-random.png" alt=""></a></li>
-            <li class="control"><a href="#"><img src="assets/images/icon/btn-play.png" alt=""></a></li>
-            <li class="control"><a href="#"><img src="assets/images/icon/btn-reload.png" alt=""></a></li>
+            <li class="control ctrl-next"><a href="#"></a></li>
+            <li class="control ctrl-play active"><a href="#"></a></li>
+            <li class="control ctrl-prev"><a href="#"></a></li>
         </ul>
     </div>
 

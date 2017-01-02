@@ -17,10 +17,10 @@
                 <div class="main-wrapper clearfix">
                     <div class="icon-wrapper text-center">
                         <ul class="menu">
-                            <li class="item logo-tm"><a href="#"><img src="assets/images/icon/logo.jpg"></a></li>
-                            <li class="item icon-one"><a href="#"><img src="assets/images/icon/icon-info.jpg"></a></li>
-                            <li class="item icon-two"><a href="#"><img src="assets/images/icon/icon-sound.jpg"></a></li>
-                            <li class="item icon-three"><a href="#"><img src="assets/images/icon/icon-cham.png"></a></li>
+                            <li class="item logo-tm"><a href="#"></a></li>
+                            <li class="item icon-one"><a href="javascript:;" class="tooltip-infomation" ></a></li>
+                            <li class="item icon-two mute"><a href="#"></a></li>
+                            <li class="item icon-three"><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="box-menu clearfix">
@@ -34,9 +34,9 @@
                         </div>
                         <div class="menu-wrapper text-center">
                             <ul class="menu">
-                                <a href="#"><li class="item active">Set A</li></a>
-                                <a href="#"><li class="item">Set B</li></a>
-                                <a href="#"><li class="item">A & B</li></a>
+                                <li class="item active"> <a href="#">Set A</a></li>
+                                <li class="item"><a href="#">Set B</a></li>
+                                <li class="item"><a href="#">A & B</a></li>
                             </ul>
                         </div>
                     </div>
@@ -64,5 +64,12 @@
                     </div>
                 </div>
         </header>
-
+        <div class="popup-infomation">
+            <div class="table">
+                <div class="td">
+                    <a href="javascript:;" class="cl-popup"></a>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur consequuntur deleniti dignissimos dolores eaque explicabo labore magnam minus modi, odio pariatur provident quibusdam quis similique veniam voluptate? Harum, perferendis!
+                </div>
+            </div>
+        </div>
         <main>

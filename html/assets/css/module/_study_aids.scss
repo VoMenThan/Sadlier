@@ -24,10 +24,31 @@
 }
 .content{
   border: 2px solid #ffcb2f;
-  padding: 20px 40px;
+  padding: 60px 40px 20px;
   @include radius(10px);
+  position: relative;
   .flag{
     text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    a{
+      display: block;
+      @include size(40px);
+      background: url("../images/icon/icon_flag.png") 0 0 no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      @include grayScale();
+      opacity: 0.6;
+    }
+    &.active{
+      a{
+        @include grayScale(0);
+        opacity: 1;
+      }
+    }
   }
   .box-content{
     font-size: 60px;
@@ -39,8 +60,6 @@
     margin-top:50px;
     .tool-control{
       .control{
-        width: 50px;
-        height: 50px;
         display: inline-block;
         color: #2c9acf ;
         @include radius(50%);
@@ -48,6 +67,37 @@
         margin-right: 5%;
         a{
           text-decoration: none;
+          display: block;
+          @include size(50px);
+        }
+        &.ctrl-prev{
+          a{
+            background: url("../images/icon/btn_pre.jpg") 0 0 no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+          }
+        }
+        &.ctrl-flip{
+          a{
+            background: url("../images/icon/btn_refesh.jpg") 0 0 no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+          }
+        }
+        &.ctrl-next{
+          a{
+            background: url("../images/icon/btn_next.jpg") 0 0 no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+          }
+        }
+        a[disabled=disabled]{
+          cursor: default;
+          @include grayScale();
+          opacity: 0.5;
         }
       }
       li:last-child{
@@ -56,7 +106,7 @@
     }
   }
   @include respond-to($break-767){
-    padding: 20px;
+    padding: 60px 20px 20px;
   }
 }
 
@@ -71,9 +121,45 @@
       overflow: hidden;
       display: inline-block;
       margin-right: 7%;
-      img{
-        background: rgba(0, 0, 0, 0.4);
-        @include radius(50%);
+      a{
+        display: block;
+        @include size(50px);
+        @include border-radius(50%);
+        @include respond-to($break-767){
+          @include size(30px);
+        }
+      }
+      &.ctrl-next{
+        a{
+          background: url("../images/icon/btn-random.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
+      &.ctrl-play{
+        a{
+          background: url("../images/icon/btn-play.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+        &.active{
+          a{
+            background: url("../images/icon/btn-pause.png") center center no-repeat rgba(0, 0, 0, 0.4);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+          }
+        }
+      }
+      &.ctrl-prev{
+        a{
+          background: url("../images/icon/btn-reload.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
       }
     }
     li:last-child{
@@ -223,10 +309,8 @@
 }
 @include respond-to($break-767) {
   .content .box-control .tool-control .control{
-    width: 30px;
-    height: 30px;
-    img{
-      width: 30px;
+    a{
+      @include size(30px);
     }
   }
   .nav-tool .nav-control .control{
@@ -354,16 +438,19 @@
       z-index: 1;
       position: absolute;
       left: 0px;
-      top:0px;
+      top: 0px;
       height: 100%;
     }
     .back{
       position: relative;
-      z-index: 0;
       z-index: 1;
       line-height: 1.2;
       font-size: 46px;
+      min-height: 164px;
       @include transform(rotateY(180deg));
+      @include respond-to($break-767){
+        font-size: 36px;
+      }
     }
     &.flipped{
       @include transform(rotateY(-180deg));

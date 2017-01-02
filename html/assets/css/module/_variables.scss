@@ -348,6 +348,13 @@ $EasingOut: cubic-bezier(.37,.15,.32,.94);
   transform-origin: 50% 50%;
 }
 
+@mixin grayScale($scale:100%){
+  -webkit-filter: grayscale($scale);
+  -moz-filter: grayscale($scale);
+  -ms-filter: grayscale($scale);
+  filter: grayscale($scale);
+}
+
 @mixin transformScale($scale){
   -webkit-transform: scale($scale);
   -moz-transform: scale($scale);

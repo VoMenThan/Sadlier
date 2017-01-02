@@ -1,13 +1,12 @@
 <?php include('header.php'); ?>
 <div class="wrap-page hang_man">
     <div class="header-page clearfix">
-        <img src="assets/images/img/icon-game.jpg" alt="">
         <p><span>Games:</span> Hangman</p>
     </div>
     <div class="box-score">
         <ul class="cup-time">
-            <li class="cup"><i class="fa fa-clock-o fa-3x" aria-hidden="true"><span class="text">4000</span></i></li>
-            <li class="cup"><i class="fa fa-trophy fa-3x" aria-hidden="true"><span class="text">00:00</span></i></li>
+            <li class="cup"><span class="text">4000</span></li>
+            <li class="time"><span class="text">00:00</span></li>
         </ul>
     </div>
     <div class="hang-man-content">
@@ -47,22 +46,22 @@
                 <div class="input clearfix">
                     <div class="box-input">A</div>
                     <div class="box-input">A</div>
-                    <div class="box-input"></div>
-                    <div class="box-input"></div>
-                    <div class="box-input"></div>
-                    <div class="box-input"></div>
-                    <div class="box-input"></div>
-                    <div class="box-input"></div>
+                    <div class="box-input">&nbsp;</div>
+                    <div class="box-input">&nbsp;</div>
+                    <div class="box-input">&nbsp;</div>
+                    <div class="box-input">&nbsp;</div>
+                    <div class="box-input">&nbsp;</div>
+                    <div class="box-input">&nbsp;</div>
                 </div>
             </div>
         </div>
     </div>
     <div class="nav-tool">
         <ul class ="nav-control">
-            <li class="control dark"><a href="#"><img src="assets/images/img/btn-lamp.png" alt=""></a></li>
-            <li class="control dark"><a href="#"><img src="assets/images/img/btn-pup-a.png" alt=""></a></li>
-            <li class="control dark"><a href="#"><img src="assets/images/icon/btn-reload.png" alt=""></a></li>
-            <li class="control dark"><a href="#"><img src="assets/images/img/btn-row.png" alt=""></a></li>
+            <li class="control ctrl-sg" id="showHintButton"><a href="#"></a></li>
+            <li class="control ctrl-wo" id="showAnswerButton"><a href="#"></a></li>
+            <li class="control ctrl-rf" id="reloadButton"><a href="#"></a></li>
+            <li class="control ctrl-nx" id="nextButton"><a href="#"></a></li>
         </ul>
     </div>
 </div>

@@ -1087,6 +1087,14 @@ a {
     width: 39px;
     height: 40px;
     background: url("../images/img/icon-flash.jpg") 0 0 no-repeat; }
+  .hang_man .header-page:before {
+    width: 39px;
+    height: 40px;
+    background: url("../images/img/icon-game.jpg") 0 0 no-repeat; }
+  .iwords-page .header-page:before {
+    width: 39px;
+    height: 40px;
+    background: url("../images/icon/icon-sound-logo.jpg") 0 0 no-repeat; }
   .header-page span {
     color: #2494c4; }
   @media only screen and (max-width: 991px) {
@@ -1102,7 +1110,8 @@ a {
   margin: 0 auto; }
   .iwords-page .box-content .bar-top {
     height: 48px;
-    border-bottom: 1px solid #e1e1e2; }
+    border-bottom: 1px solid #e1e1e2;
+    background: #f4f4f6; }
     .iwords-page .box-content .bar-top .word {
       float: left;
       font-size: 16px;
@@ -1197,13 +1206,19 @@ a {
     text-align: center;
     cursor: pointer; }
     .audio-iword .playpause.pause .play-icon {
-      display: inline-block; }
+      display: inline-block;
+      width: 12px;
+      height: 32px;
+      background: url(../images/icon/play.jpg) 0 0 no-repeat; }
     .audio-iword .playpause.pause .pause-icon {
       display: none; }
     .audio-iword .playpause.play .play-icon {
       display: none; }
     .audio-iword .playpause.play .pause-icon {
-      display: inline-block; }
+      display: inline-block;
+      width: 16px;
+      height: 32px;
+      background: url(../images/icon/pause.jpg) 0 0 no-repeat; }
   .audio-iword #songSlider {
     float: left;
     width: 190px; }
@@ -1254,6 +1269,11 @@ a {
     text-align: center;
     border-left: 2px solid #e1e1e2;
     border-right: 2px solid #e1e1e2; }
+    .audio-iword .prev a {
+      display: inline-block;
+      width: 23px;
+      height: 32px;
+      background: url(../images/icon/prev.jpg) 0 0 no-repeat; }
     @media only screen and (max-width: 767px) {
       .audio-iword .prev {
         border-left: none; } }
@@ -1404,6 +1424,26 @@ a {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; }
+    .nav-tool .nav-control .control.ctrl-sg a {
+      background: url("../images/img/btn-lamp.png") center center no-repeat rgba(0, 0, 0, 0.4);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; }
+    .nav-tool .nav-control .control.ctrl-wo a {
+      background: url("../images/img/btn-pup-a.png") center center no-repeat rgba(0, 0, 0, 0.4);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; }
+    .nav-tool .nav-control .control.ctrl-rf a {
+      background: url("../images/icon/btn-reload.png") center center no-repeat rgba(0, 0, 0, 0.4);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; }
+    .nav-tool .nav-control .control.ctrl-nx a {
+      background: url("../images/img/btn-row.png") center center no-repeat rgba(0, 0, 0, 0.4);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; }
   .nav-tool .nav-control li:last-child {
     margin-right: 0px; }
 
@@ -1464,12 +1504,19 @@ a {
   padding-bottom: 30px; }
   .box-score .cup-time {
     color: #fff; }
+    .box-score .cup-time .time,
     .box-score .cup-time .cup {
       display: inline-block;
-      margin: 0 15px; }
+      margin: 0 15px;
+      padding-left: 25px; }
+      .box-score .cup-time .time .text,
       .box-score .cup-time .cup .text {
         padding-left: 10px;
         font-size: 30px; }
+    .box-score .cup-time .time {
+      background: url("../images/icon/time.png") 0 center no-repeat; }
+    .box-score .cup-time .cup {
+      background: url("../images/icon/cup.png") 0 center no-repeat; }
 
 .hang-man-content {
   background: #fff;
@@ -1511,7 +1558,7 @@ a {
   display: inline-block;
   text-align: center; }
   .bg-content .input .box-input {
-    float: left;
+    display: inline-block;
     text-transform: uppercase;
     height: 30px;
     width: 30px;

@@ -19,6 +19,7 @@
       background: url("../images/img/icon-flash.jpg") 0 0 no-repeat;
     }
   }
+<<<<<<< HEAD
   .test_vocab &{
     &:before{
       @include  size(39px, 40px);
@@ -26,6 +27,20 @@
     }
   }
 
+=======
+  .hang_man &{
+    &:before{
+      @include size(39px, 40px);
+      background: url("../images/img/icon-game.jpg") 0 0 no-repeat;
+    }
+  }
+  .iwords-page &{
+    &:before{
+      @include size(39px, 40px);
+      background: url("../images/icon/icon-sound-logo.jpg") 0 0 no-repeat;
+    }
+  }
+>>>>>>> f909ff0310185d4119e7427f6d36ed60a9881268
   span{
     color: #2494c4;
   }
@@ -44,6 +59,7 @@
     .bar-top{
       height: 48px;
       border-bottom: 1px solid $cl-line;
+      background: #f4f4f6;
       .word{
         float: left;
         font-size: 16px;
@@ -55,6 +71,7 @@
       .audio-iword{
         float: right;
       }
+
       @include respond-to($break-767){
         height: auto;
         .word,
@@ -149,12 +166,22 @@
     text-align: center;
     cursor: pointer;
     &.pause{
-      .play-icon{display: inline-block;}
-      .pause-icon{display: none;}
+      .play-icon{
+        display: inline-block;
+        @include size(12px, 32px);
+        background: url(../images/icon/play.jpg) 0 0 no-repeat;
+      }
+      .pause-icon{
+        display: none;
+      }
     }
     &.play{
       .play-icon{display: none;}
-      .pause-icon{display: inline-block;}
+      .pause-icon{
+        display: inline-block;
+        @include size(16px, 32px);
+        background: url(../images/icon/pause.jpg) 0 0 no-repeat;
+      }
     }
   }
 
@@ -206,6 +233,11 @@
     text-align: center;
     border-left: 2px solid $cl-line;
     border-right: 2px solid $cl-line;
+    a{
+      display: inline-block;
+      @include size(23px, 32px);
+      background: url(../images/icon/prev.jpg) 0 0 no-repeat;
+    }
     @include respond-to($break-767){
       border-left: none;
     }

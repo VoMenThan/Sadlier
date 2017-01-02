@@ -161,6 +161,39 @@
           background-size: cover;
         }
       }
+
+      &.ctrl-sg{
+        a{
+          background: url("../images/img/btn-lamp.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
+      &.ctrl-wo{
+        a{
+          background: url("../images/img/btn-pup-a.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
+      &.ctrl-rf{
+        a{
+          background: url("../images/icon/btn-reload.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
+      &.ctrl-nx{
+        a{
+          background: url("../images/img/btn-row.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+        }
+      }
     }
     li:last-child{
       margin-right: 0px;
@@ -248,13 +281,21 @@
   padding-bottom: 30px;
   .cup-time{
     color: #fff;
+    .time,
     .cup{
       display: inline-block;
       margin: 0 15px;
+      padding-left: 25px;
       .text{
         padding-left: 10px;
         font-size: 30px;
       }
+    }
+    .time{
+      background: url("../images/icon/time.png") 0 center no-repeat;
+    }
+    .cup{
+      background: url("../images/icon/cup.png") 0 center no-repeat;
     }
   }
 }
@@ -296,7 +337,7 @@
     display: inline-block;
     text-align: center;
     .box-input{
-      float: left;
+      display: inline-block;
       text-transform: uppercase;
       height: 30px;
       width: 30px;
@@ -305,6 +346,7 @@
       font-weight: bold;
       font-size: 24px;
     }
+
   }
 }
 @include respond-to($break-767) {

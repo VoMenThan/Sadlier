@@ -18,7 +18,7 @@
                     <div class="icon-wrapper text-center">
                         <ul class="menu">
                             <li class="item logo-tm"><a href="#"></a></li>
-                            <li class="item icon-one"><a href="javascript:;" class="tooltip-infomation" ></a></li>
+                            <li class="item icon-one instruction"><a href="javascript:;" class="tooltip-infomation" ></a></li>
                             <li class="item icon-two mute"><a href="#"></a></li>
                             <li class="item icon-three"><a href="#"></a></li>
                         </ul>
@@ -33,34 +33,34 @@
                             </select>
                         </div>
                         <div class="menu-wrapper text-center">
-                            <ul class="menu">
-                                <li class="item active"> <a href="#">Set A</a></li>
-                                <li class="item"><a href="#">Set B</a></li>
-                                <li class="item"><a href="#">A & B</a></li>
+                            <ul class="menu type-set-container">
+                                <li class="item set-type-button active"> <a href="#">Set A</a></li>
+                                <li class="item set-type-button"><a href="#">Set B</a></li>
+                                <li class="item set-type-button"><a href="#">A &amp; B</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="menu-box clearfix">
                     <div class="box-prev">
-                        <img src="assets/images/icon/icon-prev.jpg" class="icon-three" style="cursor: pointer">
+                            <div class="icon-three"></div>
                     </div>
                     <div class="box-li">
-                        <ul class="menu">
-                            <li class="item active"><a href="#">Show by word</a>  <img src="assets/images/icon/icon-check.jpg" class="check"></li>
-                            <li class="item"><a href="#">Show by definition</a></li>
+                        <ul class="menu display-type-container">
+                            <li class="item active" displayType="word"><a href="#">Show by word</a></li>
+                            <li class="item disabled" displayType="definition"><a href="javascript:;" >Show by definition</a></li>
+                        </ul>
+                    </div>
+                    <div class="box-li">
+                        <ul class="menu display-flagged-container">
+                            <li class="item" displayFlagged="1"><a href="#">Show flagged</a></li>
+                            <li class="item" displayFlagged="0"><a href="#">Show all</a></li>
                         </ul>
                     </div>
                     <div class="box-li">
                         <ul class="menu">
-                            <li class="item active"><a href="#">Show flagged</a></li>
-                            <li class="item"><a href="#">Show all</a> <img src="assets/images/icon/icon-check.jpg" class="check"></li>
+                            <li class="item" id="printButton"><a href="#">Print</a></li>
                         </ul>
-                    </div>
-                    <div class="box-li">
-                    <ul class="menu">
-                        <li class="item active"><a href="#">Print</a></li>
-                    </ul>
                     </div>
                 </div>
         </header>

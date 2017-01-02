@@ -231,7 +231,13 @@ select{
     background: #f3f3f5;
     padding: 10px 20px;
     height: 45px;
-    img {
+    position: relative;
+    .icon-three{
+      cursor: pointer;
+      content: '';
+      display: block;
+      @include size(14px, 24px);
+      background: url("../images/icon/icon-prev.jpg") 0 0 no-repeat;
       transform: rotateY(180deg);
       position: absolute;
       right: 5%;
@@ -251,7 +257,7 @@ select{
       margin-right: 130px;
     }
     .box-prev {
-      img {
+      .icon-three{
         transform: rotateY(0deg);
         left: 10%;
       }
@@ -275,12 +281,29 @@ select{
     .item {
       list-style-type: none;
       padding: 5px 0px 0 15px;
+      position: relative;
+      &.disabled{
+        opacity: 0.6;
+        a{
+          cursor: default;
+
+        }
+      }
+      &.active:before{
+        content: "";
+        background:url(../images/icon/icon-check.jpg) center center no-repeat;
+        background-size: 100%;
+        width: 17px;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+      }
       a {
         color: #000;
         font-size: 20px;
-      }
-      img{
-        float: right;
+        display: block;
       }
     }
   }

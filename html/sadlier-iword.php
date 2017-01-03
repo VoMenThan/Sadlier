@@ -39,51 +39,68 @@
                     </div>
                 </div>
                 <div class="content-show clearfix">
-                    <p>
-                        <select>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                        </select>
-                    </p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>
-                        <select>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                        </select>
-                    </p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>deadlock</p>
-                    <p>circumspect</p>
-                    <p>
-                        <select>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                            <option value="">admonish</option>
-                        </select>
-                    </p>
-                    <p>deadlock</p>
+                    <div class="scroll-iword">
+                        <p>
+                            <select>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                            </select>
+                        </p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>
+                            <select>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                            </select>
+                        </p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>deadlock</p>
+                        <p>circumspect</p>
+                        <p>
+                            <select>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                                <option value="">admonish</option>
+                            </select>
+                        </p>
+                        <p>deadlock</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        (function(){
+            var w_if = $(window).width();
+            var h_if = $(window).height();
+            var hCt = h_if-396;
+            if(w_if < 768){
+                if(hCt > 100){
+                    $('.scroll-iword').height(hCt);
+                }else{
+                    $('.scroll-iword').height(100);
+                }
+            }
+
+        })()
+    </script>
     <script src="assets/js/audio.js"></script>
 <?php include('footer.php'); ?>

@@ -47,6 +47,7 @@
 .iwords-page{
   background: #ed3729;
 }
+
 .iwords-page{
   .box-content{
     max-width: 725px;
@@ -76,6 +77,7 @@
           float: none;
           width: 100%;
           text-align: center;
+          padding-left: 0;
         }
       }
     }
@@ -122,10 +124,15 @@
     padding: 0 35px;
     .content-show{
       padding: 15px 0 35px;
-      @include respond-to($break-480){
+      .scroll-iword{
         overflow-x: hidden;
         overflow-y: auto;
-        height: 215px;
+        height: 308px;
+        //height: 100%;
+        @include respond-to($break-991){
+          height: 572px;
+          //height: 100%;
+        }
       }
     }
     p{

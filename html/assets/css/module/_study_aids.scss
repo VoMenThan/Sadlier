@@ -462,7 +462,7 @@
     }
     .popup-result{
       display: none;
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.3);
       position: absolute;
       @include size(100%);
       top: 0;
@@ -516,39 +516,54 @@
 
   }
 }
-
-//@include respond-to($break-767) {
-//  .test_vocab .test-vocab-content .box-content{
-//    font-size: 22px;
-//  }
-//  .test_vocab .test-vocab-content .answer{
-//    font-size: 22px;
-//    padding-left: 10%;
-//
-//  }
-//  .box-submit{
-//    .btn-submit{
-//      width:140px;
-//    }
-//  }
-//}
 @include respond-to($break-767) {
-  .test_vocab .test-vocab-content .box-content{
-    font-size: 18px;
-  }
-  .test_vocab .test-vocab-content .answer{
-    font-size: 18px;
-    padding-left: 5%;
-
+  //start pupup
+  .test_vocab {
+    .test-vocab-content {
+      .box-content {
+        font-size: 18px;
+      }
+      .answer {
+        font-size: 18px;
+        padding-left: 35%;
+      }
+      .bg-submit {
+        @include radius(5px);
+        width: 200px;
+        height: 138px;
+        padding: 5px;
+        .pupup-submit {
+          font-size: 15px;
+          padding: 10px;
+          background: #ffffff;
+          color: #000000;
+          .result {
+            font-size: 20px;
+          }
+          .play-again {
+            width: 50%;
+          }
+        }
+      }
+    }
   }
   .box-submit{
     .btn-submit{
       width:120px;
     }
   }
-
+}
+@include respond-to($break-320) {
+.test_vocab {
+  .test-vocab-content {
+    .answer {
+      padding-left: 18%;
+    }
+  }
+}
 }
 
+//end pupup
 .box-content {
   width: 100%;
   position: relative;

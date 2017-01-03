@@ -1111,8 +1111,7 @@ a {
 .iwords-page .box-content {
   max-width: 725px;
   background: #fff;
-  margin: 0 auto;
-  min-height: 492px; }
+  margin: 0 auto; }
   .iwords-page .box-content .bar-top {
     height: 48px;
     border-bottom: 1px solid #e1e1e2;
@@ -1174,7 +1173,7 @@ a {
       .iwords-page .lesson-show .content-show {
         overflow-x: hidden;
         overflow-y: auto;
-        height: 215px; } }
+        height: 300px; } }
   .iwords-page .lesson-show p {
     float: left;
     width: -moz-calc(100% / 3);
@@ -1681,7 +1680,7 @@ a {
         width: 95%; } }
     .test_vocab .test-vocab-content .popup-result {
       display: none;
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.3);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -1742,13 +1741,33 @@ a {
 @media only screen and (max-width: 767px) {
   .test_vocab .test-vocab-content .box-content {
     font-size: 18px; }
-
   .test_vocab .test-vocab-content .answer {
     font-size: 18px;
-    padding-left: 5%; }
+    padding-left: 35%; }
+  .test_vocab .test-vocab-content .bg-submit {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 138px;
+    padding: 5px; }
+    .test_vocab .test-vocab-content .bg-submit .pupup-submit {
+      font-size: 15px;
+      padding: 10px;
+      background: #ffffff;
+      color: #000000; }
+      .test_vocab .test-vocab-content .bg-submit .pupup-submit .result {
+        font-size: 20px; }
+      .test_vocab .test-vocab-content .bg-submit .pupup-submit .play-again {
+        width: 50%; }
 
   .box-submit .btn-submit {
     width: 120px; } }
+@media only screen and (max-width: 320px) {
+  .test_vocab .test-vocab-content .answer {
+    padding-left: 18%; } }
 .box-content {
   width: 100%;
   position: relative;

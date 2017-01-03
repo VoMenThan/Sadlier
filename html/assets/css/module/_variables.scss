@@ -68,6 +68,18 @@ $break-320 : 320px;
 
 
 //----- MIXIN
+@mixin retinaDisplay($url, $file, $fileX2: $file){
+  background: url('#{$url}#{$file}') 0 0 no-repeat;
+  @content;
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+    background: url('#{$url}#{$fileX2}') 0 0 no-repeat;
+    @content;
+  }
+}
+
 @mixin rotate($rotate: 90deg){
   -webkit-transform: rotate($rotate);
   -ms-transform: rotate($rotate);

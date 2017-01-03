@@ -36,10 +36,11 @@
     a{
       display: block;
       @include size(40px);
-      background: url("../images/ic/vwAchieve_tablet_flag_unselected.png") 0 0 no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
+      @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_flag_unselected.png', 'vwAchieve_tablet_flag_unselected@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
       @include grayScale();
       opacity: 0.6;
     }

@@ -19,6 +19,15 @@
       background: url("../images/img/icon-flash.jpg") 0 0 no-repeat;
     }
   }
+<<<<<<< HEAD
+  .test_vocab &{
+    &:before{
+      @include  size(39px, 40px);
+      background: url("../images/img/icon-game.jpg") 0 0 no-repeat;
+    }
+  }
+
+=======
   .hang_man &{
     &:before{
       @include size(39px, 40px);
@@ -31,6 +40,7 @@
       background: url("../images/icon/icon-sound-logo.jpg") 0 0 no-repeat;
     }
   }
+>>>>>>> f909ff0310185d4119e7427f6d36ed60a9881268
   span{
     color: #2494c4;
   }

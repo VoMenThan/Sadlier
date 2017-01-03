@@ -24,8 +24,6 @@
                     <div id="songPlayPause" class="playpause pause" onclick="playPause('song')">
                         <span class="pause-icon"></span>
                         <span class="play-icon"></span>
-<!--                        <img class="pause-icon" src="assets/images/icon/pause.jpg" alt="">-->
-<!--                        <img class="play-icon" src="assets/images/icon/play.jpg" alt="">-->
                     </div>
                 </div>
             </div>
@@ -37,7 +35,7 @@
                     </div>
                     <div class="down text-center">
                         <div class="lession">Unit 1</div>
-                        <a href=""><img src="assets/images/icon/down.jpg" alt=""></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="content-show clearfix">

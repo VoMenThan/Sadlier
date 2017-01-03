@@ -89,12 +89,15 @@
     </div>
     <script>
         (function(){
+            var w_if = $(window).width();
             var h_if = $(window).height();
             var hCt = h_if-396;
-            if(hCt > 100){
-                $('.scroll-iword').height(hCt);
-            }else{
-                $('.scroll-iword').height(100);
+            if(w_if < 768){
+                if(hCt > 100){
+                    $('.scroll-iword').height(hCt);
+                }else{
+                    $('.scroll-iword').height(100);
+                }
             }
 
         })()

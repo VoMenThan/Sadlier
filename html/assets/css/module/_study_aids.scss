@@ -58,7 +58,6 @@
   .box-control{
     text-align: center;
     margin-top:49px;
-
     .tool-control{
       .control{
         display: inline-block;
@@ -494,7 +493,12 @@
         background: #ffffff;
         color: #000000;
         .result{
-          color: green;
+          .good{
+            color: green;
+          }
+          .bad{
+            color: #ed3729;
+          }
           font-size: 35px;
           font-weight: bold;
         }
@@ -504,14 +508,13 @@
           }
         }
         .play-again{
-          border: 1px solid #ececec;
+          border: 1px solid #2867b6;
           width: 50%;
           margin: 0 auto;
           @include radius(5px);
           margin-top: 15px;
           color: #2c9acf;
           cursor: pointer;
-          background: #aaaaaa;
         }
       }
     }

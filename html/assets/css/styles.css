@@ -1111,7 +1111,8 @@ a {
 .iwords-page .box-content {
   max-width: 725px;
   background: #fff;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 492px; }
   .iwords-page .box-content .bar-top {
     height: 48px;
     border-bottom: 1px solid #e1e1e2;
@@ -1132,7 +1133,8 @@ a {
         .iwords-page .box-content .bar-top .audio-iword {
           float: none;
           width: 100%;
-          text-align: center; } }
+          text-align: center;
+          padding-left: 0; } }
 .iwords-page .top-word {
   border-bottom: 1px solid #e1e1e2; }
   .iwords-page .top-word .text {
@@ -1169,11 +1171,13 @@ a {
   padding: 0 35px; }
   .iwords-page .lesson-show .content-show {
     padding: 15px 0 35px; }
-    @media only screen and (max-width: 480px) {
-      .iwords-page .lesson-show .content-show {
-        overflow-x: hidden;
-        overflow-y: auto;
-        height: 300px; } }
+    .iwords-page .lesson-show .content-show .scroll-iword {
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 308px; }
+      @media only screen and (max-width: 991px) {
+        .iwords-page .lesson-show .content-show .scroll-iword {
+          height: 572px; } }
   .iwords-page .lesson-show p {
     float: left;
     width: -moz-calc(100% / 3);

@@ -157,34 +157,38 @@ header{
       }
       &.icon-one{
         a{
-          background: url("../images/ic/vwAchieve_tablet_info_upstate_icn.png") center center no-repeat #ffffff;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          background-size: cover;
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_info_upstate_icn.png', 'vwAchieve_tablet_info_upstate_icn@2x.png','#fff'){
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
+          }
         }
       }
       &.icon-two{
         a{
-          background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #ffffff;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          background-size: cover;
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_sound_upstate_icn.png', 'vwAchieve_tablet_sound_upstate_icn@2x.png','#fff'){
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
+          }
         }
         &.mute{
           a{
-            background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn.png") center center no-repeat #ffffff;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
+            @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_sound_mute_upstate_icn.png', 'vwAchieve_tablet_sound_mute_upstate_icn@2x.png','#fff'){
+              -webkit-background-size: auto 100%;
+              -moz-background-size: auto 100%;
+              background-size: auto 100%;
+            }
           }
         }
       }
       &.icon-three{
         a{
-          background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") center center no-repeat #ffffff;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          background-size: cover;
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_hamburger_upstate_icn.png', 'vwAchieve_tablet_hamburger_upstate_icn@2x.png','#fff'){
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
+          }
         }
       }
     }

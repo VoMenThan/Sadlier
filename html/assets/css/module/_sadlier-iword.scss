@@ -16,7 +16,11 @@
   .flag_cards &{
     &:before{
       @include size(39px, 40px);
-      background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn.png") 0 0 no-repeat;
+      @include retinaDisplay('../images/img/', 'vwAchieve_web_flc_studyAids_header_icn.png', 'vwAchieve_web_flc_studyAids_header_icn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
     }
   }
   .test_vocab &{

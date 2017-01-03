@@ -1086,7 +1086,16 @@ a {
   .flag_cards .header-page:before {
     width: 39px;
     height: 40px;
-    background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn.png") 0 0 no-repeat; }
+    background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn.png") 0 0 no-repeat transparent;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+      .flag_cards .header-page:before {
+        background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn@2x.png") 0 0 no-repeat;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; } }
   .test_vocab .header-page:before {
     width: 39px;
     height: 40px;
@@ -1334,7 +1343,7 @@ a {
       display: block;
       width: 40px;
       height: 40px;
-      background: url("../images/ic/vwAchieve_tablet_flag_unselected.png") 0 0 no-repeat;
+      background: url("../images/ic/vwAchieve_tablet_flag_unselected.png") 0 0 no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%;
@@ -1378,20 +1387,38 @@ a {
         width: 50px;
         height: 50px; }
       .content .box-control .tool-control .control.ctrl-prev a {
-        background: url("../images/ic/vwAchieve_web_back_upstate_btn.png") 0 0 no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_web_back_upstate_btn.png") 0 0 no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .content .box-control .tool-control .control.ctrl-prev a {
+            background: url("../images/ic/vwAchieve_web_back_upstate_btn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .content .box-control .tool-control .control.ctrl-flip a {
-        background: url("../images/ic/vwAchieve_web_refesh_upstate_btn.png") 0 0 no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_web_refesh_upstate_btn.png") 0 0 no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .content .box-control .tool-control .control.ctrl-flip a {
+            background: url("../images/ic/vwAchieve_web_refesh_upstate_btn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .content .box-control .tool-control .control.ctrl-next a {
-        background: url("../images/ic/vwAchieve_web_next_upstate_btn.png") 0 0 no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_web_next_upstate_btn.png") 0 0 no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .content .box-control .tool-control .control.ctrl-next a {
+            background: url("../images/ic/vwAchieve_web_next_upstate_btn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .content .box-control .tool-control .control a[disabled=disabled] {
         cursor: default;
         -webkit-filter: grayscale(100%);
@@ -1427,45 +1454,93 @@ a {
           width: 30px;
           height: 30px; } }
     .nav-tool .nav-control .control.ctrl-next a {
-      background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-next a {
+          background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-play a {
-      background: url("../images/ic/vwAchieve_tablet_play_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_play_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-play a {
+          background: url("../images/ic/vwAchieve_tablet_play_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-play.active a {
-      background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-play.active a {
+          background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-prev a {
-      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-prev a {
+          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-sg a {
-      background: url("../images/ic/vwAchieve_tablet_lamp_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_lamp_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-sg a {
+          background: url("../images/ic/vwAchieve_tablet_lamp_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-wo a {
-      background: url("../images/ic/vwAchieve_tablet_pup_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_pup_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-wo a {
+          background: url("../images/ic/vwAchieve_tablet_pup_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-rf a {
-      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-rf a {
+          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-nx a {
-      background: url("../images/ic/vwAchieve_tablet_row_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; }
+      background: url("../images/ic/vwAchieve_tablet_row_upstate_btn.png") 0 0 no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .nav-tool .nav-control .control.ctrl-nx a {
+          background: url("../images/ic/vwAchieve_tablet_row_upstate_btn@2x.png") 0 0 no-repeat;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
   .nav-tool .nav-control li:last-child {
     margin-right: 0px; }
 
@@ -1995,25 +2070,49 @@ header {
           .icon-wrapper .menu .item.logo-tm a {
             margin-top: 0; } }
       .icon-wrapper .menu .item.icon-one a {
-        background: url("../images/ic/vwAchieve_tablet_info_upstate_icn.png") center center no-repeat #ffffff;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_tablet_info_upstate_icn.png") 0 0 no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-one a {
+            background: url("../images/ic/vwAchieve_tablet_info_upstate_icn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .icon-wrapper .menu .item.icon-two a {
-        background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #ffffff;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") 0 0 no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two a {
+            background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .icon-wrapper .menu .item.icon-two.mute a {
-        background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn.png") center center no-repeat #ffffff;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn.png") 0 0 no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two.mute a {
+            background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
       .icon-wrapper .menu .item.icon-three a {
-        background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") center center no-repeat #ffffff;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover; }
+        background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") 0 0 no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-three a {
+            background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn@2x.png") 0 0 no-repeat;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
     .icon-wrapper .menu .logo-tm {
       display: none; }
       @media only screen and (max-width: 991px) {

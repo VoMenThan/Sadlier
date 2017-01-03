@@ -36,7 +36,7 @@
     a{
       display: block;
       @include size(40px);
-      background: url("../images/icon/icon_flag.png") 0 0 no-repeat;
+      background: url("../images/ic/vwAchieve_tablet_flag_unselected.png") 0 0 no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
@@ -72,7 +72,7 @@
         }
         &.ctrl-prev{
           a{
-            background: url("../images/icon/btn_pre.jpg") 0 0 no-repeat;
+            background: url("../images/ic/vwAchieve_web_back_upstate_btn.png") 0 0 no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -80,7 +80,7 @@
         }
         &.ctrl-flip{
           a{
-            background: url("../images/icon/btn_refesh.jpg") 0 0 no-repeat;
+            background: url("../images/ic/vwAchieve_web_refesh_upstate_btn.png") 0 0 no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -88,7 +88,7 @@
         }
         &.ctrl-next{
           a{
-            background: url("../images/icon/btn_next.jpg") 0 0 no-repeat;
+            background: url("../images/ic/vwAchieve_web_next_upstate_btn.png") 0 0 no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -131,7 +131,7 @@
       }
       &.ctrl-next{
         a{
-          background: url("../images/icon/btn-random.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
           -webkit-background-size: cover;
           -moz-background-size: cover;
           background-size: cover;
@@ -139,14 +139,14 @@
       }
       &.ctrl-play{
         a{
-          background: url("../images/icon/btn-play.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          background: url("../images/ic/vwAchieve_tablet_play_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
           -webkit-background-size: cover;
           -moz-background-size: cover;
           background-size: cover;
         }
         &.active{
           a{
-            background: url("../images/icon/btn-pause.png") center center no-repeat rgba(0, 0, 0, 0.4);
+            background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -155,7 +155,7 @@
       }
       &.ctrl-prev{
         a{
-          background: url("../images/icon/btn-reload.png") center center no-repeat rgba(0, 0, 0, 0.4);
+          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") center center no-repeat rgba(0, 0, 0, 0.4);
           -webkit-background-size: cover;
           -moz-background-size: cover;
           background-size: cover;
@@ -222,8 +222,14 @@
 }
 @include respond-to($break-991)
 {
-  .flag_cards .bg-white .content .box-content {
-    font-size: 55px;
+  .flag_cards {
+    .bg-white {
+      .content {
+        .box-content {
+          font-size: 55px;
+        }
+      }
+    }
   }
     .flag_cards .page-number{
     font-size: 45px;

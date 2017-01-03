@@ -39,7 +39,10 @@
                 <div class="bg-submit">
                     <div class="pupup-submit">
                         <div class="game-over">Game Over</div>
-                        <div class="result">Good Job!</div>
+                        <div class="result">
+                            <span class="good">Good Job!</span>
+<!--                            <span class="bad">Bad Job!</span>-->
+                        </div>
                         <div class="score"> <span class="gray">Score:</span> 9400</div>
                         <div class="play-again">Play Again</div>
                     </div>

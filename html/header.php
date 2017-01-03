@@ -12,7 +12,7 @@
     <script src="assets/js/main.js"></script>
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" class="retina-display">
         <header class="clearfix">
                 <div class="main-wrapper clearfix">
                     <div class="icon-wrapper text-center">

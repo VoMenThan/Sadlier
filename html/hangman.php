@@ -12,8 +12,8 @@
     <div class="hang-man-content">
         <div class="bg-content">
             <div class="box-alpha">
-                <div class="word">A</div>
-                <div class="word">B</div>
+                <div class="word word_a">A</div>
+                <div class="word word_b">B</div>
                 <div class="word">C</div>
                 <div class="word">D</div>
                 <div class="word">E</div>

@@ -1092,7 +1092,7 @@ a {
     background-size: auto 100%; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
       .flag_cards .header-page:before {
-        background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn@2x.png") center center no-repeat;
+        background: url("../images/img/vwAchieve_web_flc_studyAids_header_icn@2x.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; } }
@@ -1105,7 +1105,7 @@ a {
     background-size: auto 100%; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
       .test_vocab .header-page:before {
-        background: url("../images/img/vwAchieve_web_games_header_icn@2x.png") center center no-repeat;
+        background: url("../images/img/vwAchieve_web_games_header_icn@2x.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; } }
@@ -1118,7 +1118,7 @@ a {
     background-size: auto 100%; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
       .hang_man .header-page:before {
-        background: url("../images/img/vwAchieve_web_games_header_icn@2x.png") center center no-repeat;
+        background: url("../images/img/vwAchieve_web_games_header_icn@2x.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; } }
@@ -1131,7 +1131,7 @@ a {
     background-size: auto 100%; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
       .iwords-page .header-page:before {
-        background: url("../images/img/vwAchieve_web_iWords_header_icn@2x.png") center center no-repeat;
+        background: url("../images/img/vwAchieve_web_iWords_header_icn@2x.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; } }
@@ -1149,7 +1149,7 @@ a {
   background-size: cover; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .iwords-page {
-      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat;
+      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; } }
@@ -1224,7 +1224,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .iwords-page .top-word .down a {
-          background: url("../images/ic/vwAchieve_web_download_icn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_download_icn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1244,6 +1244,9 @@ a {
         padding: 15px 0 15px; }
         .iwords-page .lesson-show .content-show .scroll-iword {
           height: 245px; } }
+    @media only screen and (max-width: 320px) {
+      .iwords-page .lesson-show .content-show .scroll-iword {
+        height: 200px; } }
   .iwords-page .lesson-show p {
     float: left;
     width: -moz-calc(100% / 3);
@@ -1302,7 +1305,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .audio-iword .playpause.pause .play-icon {
-          background: url("../images/ic/vwAchieve_play_mediaPlayer@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_play_mediaPlayer@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1320,7 +1323,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .audio-iword .playpause.play .pause-icon {
-          background: url("../images/ic/vwAchieve_pause_mediaPlayer@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_pause_mediaPlayer@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1366,7 +1369,7 @@ a {
       z-index: 1; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .audio-iword #songSlider #trackProgress {
-          background: url("../images/ic/vwAchieve_web_mp_node@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_mp_node@2x.png") center center no-repeat transparent;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           background-size: cover; } }
@@ -1393,7 +1396,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .audio-iword .prev a {
-          background: url("../images/ic/vwAchieve_prev_mediaPlayer@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_prev_mediaPlayer@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1409,7 +1412,7 @@ a {
   background-size: cover; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .flag_cards {
-      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat;
+      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; } }
@@ -1470,7 +1473,7 @@ a {
       opacity: 0.6; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .content .flag a {
-          background: url("../images/ic/vwAchieve_tablet_flag_unselected@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_flag_unselected@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1509,7 +1512,7 @@ a {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-prev a {
-            background: url("../images/ic/vwAchieve_web_back_upstate_btn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_web_back_upstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1520,7 +1523,7 @@ a {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-flip a {
-            background: url("../images/ic/vwAchieve_web_refesh_upstate_btn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_web_refesh_upstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1531,7 +1534,7 @@ a {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-next a {
-            background: url("../images/ic/vwAchieve_web_go_upstate_btn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_web_go_upstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1576,7 +1579,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-next a {
-          background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1587,7 +1590,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-play a {
-          background: url("../images/ic/vwAchieve_tablet_play_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_play_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1598,7 +1601,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-play.active a {
-          background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1609,7 +1612,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-prev a {
-          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1620,7 +1623,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-sg a {
-          background: url("../images/ic/vwAchieve_web_hint_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_hint_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1631,7 +1634,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-wo a {
-          background: url("../images/ic/vwAchieve_web_answer_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_answer_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1642,7 +1645,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-rf a {
-          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1653,7 +1656,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-nx a {
-          background: url("../images/ic/vwAchieve_web_next_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_next_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1714,16 +1717,28 @@ a {
   background-size: cover; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .hang_man {
-      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat;
+      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; } }
+  @media only screen and (max-width: 991px) {
+    .hang_man {
+      padding: 120px 10px !important; } }
+  @media only screen and (max-width: 767px) {
+    .hang_man {
+      padding: 60px 10px !important; } }
+  @media only screen and (max-width: 320px) {
+    .hang_man {
+      padding: 40px 10px !important; } }
   .hang_man .header-page span {
     color: #f48625; }
 
 .box-score {
   text-align: center;
   padding-bottom: 30px; }
+  @media only screen and (max-width: 767px) {
+    .box-score {
+      padding-bottom: 15px; } }
   .box-score .cup-time {
     color: #fff; }
     .box-score .cup-time .time,
@@ -1751,7 +1766,7 @@ a {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .box-score .cup-time .time:before {
-            background: url("../images/ic/vwAchieve_web_timer_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_web_timer_icn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1771,7 +1786,7 @@ a {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .box-score .cup-time .cup:before {
-            background: url("../images/ic/vwAchieve_web_score_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_web_score_icn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1818,7 +1833,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_a {
-          background: url("../images/word/vwAchieve_web_a_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_a_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1829,7 +1844,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_b {
-          background: url("../images/word/vwAchieve_web_b_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_b_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1840,7 +1855,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_c {
-          background: url("../images/word/vwAchieve_web_c_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_c_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1851,7 +1866,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_d {
-          background: url("../images/word/vwAchieve_web_d_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_d_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1862,7 +1877,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_e {
-          background: url("../images/word/vwAchieve_web_e_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_e_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1873,7 +1888,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_f {
-          background: url("../images/word/vwAchieve_web_f_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_f_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1884,7 +1899,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_g {
-          background: url("../images/word/vwAchieve_web_g_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_g_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1895,7 +1910,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_h {
-          background: url("../images/word/vwAchieve_web_h_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_h_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1906,7 +1921,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_i {
-          background: url("../images/word/vwAchieve_web_i_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_i_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1917,7 +1932,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_j {
-          background: url("../images/word/vwAchieve_web_j_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_j_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1928,7 +1943,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_k {
-          background: url("../images/word/vwAchieve_web_k_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_k_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1939,7 +1954,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_l {
-          background: url("../images/word/vwAchieve_web_l_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_l_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1950,7 +1965,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_m {
-          background: url("../images/word/vwAchieve_web_m_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_m_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1961,7 +1976,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_n {
-          background: url("../images/word/vwAchieve_web_n_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_n_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1972,7 +1987,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_o {
-          background: url("../images/word/vwAchieve_web_o_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_o_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1983,7 +1998,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_p {
-          background: url("../images/word/vwAchieve_web_p_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_p_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -1994,7 +2009,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_q {
-          background: url("../images/word/vwAchieve_web_q_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_q_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2005,7 +2020,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_r {
-          background: url("../images/word/vwAchieve_web_r_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_r_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2016,7 +2031,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_s {
-          background: url("../images/word/vwAchieve_web_s_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_s_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2027,7 +2042,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_t {
-          background: url("../images/word/vwAchieve_web_t_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_t_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2038,7 +2053,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_u {
-          background: url("../images/word/vwAchieve_web_u_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_u_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2049,7 +2064,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_v {
-          background: url("../images/word/vwAchieve_web_v_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_v_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2060,7 +2075,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_w {
-          background: url("../images/word/vwAchieve_web_w_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_w_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2071,7 +2086,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_x {
-          background: url("../images/word/vwAchieve_web_x_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_x_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2082,7 +2097,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_y {
-          background: url("../images/word/vwAchieve_web_y_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_y_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2093,7 +2108,7 @@ a {
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .bg-content .box-alpha .word_z {
-          background: url("../images/word/vwAchieve_web_z_letter_btn_downstate@2x.png") center center no-repeat;
+          background: url("../images/word/vwAchieve_web_z_letter_btn_downstate@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2146,19 +2161,30 @@ a {
   background-size: cover; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .test_vocab {
-      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat;
+      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; } }
+  @media only screen and (max-width: 991px) {
+    .test_vocab {
+      padding: 156px 10px !important; } }
+  @media only screen and (max-width: 767px) {
+    .test_vocab {
+      padding: 50px 10px !important; } }
+  @media only screen and (max-width: 320px) {
+    .test_vocab {
+      padding: 10px !important; } }
   .test_vocab .header-page span {
     color: #f48625; }
   .test_vocab .test-vocab-content {
     background: #ffffff;
-    padding: 5%;
-    padding-bottom: 28px;
+    padding: 36px 20px;
     width: 70%;
     margin: auto;
     position: relative; }
+    @media only screen and (max-width: 767px) {
+      .test_vocab .test-vocab-content {
+        padding: 10px 20px; } }
     .test_vocab .test-vocab-content .box-content {
       font-size: 25px;
       text-align: left;
@@ -2214,7 +2240,7 @@ a {
       cursor: pointer; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .test_vocab .test-vocab-content .box-submit {
-          background: url("../images/ic/vwAchieve_web_btnsubmit_upstate_btn@2x.png") center center no-repeat;
+          background: url("../images/ic/vwAchieve_web_btnsubmit_upstate_btn@2x.png") center center no-repeat #e6e7e8;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%;
@@ -2548,7 +2574,7 @@ header {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .icon-wrapper .menu .item.icon-one a {
-            background: url("../images/ic/vwAchieve_tablet_info_upstate_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_tablet_info_upstate_icn@2x.png") center center no-repeat #fff;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -2559,7 +2585,7 @@ header {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .icon-wrapper .menu .item.icon-two a {
-            background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") center center no-repeat #fff;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -2570,7 +2596,7 @@ header {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .icon-wrapper .menu .item.icon-two.mute a {
-            background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn@2x.png") center center no-repeat #fff;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -2581,7 +2607,7 @@ header {
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .icon-wrapper .menu .item.icon-three a {
-            background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn@2x.png") center center no-repeat;
+            background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }

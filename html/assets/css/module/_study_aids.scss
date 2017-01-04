@@ -295,6 +295,15 @@
     -moz-background-size: cover;
     background-size: cover;
   }
+  @include respond-to($break-991){
+    padding: 120px 10px !important;
+  }
+  @include respond-to($break-767){
+    padding: 60px 10px !important;
+  }
+  @include respond-to($break-320){
+    padding: 40px 10px !important;
+  }
   .header-page{
     span{
       color: #f48625;
@@ -304,6 +313,9 @@
 .box-score{
   text-align: center;
   padding-bottom: 30px;
+  @include respond-to($break-767){
+    padding-bottom: 15px;
+  }
   .cup-time{
     color: #fff;
     .time,
@@ -627,6 +639,15 @@
     -moz-background-size: cover;
     background-size: cover;
   }
+  @include respond-to($break-991){
+    padding: 156px 10px !important;
+  }
+  @include respond-to($break-767){
+    padding: 50px 10px !important;
+  }
+  @include respond-to($break-320){
+    padding: 10px !important;
+  }
   .header-page{
     span{
       color: #f48625;
@@ -634,11 +655,13 @@
   }
   .test-vocab-content{
     background: #ffffff;
-    padding: 5%;
-    padding-bottom: 28px;
+    padding: 36px 20px;
     width: 70%;
     margin: auto;
     position: relative;
+    @include respond-to($break-767){
+      padding: 10px 20px;
+    }
     .box-content{
       font-size: 25px;
       text-align: left;

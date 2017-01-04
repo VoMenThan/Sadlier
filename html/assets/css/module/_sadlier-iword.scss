@@ -173,6 +173,11 @@
           height: 245px;
         }
       }
+      @include respond-to($break-320){
+        .scroll-iword {
+          height: 200px;
+        }
+      }
     }
     p{
       float: left;

@@ -75,7 +75,7 @@ $break-320 : 320px;
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi) {
-    background: url('#{$url}#{$fileX2}') center center no-repeat;
+    background: url('#{$url}#{$fileX2}') center center no-repeat #{$color};
     @content;
   }
 }

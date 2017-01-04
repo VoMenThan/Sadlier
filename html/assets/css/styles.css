@@ -2356,6 +2356,12 @@ a {
     line-height: 40px;
     margin: 0 auto;
     font-size: 25px; }
+  .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 25px; }
 
   .test_vocab .test-vocab-content .box-content {
     font-size: 18px; }

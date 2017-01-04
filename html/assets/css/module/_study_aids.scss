@@ -683,14 +683,20 @@
       }
     }
     .box-submit{
-      text-align: center;
-      padding-top: 5%;
+      text-align: left;
+      padding-left: 27px;
+      line-height: 46px;
+      border-radius: 5px;
       display: block;
-      @include size(174px, 50px);
-      @include retinaDisplay('../images/ic/', 'vwAchieve_web_submit_upstate_btn.png', 'vwAchieve_web_submit_upstate_btn@2x.png'){
+      font-weight: bold;
+      color: #009345;
+      font-size: 20px;
+      @include size(174px, 46px);
+      @include retinaDisplay('../images/ic/', 'vwAchieve_web_btnsubmit_upstate_btn.png', 'vwAchieve_web_btnsubmit_upstate_btn@2x.png','#e6e7e8'){
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%;
+        background-position: right center;
       }
       margin: 20px auto 3px;
       cursor: pointer;

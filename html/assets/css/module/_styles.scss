@@ -184,7 +184,7 @@ header{
       }
       &.icon-three{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_hamburger_upstate_icn.png', 'vwAchieve_tablet_hamburger_upstate_icn@2x.png','#fff'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_hamburger_upstate_icn.png', 'vwAchieve_tablet_hamburger_upstate_icn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;

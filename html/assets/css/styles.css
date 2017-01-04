@@ -2112,7 +2112,7 @@ header {
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
       .icon-wrapper .menu .item.icon-three a {
-        background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") 0 0 no-repeat #fff;
+        background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") 0 0 no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }

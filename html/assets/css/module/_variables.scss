@@ -69,13 +69,13 @@ $break-320 : 320px;
 
 //----- MIXIN
 @mixin retinaDisplay($url, $file, $fileX2: $file, $color:'transparent'){
-  background: url('#{$url}#{$file}') 0 0 no-repeat #{$color};
+  background: url('#{$url}#{$file}') center center no-repeat #{$color};
   @content;
   @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi) {
-    background: url('#{$url}#{$fileX2}') 0 0 no-repeat;
+    background: url('#{$url}#{$fileX2}') center center no-repeat;
     @content;
   }
 }

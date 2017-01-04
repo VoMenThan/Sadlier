@@ -61,6 +61,7 @@
   }
 }
 .iwords-page{
+  padding: 50px 10px !important;
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,7 +136,12 @@
       a{
         display: inline-block;
         @include size(23px, 27px);
-        background: url("../images/icon/down.jpg") 0 0 no-repeat;
+        //background: url("../images/icon/down.jpg") 0 0 no-repeat;
+        @include retinaDisplay('../images/ic/', 'vwAchieve_web_download_icn.png', 'vwAchieve_web_download_icn@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
     }
   }
@@ -163,7 +169,7 @@
       color: #2867b6;
       select{
         padding: 0 25px 0 0;
-        background: url("../images/icon/arrow2.jpg") right center no-repeat;
+        background: url("../images/ic/vwAchieve_web_dropdownArrow.png") right center no-repeat;
         font-size: 20px;
         font-family: $main-t;
         color: #2867b6;
@@ -204,7 +210,12 @@
       .play-icon{
         display: inline-block;
         @include size(12px, 32px);
-        background: url(../images/icon/play.jpg) 0 0 no-repeat;
+        //background: url(../images/icon/play.jpg) 0 0 no-repeat;
+        @include retinaDisplay('../images/ic/', 'vwAchieve_play_mediaPlayer.png', 'vwAchieve_play_mediaPlayer@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
       .pause-icon{
         display: none;
@@ -215,7 +226,12 @@
       .pause-icon{
         display: inline-block;
         @include size(16px, 32px);
-        background: url(../images/icon/pause.jpg) 0 0 no-repeat;
+        //background: url(../images/icon/pause.jpg) 0 0 no-repeat;
+        @include retinaDisplay('../images/ic/', 'vwAchieve_pause_mediaPlayer.png', 'vwAchieve_pause_mediaPlayer@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
     }
   }
@@ -250,7 +266,12 @@
       @include translate(-50%, -50%);
       @include size(12px, 12px);
       @include border-radius(50%);
-      background: url("../images/icon/process.jpg");
+      //background: url("../images/icon/process.jpg");
+      @include retinaDisplay('../images/ic/', 'vwAchieve_web_mp_node.png', 'vwAchieve_web_mp_node@2x.png'){
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+      }
       z-index: 1;
     }
   }
@@ -272,6 +293,11 @@
       display: inline-block;
       @include size(23px, 32px);
       background: url(../images/icon/prev.jpg) 0 0 no-repeat;
+      @include retinaDisplay('../images/ic/', 'vwAchieve_prev_mediaPlayer.png', 'vwAchieve_prev_mediaPlayer@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
     }
     @include respond-to($break-767){
       border-left: none;

@@ -295,6 +295,15 @@
     -moz-background-size: cover;
     background-size: cover;
   }
+  @include respond-to($break-991){
+    padding: 120px 10px !important;
+  }
+  @include respond-to($break-767){
+    padding: 60px 10px !important;
+  }
+  @include respond-to($break-320){
+    padding: 40px 10px !important;
+  }
   .header-page{
     span{
       color: #f48625;

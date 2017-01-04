@@ -1244,6 +1244,9 @@ a {
         padding: 15px 0 15px; }
         .iwords-page .lesson-show .content-show .scroll-iword {
           height: 245px; } }
+    @media only screen and (max-width: 320px) {
+      .iwords-page .lesson-show .content-show .scroll-iword {
+        height: 200px; } }
   .iwords-page .lesson-show p {
     float: left;
     width: -moz-calc(100% / 3);
@@ -1718,6 +1721,15 @@ a {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover; } }
+  @media only screen and (max-width: 991px) {
+    .hang_man {
+      padding: 120px 10px !important; } }
+  @media only screen and (max-width: 767px) {
+    .hang_man {
+      padding: 60px 10px !important; } }
+  @media only screen and (max-width: 320px) {
+    .hang_man {
+      padding: 40px 10px !important; } }
   .hang_man .header-page span {
     color: #f48625; }
 

@@ -27,8 +27,7 @@
 <!--                    <div><input type="checkbox" name="gender" id="a4"><label for="a4">unbridled</label></div>-->
 <!--                </form>-->
             </div>
-
-            <a class="box-submit" href="#" id="submitButton"></a>
+            <a class="box-submit" href="#" id="submitButton">Submit</a>
             <div class="pup-h40">
                 <div class="right-btn text-right">Right!</div>
 <!--                <div class="wrong-btn text-right">Wrong!</div>-->

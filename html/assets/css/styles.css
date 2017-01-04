@@ -2222,7 +2222,7 @@ a {
     .test_vocab .test-vocab-content .pup-h40 {
       height: 40px; }
       .test_vocab .test-vocab-content .pup-h40 .right-btn {
-        width: 126px;
+        width: 100px;
         height: 40px;
         background: url("../images/icon/right_btn.png") 0 0 no-repeat;
         margin: 0 auto;

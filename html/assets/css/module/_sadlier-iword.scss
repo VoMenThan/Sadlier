@@ -68,6 +68,9 @@
     -moz-background-size: cover;
     background-size: cover;
   }
+  @include respond-to($break-767){
+    padding: 15px 10px !important;
+  }
 }
 
 .iwords-page{
@@ -75,7 +78,7 @@
     max-width: 725px;
     background: #fff;
     margin: 0 auto;
-    min-height: 492px;
+    //min-height: 492px;
     .bar-top{
       height: 48px;
       border-bottom: 1px solid $cl-line;
@@ -123,6 +126,12 @@
         color: #2867b6;
         font-size: 20px;
       }
+      @include respond-to($break-320){
+        .unit,
+        .desc{
+          font-size: 16px;
+        }
+      }
     }
     .down{
       margin-top: 25px;
@@ -158,6 +167,12 @@
           height: 572px;
         }
       }
+      @include respond-to($break-767){
+        padding: 15px 0 15px;
+        .scroll-iword {
+          height: 245px;
+        }
+      }
     }
     p{
       float: left;
@@ -177,6 +192,14 @@
         font-size: 18px;
         select {
           font-size: 18px;
+        }
+      }
+      @include respond-to($break-320){
+        width: 50%;
+        font-size: 17px;
+        select {
+          font-size: 17px;
+
         }
       }
     }

@@ -10,6 +10,15 @@
       color: #4fbdbe;
     }
   }
+  @include respond-to($break-991){
+    padding: 157px 10px !important;
+  }
+  @include respond-to($break-767){
+    padding: 50px 10px !important;
+  }
+  @include respond-to($break-320){
+    padding: 10px 10px !important;
+  }
 }
 .page-number{
   text-align: center;
@@ -554,7 +563,6 @@
           background-size: auto 100%;
         }
       }
-
     }
   .box-content{
     img{
@@ -613,6 +621,7 @@
 
 
 .test_vocab{
+  padding: 23px 10px !important;
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;
     -moz-background-size: cover;

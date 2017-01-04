@@ -135,7 +135,11 @@
       a{
         display: inline-block;
         @include size(23px, 27px);
-        background: url("../images/icon/down.jpg") 0 0 no-repeat;
+        @include retinaDisplay('../images/ic/', 'vwAchieve_web_download_icn.png', 'vwAchieve_web_download_icn@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
     }
   }

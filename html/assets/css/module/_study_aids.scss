@@ -95,7 +95,7 @@
         }
         &.ctrl-next{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_web_next_upstate_btn.png', 'vwAchieve_web_next_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vwAchieve_web_go_upstate_btn.png', 'vwAchieve_web_go_upstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -176,7 +176,7 @@
 
       &.ctrl-sg{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_lamp_upstate_btn.png', 'vwAchieve_tablet_lamp_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_hint_upstate_btn.png', 'vwAchieve_web_hint_upstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -185,7 +185,7 @@
       }
       &.ctrl-wo{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_pup_upstate_btn.png', 'vwAchieve_tablet_pup_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_answer_upstate_btn.png', 'vwAchieve_web_answer_upstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -203,7 +203,7 @@
       }
       &.ctrl-nx{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_row_upstate_btn.png', 'vwAchieve_tablet_row_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_next_upstate_btn.png', 'vwAchieve_web_next_upstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -314,22 +314,42 @@
       padding-left: 25px;
       .text{
         padding-left: 10px;
-        font-size: 30px;
+        font-size: 26px;
+
       }
     }
     .time{
-      @include retinaDisplay('../images/ic/', 'vwAchieve_web_timer_icn.png', 'vwAchieve_web_timer_icn@2x.png'){
-        -webkit-background-size: auto 100%;
-        -moz-background-size: auto 100%;
-        background-size: auto 100%;
+      position: relative;
+      &:before{
+        position: absolute;
+        left: 0;
+        top: 3px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        content: " ";
+        @include retinaDisplay('../images/ic/', 'vwAchieve_web_timer_icn.png', 'vwAchieve_web_timer_icn@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
     }
     .cup{
-      @include retinaDisplay('../images/ic/', 'vwAchieve_web_score_icn.png', 'vwAchieve_web_score_icn@2x.png'){
-        -webkit-background-size: auto 100%;
-        -moz-background-size: auto 100%;
-        background-size: auto 100%;
-
+      position: relative;
+      &:before{
+        position: absolute;
+        left: 0;
+        top: 3px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        content: " ";
+        @include retinaDisplay('../images/ic/', 'vwAchieve_web_score_icn.png', 'vwAchieve_web_score_icn@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
       }
     }
   }
@@ -356,12 +376,133 @@
         height:30px;
         font-size: 24px;
         color: red;
-        background: #7d7d7d;
         @include radius(5px);
         text-align: center;
         margin-top: 10px;
         margin-right: 10px;
         cursor:pointer;
+         }
+      .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        .word_a{
+        @include retinaDisplay('../images/word/', 'vwAchieve_web_a_letter_btn_downstate.png', 'vwAchieve_web_a_letter_btn_downstate@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+
       }
     }
   .box-content{

@@ -2248,7 +2248,7 @@ a {
     .test_vocab .test-vocab-content .pup-h40 {
       height: 40px; }
       .test_vocab .test-vocab-content .pup-h40 .right-btn {
-        width: 100px;
+        width: 126px;
         height: 40px;
         background: url("../images/icon/right_btn.png") 0 0 no-repeat;
         margin: 0 auto;
@@ -2326,6 +2326,37 @@ a {
           cursor: pointer; }
 
 @media only screen and (max-width: 767px) {
+  .test_vocab .test-vocab-content .box-submit {
+    text-align: left;
+    padding-left: 27px;
+    line-height: 40px;
+    border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    color: #009345;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    background: url("../images/ic/vwAchieve_web_btnsubmit_upstate_btn.png") center center no-repeat #e6e7e8;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: right center; } }
+  @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 767px) and (min-device-pixel-ratio: 2), only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .test_vocab .test-vocab-content .box-submit {
+      background: url("../images/ic/vwAchieve_web_btnsubmit_upstate_btn@2x.png") center center no-repeat #e6e7e8;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%;
+      background-position: right center; } }
+@media only screen and (max-width: 767px) {
+  .test_vocab .test-vocab-content .pup-h40 .right-btn {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 25px; }
+
   .test_vocab .test-vocab-content .box-content {
     font-size: 18px; }
   .test_vocab .test-vocab-content .answer {

@@ -795,6 +795,37 @@
   }
 }
 @include respond-to($break-767) {
+  //btn submit
+  .test_vocab {
+    .test-vocab-content {
+      .box-submit{
+        text-align: left;
+        padding-left: 27px;
+        line-height: 40px;
+        border-radius: 5px;
+        display: block;
+        font-weight: bold;
+        color: #009345;
+        font-size: 20px;
+        @include size(150px, 40px);
+        @include retinaDisplay('../images/ic/', 'vwAchieve_web_btnsubmit_upstate_btn.png', 'vwAchieve_web_btnsubmit_upstate_btn@2x.png','#e6e7e8'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+          background-position: right center;
+        }
+      }
+      .pup-h40 {
+        .right-btn{
+          width: 100px;
+          height: 40px;
+          line-height: 40px;
+          margin: 0 auto;
+          font-size: 25px;
+        }
+      }
+    }
+  }
   //start pupup
   .test_vocab {
     .test-vocab-content {

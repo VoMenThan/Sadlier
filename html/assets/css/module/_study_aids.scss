@@ -109,7 +109,7 @@
         }
       }
       li:last-child{
-        margin-right: 0px;
+        margin-right: 0;
       }
     }
   }
@@ -212,7 +212,7 @@
       }
     }
     li:last-child{
-      margin-right: 0px;
+      margin-right: 0;
     }
   }
 }
@@ -236,8 +236,7 @@
   position: relative;
   z-index: 1;
 }
-@include respond-to($break-991)
-{
+@include respond-to($break-991){
   .flag_cards {
     .bg-white {
       .content {
@@ -251,17 +250,8 @@
     font-size: 45px;
   }
 }
-//@include respond-to($break-767) {
-//  .flag_cards .bg-white .content .box-content {
-//    font-size: 45px;
-//  }
-//    .flag_cards .page-number{
-//    font-size: 35px;
-//
-//  }
-//}
 
-@include respond-to($break-767) {
+@include respond-to($break-767){
   .flag_cards .bg-white .content .box-content {
     font-size: 30px;
   }
@@ -656,7 +646,6 @@
     }
     .bg-submit{
       @include radius(5px);
-      background: #ffffff;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -743,17 +732,18 @@
   }
 }
 @include respond-to($break-320) {
-.test_vocab {
-  .test-vocab-content {
-    .answer {
-      padding-left: 18%;
+  .test_vocab {
+    .test-vocab-content {
+      .answer {
+        padding-left: 18%;
+      }
     }
   }
 }
-}
 
 //end pupup
-.box-content {
+
+.box-content{
   width: 100%;
   position: relative;
   perspective: 800px;
@@ -762,8 +752,9 @@
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     @include transition(0.7s);
-    figure{
+    figure {
       margin: 0;
       display: block;
       background: #ffffff;
@@ -771,43 +762,44 @@
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -moz-backface-visibility: hidden;
-      .tbl{
+      .tbl {
         display: table;
         @include size(100%, 100%);
-        .td{
+        .td {
           display: table-cell;
           vertical-align: middle;
           text-align: center;
         }
       }
     }
-    .front{
+    .front {
       z-index: 1;
       position: absolute;
-      left: 0px;
-      top: 0px;
+      left: 0;
+      top: 0;
       height: 100%;
     }
-    .back{
+    .back {
       position: relative;
       z-index: 1;
       line-height: 1.2;
       font-size: 46px;
       min-height: 164px;
       @include transform(rotateY(180deg));
-      @include respond-to($break-767){
+      @include respond-to($break-767) {
         font-size: 36px;
       }
     }
-    &.flipped{
+    &.flipped {
       @include transform(rotateY(-180deg));
-      .front{
+      .front {
         z-index: 0;
-    }
-      .back{
+      }
+      .back {
         z-index: 1;
       }
     }
   }
 }
-/*than end css*/
+
+///*than end css*/

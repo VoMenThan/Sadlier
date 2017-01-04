@@ -26,19 +26,31 @@
   .test_vocab &{
     &:before{
       @include  size(39px, 40px);
-      background: url("../images/img/icon-game.jpg") 0 0 no-repeat;
+      @include retinaDisplay('../images/img/', 'vwAchieve_web_games_header_icn.png', 'vwAchieve_web_games_header_icn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
     }
   }
   .hang_man &{
     &:before{
       @include size(39px, 40px);
-      background: url("../images/img/icon-game.jpg") 0 0 no-repeat;
+      @include retinaDisplay('../images/img/', 'vwAchieve_web_games_header_icn.png', 'vwAchieve_web_games_header_icn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
     }
   }
   .iwords-page &{
     &:before{
       @include size(39px, 40px);
-      background: url("../images/icon/icon-sound-logo.jpg") 0 0 no-repeat;
+      @include retinaDisplay('../images/img/', 'vwAchieve_web_iWords_header_icn.png', 'vwAchieve_web_iWords_header_icn@2x.png'){
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%;
+    }
     }
   }
   span{
@@ -49,7 +61,11 @@
   }
 }
 .iwords-page{
-  background: #ed3729;
+  @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .iwords-page{

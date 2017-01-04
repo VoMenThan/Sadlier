@@ -291,7 +291,11 @@
 }
 /*css hangman*/
 .hang_man {
-  background: #181b2a;
+  @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
   .header-page{
     span{
       color: #f48625;
@@ -314,10 +318,19 @@
       }
     }
     .time{
-      background: url("../images/icon/time.png") 0 center no-repeat;
+      @include retinaDisplay('../images/ic/', 'vwAchieve_web_timer_icn.png', 'vwAchieve_web_timer_icn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
     }
     .cup{
-      background: url("../images/icon/cup.png") 0 center no-repeat;
+      @include retinaDisplay('../images/ic/', 'vwAchieve_web_score_icn.png', 'vwAchieve_web_score_icn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+
+      }
     }
   }
 }
@@ -408,7 +421,11 @@
 
 
 .test_vocab{
-  background: #44c2f3;
+  @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
   .header-page{
     span{
       color: #f48625;
@@ -459,7 +476,11 @@
       text-align: center;
       padding-top: 5%;
       @include size(174px, 50px);
-      background: url("../images/img/btn-submit.jpg") 0 0 no-repeat;
+      @include retinaDisplay('../images/ic/', 'vwAchieve_web_submit_upstate_btn.png', 'vwAchieve_web_submit_upstate_btn@2x.png'){
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+      }
       margin: 20px auto 3px;
       cursor: pointer;
     }

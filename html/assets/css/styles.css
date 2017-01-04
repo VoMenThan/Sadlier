@@ -1305,7 +1305,16 @@ a {
 
 /*than css*/
 .flag_cards {
-  background: #ec3829; }
+  background: url("../images/img/vw_web_bg.jpg") 0 0 no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .flag_cards {
+      background: url("../images/img/vw_web_bg@2x.jpg") 0 0 no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
   .flag_cards .header-page span {
     color: #4fbdbe; }
 

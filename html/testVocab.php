@@ -28,9 +28,7 @@
 <!--                </form>-->
             </div>
 
-            <div class="box-submit">
-                <a href="#" id="submitButton"></a>
-            </div>
+            <a class="box-submit" href="#" id="submitButton"></a>
             <div class="pup-h40">
                 <div class="right-btn text-right">Right!</div>
 <!--                <div class="wrong-btn text-right">Wrong!</div>-->

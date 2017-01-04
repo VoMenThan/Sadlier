@@ -204,6 +204,11 @@ header{
 
 select{
   @include appearance (none);
+  //@include retinaDisplay('../images/ic/', 'vwAchieve_web_dropdownArrow.png', 'vwAchieve_web_dropdownArrow@2x.png','#fff'){
+  //  -webkit-background-size: auto 100%;
+  //  -moz-background-size: auto 100%;
+  //  background-size: auto 100%;
+  //}
   background: url('../images/icon/arrow.jpg') #ffffff right center no-repeat;
   padding: 7px 40px 7px 15px;
   @include border-radius(10px);

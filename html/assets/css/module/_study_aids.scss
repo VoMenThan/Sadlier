@@ -718,18 +718,28 @@
     .pup-h40{
       height: 40px;
       .right-btn{
-        @include  size (126px, 40px);
-        background: url("../images/icon/right_btn.png") 0 0 no-repeat;
+        @include  size (115px, 40px);
+        @include retinaDisplay('../images/ic/', 'vw_web_correct_icon.png', 'vw_web_correct_icon@2x.png'){
+          -webkit-background-size: auto 78%;
+          -moz-background-size: auto 78%;
+          background-size: auto 78%;
+          background-position: 0;
+        }
         margin: 0 auto;
         font-size: 32px;
-        color: #02903a;
+        color: #3bb44a;
       }
       .wrong-btn{
-        @include  size (145px, 40px);
-        background: url("../images/icon/wrong_btn.png") 0 0 no-repeat;
+        @include  size (135px, 40px);
+        @include retinaDisplay('../images/ic/', 'vw_web_incorrect_icon.png', 'vw_web_incorrect_icon@2x.png'){
+          -webkit-background-size: auto 78%;
+          -moz-background-size: auto 78%;
+          background-size: auto 78%;
+          background-position: 0;
+        }
         margin: 0 auto;
         font-size: 32px;
-        color: #f71132;
+        color: #ec2224;
       }
     }
     @include respond-to($break-767){

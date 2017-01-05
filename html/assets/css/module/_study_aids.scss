@@ -95,7 +95,7 @@
         }
         &.ctrl-flip{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_web_refesh_upstate_btn.png', 'vwAchieve_web_refesh_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vw_web_flip_upstate_btn.png', 'vw_web_flip_upstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -165,7 +165,7 @@
         }
         &.active{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_pause_downstate_btn.png', 'vwAchieve_tablet_pause_downstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vw_web_pause_upstate_btn.png', 'vw_web_pause_upstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;

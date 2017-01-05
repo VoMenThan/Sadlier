@@ -147,9 +147,13 @@ header{
       }
       &.logo-tm{
         a{
-          @include size(166px, 41px);
+          @include size(191px, 30px);
           @include border-radius(0);
-          background: url("../images/icon/logo.jpg") center center no-repeat;
+          @include retinaDisplay('../images/img/', 'vwAchieve_tablet_sadlierConnect_logo.png', 'vwAchieve_tablet_sadlierConnect_logo@2x.png'){
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
+          }
           @include respond-to($break-767){
             margin-top: 0;
           }
@@ -174,7 +178,7 @@ header{
         }
         &.mute{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_sound_mute_upstate_icn.png', 'vwAchieve_tablet_sound_mute_upstate_icn@2x.png','#fff'){
+            @include retinaDisplay('../images/ic/', 'vw_web_mute_upstate_btn.png', 'vw_web_mute_upstate_btn@2x.png','#fff'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;

@@ -1517,13 +1517,13 @@ a {
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
       .content .box-control .tool-control .control.ctrl-flip a {
-        background: url("../images/ic/vwAchieve_web_refesh_upstate_btn.png") center center no-repeat transparent;
+        background: url("../images/ic/vw_web_flip_upstate_btn.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-flip a {
-            background: url("../images/ic/vwAchieve_web_refesh_upstate_btn@2x.png") center center no-repeat transparent;
+            background: url("../images/ic/vw_web_flip_upstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1595,13 +1595,13 @@ a {
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-play.active a {
-      background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vw_web_pause_upstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-play.active a {
-          background: url("../images/ic/vwAchieve_tablet_pause_downstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vw_web_pause_upstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
@@ -2595,12 +2595,21 @@ header {
             height: 27px;
             margin-top: 6px; } }
       .icon-wrapper .menu .item.logo-tm a {
-        width: 166px;
-        height: 41px;
+        width: 191px;
+        height: 30px;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
-        background: url("../images/icon/logo.jpg") center center no-repeat; }
+        background: url("../images/img/vwAchieve_tablet_sadlierConnect_logo.png") center center no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.logo-tm a {
+            background: url("../images/img/vwAchieve_tablet_sadlierConnect_logo@2x.png") center center no-repeat transparent;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
         @media only screen and (max-width: 767px) {
           .icon-wrapper .menu .item.logo-tm a {
             margin-top: 0; } }
@@ -2627,13 +2636,13 @@ header {
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
       .icon-wrapper .menu .item.icon-two.mute a {
-        background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn.png") center center no-repeat #fff;
+        background: url("../images/ic/vw_web_mute_upstate_btn.png") center center no-repeat #fff;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .icon-wrapper .menu .item.icon-two.mute a {
-            background: url("../images/ic/vwAchieve_tablet_sound_mute_upstate_icn@2x.png") center center no-repeat #fff;
+            background: url("../images/ic/vw_web_mute_upstate_btn@2x.png") center center no-repeat #fff;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }

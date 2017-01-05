@@ -330,7 +330,7 @@ select{
     .menu{
       .logo-tm{
         position: absolute;
-        top: 0;
+        top: 6px;
         left: 50%;
         margin: 0;
         @include translate(-50%,0);

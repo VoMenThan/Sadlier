@@ -2794,7 +2794,7 @@ select {
     float: none; }
     .icon-wrapper .menu .logo-tm {
       position: absolute;
-      top: 0;
+      top: 6px;
       left: 50%;
       margin: 0;
       -webkit-transform: translate(-50%, 0);

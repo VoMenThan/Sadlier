@@ -631,7 +631,6 @@
   }
 }
 
-
 .test_vocab{
   padding: 23px 10px !important;
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
@@ -834,6 +833,7 @@
       }
     }
   }
+
   //start pupup
   .test_vocab {
     .test-vocab-content {

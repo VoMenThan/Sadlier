@@ -14,6 +14,10 @@
                 subborn and often unreasonable in holding to one's own ideas, having a closed mind
             </div>
             <div class="answer">
+                <div class="pup-h40">
+                    <div class="right-btn text-right"></div>
+                    <!--                <div class="wrong-btn text-right"></div>-->
+                </div>
                 <form action="#">
                     <div><input type="radio" name="gender" id="a1"><label class="group-label" for="a1">cumbersome</label></div>
                     <div><input type="radio" name="gender" id="a2" ><label class="group-label" for="a2">opinionated</label></div>
@@ -28,10 +32,7 @@
 <!--                </form>-->
             </div>
             <a class="box-submit" href="#" id="submitButton">Submit</a>
-            <div class="pup-h40">
-                <div class="right-btn text-right">Right!</div>
-<!--                <div class="wrong-btn text-right">Wrong!</div>-->
-            </div>
+
             <div class="popup-result">
                 <div class="bg-submit">
                     <div class="pupup-submit">

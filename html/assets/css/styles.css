@@ -2257,14 +2257,18 @@ a {
           background-size: auto 100%;
           background-position: right center; } }
     .test_vocab .test-vocab-content .pup-h40 {
-      height: 40px; }
+      height: 40px;
+      height: 40px;
+      position: absolute;
+      left: 20%;
+      top: 50%; }
       .test_vocab .test-vocab-content .pup-h40 .right-btn {
         width: 115px;
         height: 40px;
         background: url("../images/ic/vw_web_correct_icon.png") center center no-repeat transparent;
-        -webkit-background-size: auto 78%;
-        -moz-background-size: auto 78%;
-        background-size: auto 78%;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
         background-position: 0;
         margin: 0 auto;
         font-size: 32px;
@@ -2272,9 +2276,9 @@ a {
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .test_vocab .test-vocab-content .pup-h40 .right-btn {
             background: url("../images/ic/vw_web_correct_icon@2x.png") center center no-repeat transparent;
-            -webkit-background-size: auto 78%;
-            -moz-background-size: auto 78%;
-            background-size: auto 78%;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
             background-position: 0; } }
       .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
         width: 135px;

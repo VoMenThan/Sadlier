@@ -1475,12 +1475,7 @@ a {
       background: url("../images/ic/vwAchieve_tablet_flag_unselected.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
-      background-size: auto 100%;
-      -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      filter: grayscale(100%);
-      opacity: 0.6; }
+      background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .content .flag a {
           background: url("../images/ic/vwAchieve_tablet_flag_unselected@2x.png") center center no-repeat transparent;
@@ -1488,11 +1483,16 @@ a {
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .content .flag.active a {
-      -webkit-filter: grayscale(0);
-      -moz-filter: grayscale(0);
-      -ms-filter: grayscale(0);
-      filter: grayscale(0);
-      opacity: 1; }
+      background: url("../images/ic/vwAchieve_tablet_flag_selected.png") center center no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+        .content .flag.active a {
+          background: url("../images/ic/vwAchieve_tablet_flag_selected@2x.png") center center no-repeat transparent;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%; } }
   .content .box-content {
     font-size: 60px;
     color: #000;

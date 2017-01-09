@@ -937,6 +937,7 @@
     @include respond-to($break-767){
       width: 95%;
     }
+    .hang_man & .popup-result,
     .popup-result{
       display: none;
       background: rgba(0,0,0,0.3);
@@ -946,6 +947,7 @@
       left: 0;
       z-index: 99;
     }
+    .hang_man & .bg-submit,
     .bg-submit{
       @include radius(5px);
       position: absolute;

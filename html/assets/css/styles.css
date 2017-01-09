@@ -2573,7 +2573,9 @@ header {
 
 .box-menu {
   float: left;
-  width: 610px; }
+  width: -moz-calc(100% - 162px);
+  width: -webkit-calc(100% - 162px);
+  width: calc(100% - 162px); }
 
 .select-wrapper {
   width: 160px;
@@ -2595,7 +2597,7 @@ header {
       font-size: 18px; }
       .menu-wrapper .menu .item a {
         color: #cdcdcf;
-        padding: 4px 20px;
+        padding: 1px 20px;
         display: block; }
     .menu-wrapper .menu .item.active {
       background: #ff9933; }
@@ -2603,7 +2605,6 @@ header {
         color: #fff; }
 
 .icon-wrapper {
-  width: 210px;
   float: right; }
   .icon-wrapper .menu {
     display: inline-block; }
@@ -2615,8 +2616,8 @@ header {
       -moz-border-radius: 10px;
       border-radius: 10px; }
       .icon-wrapper .menu .item a {
-        width: 39px;
-        height: 39px;
+        width: 34px;
+        height: 34px;
         display: block;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;

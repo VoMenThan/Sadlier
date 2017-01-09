@@ -92,7 +92,8 @@ header{
 
 .box-menu{
   float: left;
-  width: 610px;
+  //width: 610px;
+  @include calc('width', '100% - 162px');
 }
 
 .select-wrapper{
@@ -114,7 +115,7 @@ header{
       font-size: 18px;
       a{
         color: #cdcdcf;
-        padding: 4px 20px;
+        padding: 1px 20px;
         display: block;
       }
     }
@@ -127,7 +128,6 @@ header{
   }
 }
 .icon-wrapper{
-  width: 210px;
   float: right;
   .menu{
     display: inline-block;
@@ -137,7 +137,7 @@ header{
       list-style-type: none;
       @include border-radius(10px);
       a {
-        @include size(39px);
+        @include size(34px);
         display: block;
         @include border-radius(50%);
         @include respond-to($break-767){

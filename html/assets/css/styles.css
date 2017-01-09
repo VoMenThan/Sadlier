@@ -2666,7 +2666,6 @@ a {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 300px;
-      height: 200px;
       background: #f8931d;
       background-size: 6px 6px;
       background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
@@ -2757,7 +2756,6 @@ a {
     -o-border-radius: 5px;
     border-radius: 5px;
     width: 200px;
-    height: 138px;
     padding: 5px; }
     .test_vocab .test-vocab-content .bg-submit .pupup-submit {
       font-size: 15px;

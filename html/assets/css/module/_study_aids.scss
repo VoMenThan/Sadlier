@@ -1001,7 +1001,6 @@
         left: 50%;
         @include translate(-50%, -50%);
         width: 300px;
-        height: 200px;
         background: #f8931d;
         background-size: 6px 6px;
         background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
@@ -1099,7 +1098,6 @@
       .bg-submit {
         @include radius(5px);
         width: 200px;
-        height: 138px;
         padding: 5px;
         .pupup-submit {
           font-size: 15px;

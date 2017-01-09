@@ -54,13 +54,18 @@
         -moz-background-size: auto 100%;
         background-size: auto 100%;
       }
-      @include grayScale();
-      opacity: 0.6;
+      //@include grayScale();
+      //opacity: 0.6;
     }
     &.active{
       a{
-        @include grayScale(0);
-        opacity: 1;
+        @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_flag_selected.png', 'vwAchieve_tablet_flag_selected@2x.png'){
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
+        }
+        //@include grayScale(0);
+        //opacity: 1;
       }
     }
   }

@@ -86,7 +86,7 @@
         }
         &.ctrl-prev{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_web_back_upstate_btn.png', 'vwAchieve_web_back_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vwAchieve_web_back_downstate_btn.png', 'vwAchieve_web_back_downstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -95,7 +95,7 @@
         }
         &.ctrl-flip{
           a{
-            @include retinaDisplay('../images/ic/', 'vw_web_flip_upstate_btn.png', 'vw_web_flip_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vw_web_flip_downstate_btn.png', 'vw_web_flip_downstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -104,7 +104,7 @@
         }
         &.ctrl-next{
           a{
-            @include retinaDisplay('../images/ic/', 'vwAchieve_web_go_upstate_btn.png', 'vwAchieve_web_go_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vwAchieve_web_go_downstate_btn.png', 'vwAchieve_web_go_downstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -148,7 +148,7 @@
       }
       &.ctrl-next{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_shuffle_upstate_btn.png', 'vwAchieve_tablet_shuffle_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_shuffle_downstate_btn.png', 'vwAchieve_tablet_shuffle_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -157,7 +157,7 @@
       }
       &.ctrl-play{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_play_upstate_btn.png', 'vwAchieve_tablet_play_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_play_downstate_btn.png', 'vwAchieve_tablet_play_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -165,7 +165,7 @@
         }
         &.active{
           a{
-            @include retinaDisplay('../images/ic/', 'vw_web_pause_upstate_btn.png', 'vw_web_pause_upstate_btn@2x.png'){
+            @include retinaDisplay('../images/ic/', 'vw_web_pause_downstate_btn.png', 'vw_web_pause_downstate_btn@2x.png'){
               -webkit-background-size: auto 100%;
               -moz-background-size: auto 100%;
               background-size: auto 100%;
@@ -175,7 +175,7 @@
       }
       &.ctrl-prev{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_restart_upstate_btn.png', 'vwAchieve_tablet_restart_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_restart_downstate_btn.png', 'vwAchieve_tablet_restart_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -185,7 +185,7 @@
 
       &.ctrl-sg{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_web_hint_upstate_btn.png', 'vwAchieve_web_hint_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_hint_downstate_btn.png', 'vwAchieve_web_hint_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -194,7 +194,7 @@
       }
       &.ctrl-wo{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_web_answer_upstate_btn.png', 'vwAchieve_web_answer_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_answer_downstate_btn.png', 'vwAchieve_web_answer_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -203,7 +203,7 @@
       }
       &.ctrl-rf{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_restart_upstate_btn.png', 'vwAchieve_tablet_restart_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_tablet_restart_downstate_btn.png', 'vwAchieve_tablet_restart_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;
@@ -212,7 +212,7 @@
       }
       &.ctrl-nx{
         a{
-          @include retinaDisplay('../images/ic/', 'vwAchieve_web_next_upstate_btn.png', 'vwAchieve_web_next_upstate_btn@2x.png'){
+          @include retinaDisplay('../images/ic/', 'vwAchieve_web_next_downstate_btn.png', 'vwAchieve_web_next_downstate_btn@2x.png'){
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%;

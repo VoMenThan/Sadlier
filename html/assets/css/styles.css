@@ -1516,35 +1516,35 @@ a {
         width: 50px;
         height: 50px; }
       .content .box-control .tool-control .control.ctrl-prev a {
-        background: url("../images/ic/vwAchieve_web_back_upstate_btn.png") center center no-repeat transparent;
+        background: url("../images/ic/vwAchieve_web_back_downstate_btn.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-prev a {
-            background: url("../images/ic/vwAchieve_web_back_upstate_btn@2x.png") center center no-repeat transparent;
+            background: url("../images/ic/vwAchieve_web_back_downstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
       .content .box-control .tool-control .control.ctrl-flip a {
-        background: url("../images/ic/vw_web_flip_upstate_btn.png") center center no-repeat transparent;
+        background: url("../images/ic/vw_web_flip_downstate_btn.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-flip a {
-            background: url("../images/ic/vw_web_flip_upstate_btn@2x.png") center center no-repeat transparent;
+            background: url("../images/ic/vw_web_flip_downstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
       .content .box-control .tool-control .control.ctrl-next a {
-        background: url("../images/ic/vwAchieve_web_go_upstate_btn.png") center center no-repeat transparent;
+        background: url("../images/ic/vwAchieve_web_go_downstate_btn.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
         background-size: auto 100%; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .content .box-control .tool-control .control.ctrl-next a {
-            background: url("../images/ic/vwAchieve_web_go_upstate_btn@2x.png") center center no-repeat transparent;
+            background: url("../images/ic/vwAchieve_web_go_downstate_btn@2x.png") center center no-repeat transparent;
             -webkit-background-size: auto 100%;
             -moz-background-size: auto 100%;
             background-size: auto 100%; } }
@@ -1583,90 +1583,90 @@ a {
           width: 30px;
           height: 30px; } }
     .nav-tool .nav-control .control.ctrl-next a {
-      background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_tablet_shuffle_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-next a {
-          background: url("../images/ic/vwAchieve_tablet_shuffle_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_tablet_shuffle_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-play a {
-      background: url("../images/ic/vwAchieve_tablet_play_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_tablet_play_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-play a {
-          background: url("../images/ic/vwAchieve_tablet_play_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_tablet_play_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-play.active a {
-      background: url("../images/ic/vw_web_pause_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vw_web_pause_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-play.active a {
-          background: url("../images/ic/vw_web_pause_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vw_web_pause_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-prev a {
-      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_tablet_restart_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-prev a {
-          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_tablet_restart_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-sg a {
-      background: url("../images/ic/vwAchieve_web_hint_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_web_hint_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-sg a {
-          background: url("../images/ic/vwAchieve_web_hint_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_web_hint_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-wo a {
-      background: url("../images/ic/vwAchieve_web_answer_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_web_answer_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-wo a {
-          background: url("../images/ic/vwAchieve_web_answer_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_web_answer_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-rf a {
-      background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_tablet_restart_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-rf a {
-          background: url("../images/ic/vwAchieve_tablet_restart_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_tablet_restart_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
     .nav-tool .nav-control .control.ctrl-nx a {
-      background: url("../images/ic/vwAchieve_web_next_upstate_btn.png") center center no-repeat transparent;
+      background: url("../images/ic/vwAchieve_web_next_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
       -moz-background-size: auto 100%;
       background-size: auto 100%; }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
         .nav-tool .nav-control .control.ctrl-nx a {
-          background: url("../images/ic/vwAchieve_web_next_upstate_btn@2x.png") center center no-repeat transparent;
+          background: url("../images/ic/vwAchieve_web_next_downstate_btn@2x.png") center center no-repeat transparent;
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }

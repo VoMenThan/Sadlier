@@ -1150,3 +1150,149 @@
 }
 
 ///*than end css*/
+
+
+/* BEGIN CUSTOM CSS*/
+
+.flag_cards .header-page span.header-sub-title,
+.hang_man .header-page span.header-sub-title,
+.test_vocab .header-page span.header-sub-title,
+.iwords-page .header-page span.header-sub-title{
+  color: #333;
+}
+
+
+/*BEGIN CUSTOM STYLE SHEET FOR HANG MAN*/
+
+
+
+.feedbackDiv{
+  position: absolute;
+  left: 336px;
+  top: -15px;
+  z-index: 250;
+  width: 164px;
+  height: 101px;
+  text-align: center;
+
+  display:none;
+  background-image: url("../images/popup/popup.png");
+}
+
+.feedbackDivSnow{
+  position:absolute;
+  left: 197px;
+  top: -12px;
+  z-index:250;
+  width:164px;
+  height:112px;
+  text-align:center;
+  display:none;
+  background-repeat: no-repeat;
+  background-image: url(../images/popup/call_out.png);
+}
+
+.feedbackDivSnowWrong{
+  position: absolute;
+  left: 190px;
+  top: 55px;
+  z-index: 250;
+  width: 164px;
+  height: 112px;
+  text-align: center;
+  display: none;
+  background-repeat: no-repeat;
+  background-image: url(../images/popup/call_out.png);
+}
+
+#feedbackAnim span{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+}
+
+#feedbackAnim.feedbackDiv span{
+  padding: 15px 10px 10px 25px;
+}
+
+#feedbackAnim.feedbackDivSnow span,
+#feedbackAnim.feedbackDivSnowWrong span{
+  padding: 12px 25px 15px 10px;
+}
+
+.question-hint{
+  display: none;
+}
+
+.question-hint.active {
+  display: block !important;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-size: 24px;
+  color: #5a5b5c;
+  background: white;
+  border: 2px solid #EE3425;
+  border-radius: 10px;
+  padding: 10px 20px 20px;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+}
+
+.question-hint .question-hint-header{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.question-hint .btn-close {
+  float: right;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-right: -5px;
+  background: url("../images/ic/vw_web_incorrect_icon.png") center center no-repeat transparent;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: 0;
+  cursor: pointer;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  .question-hint .btn-close {
+    background: url("../images/ic/vw_web_incorrect_icon@2x.png") center center no-repeat transparent;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: 0;
+  }
+}
+
+
+/*END CUSTOM STYLE SHEET FOR HANG MAN*/
+
+/* BEGIN CUSTOM STYLE SHEET FOR IWORD */
+.content-show .i-word-container:hover {
+  color: #f26631;
+  opacity: 0.7;
+}
+
+.content-show .i-word-container.selected {
+  color: #f26631;
+  opacity: 0.5;
+}
+
+.content-show .i-word-container span.i-word {
+  /*width: 100%;*/
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* END CUSTOM STYLE SHEET FOR IWORD */
+
+/* END CUSTOM CSS*/
+

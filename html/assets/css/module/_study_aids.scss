@@ -302,7 +302,6 @@
     left: 50%;
     @include translate(-50%, -50%);
     width: 300px;
-    height: 200px;
     background: #f8931d;
     background-size: 6px 6px;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
@@ -352,6 +351,23 @@
   }
   @include respond-to($break-767){
     padding: 60px 10px !important;
+    .bg-submit {
+      @include radius(5px);
+      width: 200px;
+      padding: 5px;
+      .pupup-submit {
+        font-size: 15px;
+        padding: 10px;
+        background: #ffffff;
+        color: #000000;
+        .result {
+          font-size: 20px;
+        }
+        .play-again {
+          width: 50%;
+        }
+      }
+    }
   }
   @include respond-to($break-320){
     padding: 40px 10px !important;
@@ -969,11 +985,11 @@
         color: #3bb44a;
       }
       .wrong-btn{
-        @include  size (135px, 40px);
+        @include  size (40px, 40px);
         @include retinaDisplay('../images/ic/', 'vw_web_incorrect_icon.png', 'vw_web_incorrect_icon@2x.png'){
-          -webkit-background-size: auto 78%;
-          -moz-background-size: auto 78%;
-          background-size: auto 78%;
+          -webkit-background-size: auto 100%;
+          -moz-background-size: auto 100%;
+          background-size: auto 100%;
           background-position: 0;
         }
         margin: 0 auto;
@@ -984,7 +1000,6 @@
     @include respond-to($break-767){
       width: 95%;
     }
-    .hang_man & .popup-result,
     .popup-result{
       display: none;
       background: rgba(0,0,0,0.3);

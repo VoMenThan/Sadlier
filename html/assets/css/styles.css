@@ -1739,7 +1739,6 @@ a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 200px;
     background: #f8931d;
     background-size: 6px 6px;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
@@ -1787,7 +1786,24 @@ a {
       padding: 120px 10px !important; } }
   @media only screen and (max-width: 767px) {
     .hang_man {
-      padding: 60px 10px !important; } }
+      padding: 60px 10px !important; }
+      .hang_man .bg-submit {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px; }
+        .hang_man .bg-submit .pupup-submit {
+          font-size: 15px;
+          padding: 10px;
+          background: #ffffff;
+          color: #000000; }
+          .hang_man .bg-submit .pupup-submit .result {
+            font-size: 20px; }
+          .hang_man .bg-submit .pupup-submit .play-again {
+            width: 50%; } }
   @media only screen and (max-width: 320px) {
     .hang_man {
       padding: 40px 10px !important; } }
@@ -2622,12 +2638,12 @@ a {
             background-size: auto 100%;
             background-position: 0; } }
       .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
-        width: 135px;
+        width: 40px;
         height: 40px;
         background: url("../images/ic/vw_web_incorrect_icon.png") center center no-repeat transparent;
-        -webkit-background-size: auto 78%;
-        -moz-background-size: auto 78%;
-        background-size: auto 78%;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
         background-position: 0;
         margin: 0 auto;
         font-size: 32px;
@@ -2635,14 +2651,13 @@ a {
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
             background: url("../images/ic/vw_web_incorrect_icon@2x.png") center center no-repeat transparent;
-            -webkit-background-size: auto 78%;
-            -moz-background-size: auto 78%;
-            background-size: auto 78%;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
             background-position: 0; } }
     @media only screen and (max-width: 767px) {
       .test_vocab .test-vocab-content {
         width: 95%; } }
-    .hang_man .test_vocab .test-vocab-content .popup-result,
     .test_vocab .test-vocab-content .popup-result {
       display: none;
       background: rgba(0, 0, 0, 0.3);

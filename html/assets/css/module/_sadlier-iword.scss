@@ -1,4 +1,8 @@
 .header-page{
+  p{
+    color: #333333;
+    font-size: 31px;
+  }
   position: absolute;
   top: 0;
   left: 0;
@@ -108,7 +112,7 @@
     }
   }
   .top-word{
-    border-bottom: 1px solid $cl-line;
+    border-bottom: 0.5px solid #000066;
     .text{
       padding-top: 10px;
       padding-bottom: 10px;
@@ -116,15 +120,15 @@
       @include calc('width', '100% - 70px');
       .unit{
         font-family: $main-b;
-        color: #14284d;
+        color: #000066;
         font-weight: bold;
         font-size: 20px;
         margin-bottom: 5px;
       }
       .desc{
-        font-family: $main-t;
+        font-family: $main-ds;
         color: #2867b6;
-        font-size: 20px;
+        font-size: 16px;
       }
       @include respond-to($break-320){
         .unit,
@@ -137,7 +141,7 @@
       margin-top: 25px;
       float: left;
       width: 70px;
-      border-left: 1px solid $cl-line;
+      border-left: 0.5px solid #000066;
       .lession{
         font-size: 14px;
         margin-bottom: 5px;
@@ -182,8 +186,9 @@
     p{
       float: left;
       @include calc('width', '100% / 3');
-      font-size: 20px;
-      font-family: $main-t;
+      font-size: 16px;
+      line-height: 34px;
+      font-family: $main-ds;
       color: #2867b6;
       select{
         padding: 0 25px 0 0;
@@ -301,7 +306,7 @@
     float: left;
     line-height:32px;
     color: #000;
-    font-size: 12px;
+    font-size: 13px;
     width: 60px;
     text-align: center;
   }

@@ -48,7 +48,7 @@ strong{
   @include clearfix;
 }
 #wrapper{
-  max-width: 860px;
+  max-width: 750px;
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
@@ -101,7 +101,7 @@ header{
 }
 
 .menu-wrapper{
-  width: 450px;
+  width: 340px;
   float: left;
   .menu{
     display: inline-block;
@@ -119,7 +119,7 @@ header{
       }
     }
     .item.active{
-      background: #f8931d;
+      background: #ff9933;
       a{
         color: #fff;
       }

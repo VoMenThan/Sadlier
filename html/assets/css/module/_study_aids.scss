@@ -722,12 +722,11 @@
     }
     .pup-h40{
       height: 40px;
-      height: 40px;
       position: absolute;
       left: 20%;
       top: 50%;
       .right-btn{
-        @include  size (115px, 40px);
+        @include  size (40px, 40px);
         @include retinaDisplay('../images/ic/', 'vw_web_correct_icon.png', 'vw_web_correct_icon@2x.png'){
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
@@ -835,15 +834,17 @@
         }
       }
       .pup-h40 {
+        left: 25%;
+        top: 43%;
         .right-btn{
-          width: 100px;
+          width: 40px;
           height: 40px;
           line-height: 40px;
           margin: 0 auto;
           font-size: 25px;
         }
         .wrong-btn{
-          width: 116px;
+          width: 40px;
           height: 40px;
           line-height: 40px;
           margin: 0 auto;
@@ -893,6 +894,10 @@
 @include respond-to($break-320) {
   .test_vocab {
     .test-vocab-content {
+      .pup-h40 {
+        left: 5%;
+        top: 50%;
+      }
       .answer {
         padding-left: 18%;
       }

@@ -16,7 +16,7 @@
             <div class="answer">
                 <div class="pup-h40">
                     <div class="right-btn text-right"></div>
-                    <!--                <div class="wrong-btn text-right"></div>-->
+                    <!-- <div class="wrong-btn text-right"></div>-->
                 </div>
                 <form action="#">
                     <div><input type="radio" name="gender" id="a1"><label class="group-label" for="a1">cumbersome</label></div>

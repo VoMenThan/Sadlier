@@ -1725,6 +1725,57 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover; }
+  .hang_man .bg-submit {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: #f8931d;
+    background-size: 6px 6px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    padding: 15px; }
+    .hang_man .bg-submit .pupup-submit {
+      text-align: center;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 10px;
+      background: #ffffff;
+      color: #000000; }
+      .hang_man .bg-submit .pupup-submit .result {
+        font-size: 35px;
+        font-weight: bold; }
+        .hang_man .bg-submit .pupup-submit .result .good {
+          color: green; }
+        .hang_man .bg-submit .pupup-submit .result .bad {
+          color: #ed3729; }
+      .hang_man .bg-submit .pupup-submit .score .gray {
+        color: #5a5b5c; }
+      .hang_man .bg-submit .pupup-submit .play-again {
+        border: 1px solid #2867b6;
+        width: 50%;
+        margin: 0 auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        margin-top: 15px;
+        color: #2c9acf;
+        cursor: pointer; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .hang_man {
       background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
@@ -2601,7 +2652,6 @@ a {
       top: 0;
       left: 0;
       z-index: 99; }
-    .hang_man .test_vocab .test-vocab-content .bg-submit,
     .test_vocab .test-vocab-content .bg-submit {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -2621,7 +2671,6 @@ a {
       background-size: 6px 6px;
       background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
       padding: 15px; }
-      .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit,
       .test_vocab .test-vocab-content .bg-submit .pupup-submit {
         text-align: center;
         -webkit-border-radius: 5px;
@@ -2633,20 +2682,15 @@ a {
         padding: 10px;
         background: #ffffff;
         color: #000000; }
-        .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit .result,
         .test_vocab .test-vocab-content .bg-submit .pupup-submit .result {
           font-size: 35px;
           font-weight: bold; }
-          .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit .result .good,
           .test_vocab .test-vocab-content .bg-submit .pupup-submit .result .good {
             color: green; }
-          .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit .result .bad,
           .test_vocab .test-vocab-content .bg-submit .pupup-submit .result .bad {
             color: #ed3729; }
-        .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit .score .gray,
         .test_vocab .test-vocab-content .bg-submit .pupup-submit .score .gray {
           color: #5a5b5c; }
-        .hang_man .test_vocab .test-vocab-content .bg-submit .pupup-submit .play-again,
         .test_vocab .test-vocab-content .bg-submit .pupup-submit .play-again {
           border: 1px solid #2867b6;
           width: 50%;

@@ -2441,6 +2441,9 @@ a {
     -o-transition: 0.7s ease;
     transition: 0.7s ease; }
     .box-content #card figure {
+      color: #333333;
+      font-size: 32px;
+      font-family: "DroidSerif", Helvetica, arial, sans-serif;
       margin: 0;
       display: block;
       background: #ffffff;
@@ -2461,26 +2464,17 @@ a {
       position: absolute;
       left: 0;
       top: 0;
-      height: 100%;
-      color: #333333;
-      font-size: 32px;
-      font-family: "DroidSerif", Helvetica, arial, sans-serif; }
+      height: 100%; }
     .box-content #card .back {
       position: relative;
       z-index: 1;
       line-height: 1.2;
-      font-size: 46px;
       min-height: 164px;
       -webkit-transform: rotateY(180deg);
       -moz-transform: rotateY(180deg);
       -ms-transform: rotateY(180deg);
       -o-transform: rotateY(180deg);
       transform: rotateY(180deg); }
-      @media only screen and (max-width: 767px) {
-        .box-content #card .back {
-          color: #333333;
-          font-size: 32px;
-          font-family: "DroidSerif", Helvetica, arial, sans-serif; } }
     .box-content #card.flipped {
       -webkit-transform: rotateY(-180deg);
       -moz-transform: rotateY(-180deg);

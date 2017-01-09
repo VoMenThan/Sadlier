@@ -905,6 +905,9 @@
     transform-style: preserve-3d;
     @include transition(0.7s);
     figure {
+      color: #333333;
+      font-size: 32px;
+      font-family: $main-ds;
       margin: 0;
       display: block;
       background: #ffffff;
@@ -928,22 +931,13 @@
       left: 0;
       top: 0;
       height: 100%;
-      color: #333333;
-      font-size: 32px;
-      font-family: $main-ds;
     }
     .back {
       position: relative;
       z-index: 1;
       line-height: 1.2;
-      font-size: 46px;
       min-height: 164px;
       @include transform(rotateY(180deg));
-      @include respond-to($break-767) {
-      color: #333333;
-      font-size: 32px;
-        font-family: $main-ds;
-      }
     }
     &.flipped {
       @include transform(rotateY(-180deg));

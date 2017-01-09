@@ -2257,14 +2257,17 @@ a {
           background-size: auto 100%;
           background-position: right center; } }
     .test_vocab .test-vocab-content .pup-h40 {
-      height: 40px; }
+      height: 40px;
+      position: absolute;
+      left: 20%;
+      top: 50%; }
       .test_vocab .test-vocab-content .pup-h40 .right-btn {
-        width: 115px;
+        width: 40px;
         height: 40px;
         background: url("../images/ic/vw_web_correct_icon.png") center center no-repeat transparent;
-        -webkit-background-size: auto 78%;
-        -moz-background-size: auto 78%;
-        background-size: auto 78%;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
         background-position: 0;
         margin: 0 auto;
         font-size: 32px;
@@ -2272,9 +2275,9 @@ a {
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
           .test_vocab .test-vocab-content .pup-h40 .right-btn {
             background: url("../images/ic/vw_web_correct_icon@2x.png") center center no-repeat transparent;
-            -webkit-background-size: auto 78%;
-            -moz-background-size: auto 78%;
-            background-size: auto 78%;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%;
             background-position: 0; } }
       .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
         width: 135px;
@@ -2383,18 +2386,21 @@ a {
       background-size: auto 100%;
       background-position: right center; } }
 @media only screen and (max-width: 767px) {
-  .test_vocab .test-vocab-content .pup-h40 .right-btn {
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 auto;
-    font-size: 25px; }
-  .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
-    width: 116px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 auto;
-    font-size: 25px; }
+  .test_vocab .test-vocab-content .pup-h40 {
+    left: 25%;
+    top: 43%; }
+    .test_vocab .test-vocab-content .pup-h40 .right-btn {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 auto;
+      font-size: 25px; }
+    .test_vocab .test-vocab-content .pup-h40 .wrong-btn {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 auto;
+      font-size: 25px; }
 
   .test_vocab .test-vocab-content .box-content {
     font-size: 18px; }
@@ -2423,6 +2429,9 @@ a {
   .box-submit .btn-submit {
     width: 120px; } }
 @media only screen and (max-width: 320px) {
+  .test_vocab .test-vocab-content .pup-h40 {
+    left: 5%;
+    top: 50%; }
   .test_vocab .test-vocab-content .answer {
     padding-left: 18%; } }
 .box-content {

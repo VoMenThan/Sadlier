@@ -295,52 +295,7 @@
 }
 /*css hangman*/
 .hang_man {
-  .bg-submit{
-    @include radius(5px);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    @include translate(-50%, -50%);
-    width: 300px;
-    background: #f8931d;
-    background-size: 6px 6px;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
-            transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-            transparent 75%, transparent);
-    padding: 15px;
-    .pupup-submit{
-      text-align: center;
-      @include radius(5px);
-      font-size:20px;
-      padding: 10px;
-      background: #ffffff;
-      color: #000000;
-      .result{
-        .good{
-          color: green;
-        }
-        .bad{
-          color: #ed3729;
-        }
-        font-size: 35px;
-        font-weight: bold;
-      }
-      .score{
-        .gray{
-          color: #5a5b5c;
-        }
-      }
-      .play-again{
-        border: 1px solid #2867b6;
-        width: 50%;
-        margin: 0 auto;
-        @include radius(5px);
-        margin-top: 15px;
-        color: #2c9acf;
-        cursor: pointer;
-      }
-    }
-  }
+
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -351,23 +306,7 @@
   }
   @include respond-to($break-767){
     padding: 60px 10px !important;
-    .bg-submit {
-      @include radius(5px);
-      width: 200px;
-      padding: 5px;
-      .pupup-submit {
-        font-size: 15px;
-        padding: 10px;
-        background: #ffffff;
-        color: #000000;
-        .result {
-          font-size: 20px;
-        }
-        .play-again {
-          width: 50%;
-        }
-      }
-    }
+
   }
   @include respond-to($break-320){
     padding: 40px 10px !important;
@@ -1000,64 +939,82 @@
     @include respond-to($break-767){
       width: 95%;
     }
-    .popup-result{
-      display: none;
-      background: rgba(0,0,0,0.3);
-      position: absolute;
-      @include size(100%);
-      top: 0;
-      left: 0;
-      z-index: 99;
-    }
-    .bg-submit{
-        @include radius(5px);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        @include translate(-50%, -50%);
-        width: 300px;
-        background: #f8931d;
-        background-size: 6px 6px;
-        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
-                transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-                transparent 75%, transparent);
-        padding: 15px;
-        .pupup-submit{
-          text-align: center;
-          @include radius(5px);
-          font-size:20px;
-          padding: 10px;
-          background: #ffffff;
-          color: #000000;
-          .result{
-            .good{
-              color: green;
-            }
-            .bad{
-              color: #ed3729;
-            }
-            font-size: 35px;
-            font-weight: bold;
-          }
-          .score{
-            .gray{
-              color: #5a5b5c;
-            }
-          }
-          .play-again{
-            border: 1px solid #2867b6;
-            width: 50%;
-            margin: 0 auto;
-            @include radius(5px);
-            margin-top: 15px;
-            color: #2c9acf;
-            cursor: pointer;
-          }
-        }
+
+  }
+}
+.popup-result{
+  display: none;
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  @include size(100%);
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.bg-submit{
+  @include radius(5px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include translate(-50%, -50%);
+  width: 300px;
+  background: #f8931d;
+  background-size: 6px 6px;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
+          transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+          transparent 75%, transparent);
+  padding: 15px;
+  .pupup-submit{
+    text-align: center;
+    @include radius(5px);
+    font-size:20px;
+    padding: 10px;
+    background: #ffffff;
+    color: #000000;
+    .result{
+      .good{
+        color: green;
       }
+      .bad{
+        color: #ed3729;
+      }
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .score{
+      .gray{
+        color: #5a5b5c;
+      }
+    }
+    .play-again{
+      border: 1px solid #2867b6;
+      width: 50%;
+      margin: 0 auto;
+      @include radius(5px);
+      margin-top: 15px;
+      color: #2c9acf;
+      cursor: pointer;
+    }
   }
 }
 @include respond-to($break-767) {
+  .bg-submit {
+    @include radius(5px);
+    width: 200px;
+    padding: 5px;
+    .pupup-submit {
+      font-size: 15px;
+      padding: 10px;
+      background: #ffffff;
+      color: #000000;
+      .result {
+        font-size: 20px;
+      }
+      .play-again {
+        width: 50%;
+      }
+    }
+  }
   //btn submit
   .test_vocab {
     .test-vocab-content {
@@ -1110,23 +1067,7 @@
         font-size: 18px;
         padding-left: 35%;
       }
-      .bg-submit {
-        @include radius(5px);
-        width: 200px;
-        padding: 5px;
-        .pupup-submit {
-          font-size: 15px;
-          padding: 10px;
-          background: #ffffff;
-          color: #000000;
-          .result {
-            font-size: 20px;
-          }
-          .play-again {
-            width: 50%;
-          }
-        }
-      }
+
     }
   }
   .box-submit{

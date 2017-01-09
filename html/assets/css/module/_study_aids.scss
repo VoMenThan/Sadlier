@@ -673,6 +673,7 @@
       color: #000000;
     }
     .answer{
+      position: relative;
         font-size: 25px;
         padding-left: 32%;
       padding-top: 2%;
@@ -725,6 +726,7 @@
       position: absolute;
       left: 20%;
       top: 50%;
+      @include translate(-50%, -50%);
       .right-btn{
         @include  size (40px, 40px);
         @include retinaDisplay('../images/ic/', 'vw_web_correct_icon.png', 'vw_web_correct_icon@2x.png'){
@@ -834,8 +836,8 @@
         }
       }
       .pup-h40 {
-        left: 25%;
-        top: 43%;
+        left: 20%;
+        top: 50%;
         .right-btn{
           width: 40px;
           height: 40px;

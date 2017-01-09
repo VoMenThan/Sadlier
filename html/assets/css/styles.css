@@ -2201,6 +2201,7 @@ a {
       text-align: left;
       color: #000000; }
     .test_vocab .test-vocab-content .answer {
+      position: relative;
       font-size: 25px;
       padding-left: 32%;
       padding-top: 2%;
@@ -2260,7 +2261,11 @@ a {
       height: 40px;
       position: absolute;
       left: 20%;
-      top: 50%; }
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
       .test_vocab .test-vocab-content .pup-h40 .right-btn {
         width: 40px;
         height: 40px;
@@ -2387,8 +2392,8 @@ a {
       background-position: right center; } }
 @media only screen and (max-width: 767px) {
   .test_vocab .test-vocab-content .pup-h40 {
-    left: 25%;
-    top: 43%; }
+    left: 20%;
+    top: 50%; }
     .test_vocab .test-vocab-content .pup-h40 .right-btn {
       width: 40px;
       height: 40px;

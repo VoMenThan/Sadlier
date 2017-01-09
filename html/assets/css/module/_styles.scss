@@ -79,7 +79,7 @@ strong{
 
 header{
   background: #fff;
-  padding-top: 85px;
+  padding-top: 75px;
   @include respond-to($break-991){
     padding-top: 41px;
   }
@@ -87,13 +87,14 @@ header{
 
 .main-wrapper{
   background: #e7e7e9;
-  padding: 10px 20px 0px 20px;
+  padding: 6px 20px 6px 20px;
 }
 
 .box-menu{
   float: left;
   //width: 610px;
   @include calc('width', '100% - 162px');
+  margin-top: 4px;
 }
 
 .select-wrapper{
@@ -115,7 +116,7 @@ header{
       font-size: 18px;
       a{
         color: #cdcdcf;
-        padding: 1px 20px;
+        padding: 1px 20px 2px;
         display: block;
       }
     }
@@ -130,7 +131,6 @@ header{
 .icon-wrapper{
   float: right;
   .menu{
-    display: inline-block;
     .item{
       float: left;
       margin: 0 10px;
@@ -209,7 +209,7 @@ header{
 select{
   @include appearance (none);
   background: url('../images/icon/arrow.jpg') #ffffff right center no-repeat;
-  padding: 7px 40px 7px 15px;
+  padding: 4px 40px 3px 15px;
   @include border-radius(10px);
   border: 0;
   font-size: 18px;
@@ -253,16 +253,16 @@ select{
   }
   @include respond-from($break-992){
     left: 50%;
-    margin-left: 430px;
+    margin-left: 375px;
     &.open{
-      margin-left: 130px;
+      margin-left: 75px;
     }
   }
   @include respond-to($break-991){
     right: 50%;
-    margin-right: 430px;
+    margin-right: 375px;
     &.open{
-      margin-right: 130px;
+      margin-right: 75px;
     }
     .box-prev {
       .icon-three{
@@ -271,7 +271,7 @@ select{
       }
     }
   }
-  @include respond-to($break-860){
+  @include respond-to($break-750){
     left: -100%;
     margin-right: 0;
     &.open{
@@ -357,9 +357,7 @@ select{
   }
   .box-menu {
     float: left;
-    width: 610px;
-    margin-top: -10px;
-    margin-bottom: 10px;
+    width: 100%;
   }
 }
 

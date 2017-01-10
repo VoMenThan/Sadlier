@@ -53,6 +53,9 @@ strong{
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
+  @include respond-from($break-992){
+    padding-bottom: 25px;
+  }
 }
 .wrap-page{
   padding: 20px 10px;

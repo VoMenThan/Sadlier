@@ -2,6 +2,7 @@
   p{
     color: #333333;
     font-size: 31px;
+    font-family: $main;
   }
   position: absolute;
   top: 0;
@@ -60,7 +61,8 @@
     }
   }
   span{
-    color: #2494c4;
+    color: #0099cc;
+    font-family: $main;
   }
   @include respond-to($break-991){
     display: none;
@@ -91,10 +93,10 @@
       .word{
         float: left;
         font-size: 16px;
-        color: #f26631;
+        color: #ff6633;
         padding-left: 35px;
         line-height: 48px;
-        font-family: $main-b;
+        font-family: $main;
       }
       .audio-iword{
         float: right;
@@ -146,7 +148,8 @@
       .lession{
         font-size: 14px;
         margin-bottom: 5px;
-
+        font-family: $main-b;
+        color: #333333;
       }
       a{
         display: inline-block;
@@ -195,7 +198,7 @@
         padding: 0 25px 0 0;
         background: url("../images/ic/vwAchieve_web_dropdownArrow.png") right center no-repeat;
         font-size: 20px;
-        font-family: $main-t;
+        font-family: $main-ds;
         color: #2867b6;
       }
       @include respond-to($break-640){
@@ -310,6 +313,7 @@
     font-size: 13px;
     width: 60px;
     text-align: center;
+    font-family: $main;
   }
   .prev{
     float: left;

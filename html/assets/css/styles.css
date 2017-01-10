@@ -1086,7 +1086,8 @@ a {
   padding-top: 25px; }
   .header-page p {
     color: #333333;
-    font-size: 31px; }
+    font-size: 31px;
+    font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif; }
   .header-page:before {
     content: '';
     margin-left: 15px;
@@ -1145,7 +1146,8 @@ a {
         -moz-background-size: auto 100%;
         background-size: auto 100%; } }
   .header-page span {
-    color: #2494c4; }
+    color: #0099cc;
+    font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif; }
   @media only screen and (max-width: 991px) {
     .header-page {
       display: none; } }
@@ -1177,10 +1179,10 @@ a {
     .iwords-page .box-content .bar-top .word {
       float: left;
       font-size: 16px;
-      color: #f26631;
+      color: #ff6633;
       padding-left: 35px;
       line-height: 48px;
-      font-family: "HelveticaNeue-Bold", Helvetica, arial, sans-serif; }
+      font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif; }
     .iwords-page .box-content .bar-top .audio-iword {
       float: right; }
     @media only screen and (max-width: 767px) {
@@ -1222,7 +1224,9 @@ a {
     border-left: 0.5px solid #000066; }
     .iwords-page .top-word .down .lession {
       font-size: 14px;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      font-family: "HelveticaNeue-Bold", Helvetica, arial, sans-serif;
+      color: #333333; }
     .iwords-page .top-word .down a {
       display: inline-block;
       width: 23px;
@@ -1269,7 +1273,7 @@ a {
       padding: 0 25px 0 0;
       background: url("../images/ic/vwAchieve_web_dropdownArrow.png") right center no-repeat;
       font-size: 20px;
-      font-family: "TimesNewRoman", Helvetica, arial, sans-serif;
+      font-family: "DroidSerif", Helvetica, arial, sans-serif;
       color: #2867b6; }
     @media only screen and (max-width: 640px) {
       .iwords-page .lesson-show p {
@@ -1389,7 +1393,8 @@ a {
     color: #000;
     font-size: 13px;
     width: 60px;
-    text-align: center; }
+    text-align: center;
+    font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif; }
   .audio-iword .prev {
     float: left;
     width: 48px;

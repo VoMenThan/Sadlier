@@ -295,7 +295,6 @@
 }
 /*css hangman*/
 .hang_man {
-
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;
     -moz-background-size: cover;

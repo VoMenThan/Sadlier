@@ -313,7 +313,9 @@
   }
   .header-page{
     span{
-      color: #f48625;
+      color: #ff6633;
+      font-family: $main;
+      font-size: 31px;
     }
   }
 }
@@ -838,7 +840,9 @@
   }
   .header-page{
     span{
-      color: #f48625;
+      color: #ff6633;
+      font-size: 31px;
+      font-family: $main;
     }
   }
   .test-vocab-content{
@@ -852,13 +856,15 @@
       padding: 10px 20px;
     }
     .box-content{
-      font-size: 25px;
+      font-size: 21px;
+      line-height: 27px;
       text-align: left;
       color: #000000;
     }
     .answer{
       position: relative;
-        font-size: 25px;
+        font-size: 21px;
+      line-height: 32px;
         padding-left: 32%;
       padding-top: 2%;
       color: #000000;

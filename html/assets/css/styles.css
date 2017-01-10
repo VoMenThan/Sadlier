@@ -1746,7 +1746,9 @@ a {
     .hang_man {
       padding: 40px 10px !important; } }
   .hang_man .header-page span {
-    color: #f48625; }
+    color: #ff6633;
+    font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif;
+    font-size: 31px; }
 
 .box-score {
   text-align: center;
@@ -2476,7 +2478,9 @@ a {
     .test_vocab {
       padding: 10px !important; } }
   .test_vocab .header-page span {
-    color: #f48625; }
+    color: #ff6633;
+    font-size: 31px;
+    font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif; }
   .test_vocab .test-vocab-content {
     background: #ffffff;
     padding: 30px 40px;
@@ -2488,12 +2492,14 @@ a {
       .test_vocab .test-vocab-content {
         padding: 10px 20px; } }
     .test_vocab .test-vocab-content .box-content {
-      font-size: 25px;
+      font-size: 21px;
+      line-height: 27px;
       text-align: left;
       color: #000000; }
     .test_vocab .test-vocab-content .answer {
       position: relative;
-      font-size: 25px;
+      font-size: 21px;
+      line-height: 32px;
       padding-left: 32%;
       padding-top: 2%;
       color: #000000; }

@@ -1,4 +1,13 @@
 /*than css*/
+@for $i from 1 through 13 {
+  .vw-achieve-#{$i} {
+    @include retinaDisplay('../images/img/', 'web_vwAchieve_g#{$i}.png', 'web_vwAchieve_g#{$i}@2x.png'){
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+    }
+  }
+}
 .flag_cards {
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;

@@ -1421,6 +1421,162 @@ a {
         border-left: none; } }
 
 /*than css*/
+.vw-achieve-1 {
+  background: url("../images/img/web_vwAchieve_g1.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-1 {
+      background: url("../images/img/web_vwAchieve_g1@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-2 {
+  background: url("../images/img/web_vwAchieve_g2.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-2 {
+      background: url("../images/img/web_vwAchieve_g2@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-3 {
+  background: url("../images/img/web_vwAchieve_g3.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-3 {
+      background: url("../images/img/web_vwAchieve_g3@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-4 {
+  background: url("../images/img/web_vwAchieve_g4.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-4 {
+      background: url("../images/img/web_vwAchieve_g4@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-5 {
+  background: url("../images/img/web_vwAchieve_g5.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-5 {
+      background: url("../images/img/web_vwAchieve_g5@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-6 {
+  background: url("../images/img/web_vwAchieve_g6.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-6 {
+      background: url("../images/img/web_vwAchieve_g6@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-7 {
+  background: url("../images/img/web_vwAchieve_g7.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-7 {
+      background: url("../images/img/web_vwAchieve_g7@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-8 {
+  background: url("../images/img/web_vwAchieve_g8.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-8 {
+      background: url("../images/img/web_vwAchieve_g8@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-9 {
+  background: url("../images/img/web_vwAchieve_g9.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-9 {
+      background: url("../images/img/web_vwAchieve_g9@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-10 {
+  background: url("../images/img/web_vwAchieve_g10.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-10 {
+      background: url("../images/img/web_vwAchieve_g10@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-11 {
+  background: url("../images/img/web_vwAchieve_g11.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-11 {
+      background: url("../images/img/web_vwAchieve_g11@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-12 {
+  background: url("../images/img/web_vwAchieve_g12.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-12 {
+      background: url("../images/img/web_vwAchieve_g12@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
+.vw-achieve-13 {
+  background: url("../images/img/web_vwAchieve_g13.png") center center no-repeat transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .vw-achieve-13 {
+      background: url("../images/img/web_vwAchieve_g13@2x.png") center center no-repeat transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover; } }
+
 .flag_cards {
   background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;
   -webkit-background-size: cover;

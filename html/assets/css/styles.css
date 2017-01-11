@@ -1579,28 +1579,17 @@ a {
       -moz-background-size: cover;
       background-size: cover; } }
 
-.flag_cards {
-  background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-    .flag_cards {
-      background: url("../images/img/vw_web_bg@2x.jpg") center center no-repeat transparent;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover; } }
-  .flag_cards .header-page span {
-    color: #4fbdbe; }
-  @media only screen and (max-width: 991px) {
-    .flag_cards {
-      padding: 157px 10px !important; } }
-  @media only screen and (max-width: 767px) {
-    .flag_cards {
-      padding: 50px 10px !important; } }
-  @media only screen and (max-width: 320px) {
-    .flag_cards {
-      padding: 10px 10px !important; } }
+.flag_cards .header-page span {
+  color: #4fbdbe; }
+@media only screen and (max-width: 991px) {
+  .flag_cards {
+    padding: 157px 10px !important; } }
+@media only screen and (max-width: 767px) {
+  .flag_cards {
+    padding: 50px 10px !important; } }
+@media only screen and (max-width: 320px) {
+  .flag_cards {
+    padding: 10px 10px !important; } }
 
 .page-number {
   text-align: center;

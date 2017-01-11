@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<div class="wrap-page flag_cards">
+<div class="wrap-page flag_cards vw-achieve-1">
     <div class="header-page clearfix">
         <p><span>Study Aids:</span> Flash Cards</p>
     </div>

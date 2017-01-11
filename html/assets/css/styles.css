@@ -1195,7 +1195,8 @@ a {
           text-align: center;
           padding-left: 0; } }
 .iwords-page .top-word {
-  border-bottom: 0.5px solid #000066; }
+  border-bottom: 0.5px solid #000066;
+  padding-bottom: 5px; }
   .iwords-page .top-word .text {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1248,7 +1249,7 @@ a {
     .iwords-page .lesson-show .content-show .scroll-iword {
       overflow-x: hidden;
       overflow-y: auto;
-      height: 308px; }
+      height: 319px; }
       @media only screen and (max-width: 991px) {
         .iwords-page .lesson-show .content-show .scroll-iword {
           height: 572px; } }

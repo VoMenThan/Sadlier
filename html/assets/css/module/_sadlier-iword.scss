@@ -116,6 +116,7 @@
   }
   .top-word{
     border-bottom: 0.5px solid #000066;
+    padding-bottom: 5px;
     .text{
       padding-top: 10px;
       padding-bottom: 10px;
@@ -170,7 +171,7 @@
       .scroll-iword{
         overflow-x: hidden;
         overflow-y: auto;
-        height: 308px;
+        height: 319px;
         @include respond-to($break-991){
           height: 572px;
         }

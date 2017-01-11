@@ -129,7 +129,6 @@
         font-size: 20px;
         margin-bottom: 5px;
       }
-      a{}
       .desc{
         font-family: $main-ds;
         color: #2867b6;
@@ -202,6 +201,8 @@
         font-size: 16px;
         font-family: $main-ds;
         color: #2867b6;
+        display: block;
+        height: 34px;
       }
       @include respond-to($break-640){
         width: 50%;

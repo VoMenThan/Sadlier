@@ -3060,6 +3060,63 @@ a {
     -moz-background-size: auto 100%;
     background-size: auto 100%;
     background-position: 0; } }
+.content-show .i-word-container:hover {
+  color: #f26631;
+  opacity: 0.7; }
+
+.content-show .i-word-container.selected {
+  color: #f26631;
+  opacity: 0.5; }
+
+.content-show .i-word-container span.i-word {
+  /*width: 100%;*/
+  display: inline-block;
+  cursor: pointer; }
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding: 0px; }
+
+.select2-container--default .select2-selection--single {
+  border: 0px solid #ffffff;
+  border: 0px solid transparent;
+  border-radius: 0; }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: unset; }
+
+.select2-dropdown {
+  border: 0px solid transparent;
+  border-radius: 0;
+  border-right: 1px solid rgba(136, 136, 136, 0.44) !important;
+  border-top: 1px solid rgba(136, 136, 136, 0.44) !important;
+  box-shadow: -1px 1px 3px #888888; }
+
+.select2-results__option {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "DroidSerif", Helvetica, arial, sans-serif;
+  color: #2867b6;
+  padding: 0px 0px 0px 10px;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.2) !important; }
+
+.select2-results__option:last-child {
+  border-bottom: 1px solid rgba(136, 136, 136, 0) !important; }
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 9px 6px 0 6px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -3px;
+  position: absolute;
+  top: 50%;
+  width: 0; }
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-width: 0 6px 9px 6px; }
+
 /*END CUSTOM STYLE SHEET FOR HANG MAN*/
 /* BEGIN CUSTOM STYLE SHEET FOR IWORD */
 .content-show .i-word-container:hover {

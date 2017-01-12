@@ -1335,6 +1335,36 @@
   cursor: pointer;
 }
 
+.select2-container .select2-selection--single .select2-selection__rendered{
+  padding: 0px;
+
+}
+.select2-container--default .select2-selection--single{
+  border: 0px solid #ffffff;
+  border: 0px solid transparent;
+  border-radius: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  color: unset;
+}
+
+.select2-dropdown{
+  border: 0px solid transparent;
+  border-radius: 0;
+  border-right: 1px solid rgba(136, 136, 136, 0.44) !important;
+  border-top: 1px solid rgba(136, 136, 136, 0.44) !important;
+  box-shadow: -1px 1px 3px rgba(136, 136, 136, 1);
+}
+
+.select2-results__option{
+  font-size: 16px;
+  line-height: 34px;
+  font-family: "DroidSerif", Helvetica, arial, sans-serif;
+  color: #2867b6;
+  padding: 0px 10px;
+  margin-left: -10px;
+}
 /* END CUSTOM STYLE SHEET FOR IWORD */
 
 /* END CUSTOM CSS*/

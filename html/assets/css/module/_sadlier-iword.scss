@@ -69,14 +69,14 @@
   }
 }
 .iwords-page{
-  padding: 50px 10px !important;
+  padding: 50px !important;
   @include retinaDisplay('../images/img/', 'vw_web_bg.jpg', 'vw_web_bg@2x.jpg'){
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
   }
   @include respond-to($break-767){
-    padding: 15px 10px !important;
+    padding: 15px 20px !important;
   }
 }
 
@@ -169,11 +169,21 @@
     .content-show{
       padding: 15px 0 35px;
       .scroll-iword{
-        overflow-x: hidden;
-        overflow-y: auto;
         height: 319px;
         @include respond-to($break-991){
           height: 572px;
+        }
+        .mCSB_scrollTools{
+          .mCSB_dragger{
+            .mCSB_dragger_bar{
+              width: 10px;
+              background: rgba(0, 0, 0, 0.3);
+            }
+          }
+          .mCSB_draggerRail{
+            width: 10px;
+            background: rgba(0, 0, 0, 0.3);
+          }
         }
       }
       @include respond-to($break-767){

@@ -48,12 +48,13 @@ strong{
   @include clearfix;
 }
 #wrapper{
-  max-width: 750px;
+  max-width: 860px;
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
   position: relative;
   @include respond-from($break-992){
+    max-width: 750px;
     padding-bottom: 25px;
   }
 }

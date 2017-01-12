@@ -1153,7 +1153,7 @@ a {
       display: none; } }
 
 .iwords-page {
-  padding: 50px 10px !important;
+  padding: 50px !important;
   background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1166,7 +1166,7 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 767px) {
     .iwords-page {
-      padding: 15px 10px !important; } }
+      padding: 15px 20px !important; } }
 
 .iwords-page .box-content {
   max-width: 725px;
@@ -1247,12 +1247,16 @@ a {
   .iwords-page .lesson-show .content-show {
     padding: 15px 0 35px; }
     .iwords-page .lesson-show .content-show .scroll-iword {
-      overflow-x: hidden;
-      overflow-y: auto;
       height: 319px; }
       @media only screen and (max-width: 991px) {
         .iwords-page .lesson-show .content-show .scroll-iword {
           height: 572px; } }
+      .iwords-page .lesson-show .content-show .scroll-iword .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 10px;
+        background: rgba(0, 0, 0, 0.3); }
+      .iwords-page .lesson-show .content-show .scroll-iword .mCSB_scrollTools .mCSB_draggerRail {
+        width: 10px;
+        background: rgba(0, 0, 0, 0.3); }
     @media only screen and (max-width: 767px) {
       .iwords-page .lesson-show .content-show {
         padding: 15px 0 15px; }
@@ -1583,10 +1587,10 @@ a {
   color: #4fbdbe; }
 @media only screen and (max-width: 991px) {
   .flag_cards {
-    padding: 20px 10px !important; } }
+    padding: 157px 10px !important; } }
 @media only screen and (max-width: 767px) {
   .flag_cards {
-    padding: 20px 10px !important; } }
+    padding: 50px 10px !important; } }
 @media only screen and (max-width: 320px) {
   .flag_cards {
     padding: 10px 10px !important; } }
@@ -1599,9 +1603,12 @@ a {
 
 .bg-white {
   background: #fff;
-  width: 75%;
+  width: 85%;
   margin: auto;
   padding: 2%; }
+  @media only screen and (max-width: 767px) {
+    .bg-white {
+      width: 95%; } }
 
 .content {
   border: 2px solid #ffcb2f;
@@ -1849,11 +1856,9 @@ a {
   .flag_cards .page-number {
     font-size: 45px; } }
 @media only screen and (max-width: 767px) {
-  .bg-white {
-    width: 80%; }
-
   .flag_cards .bg-white .content .box-content {
     font-size: 30px; }
+
   .flag_cards .page-number {
     font-size: 20px; }
 
@@ -1871,9 +1876,6 @@ a {
 
   .content .flag img {
     width: 30px; } }
-@media only screen and (max-width: 320px) {
-  .bg-white {
-    width: 85%; } }
 /*css hangman*/
 .hang_man {
   background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;
@@ -1888,13 +1890,13 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .hang_man {
-      padding: 20px 10px !important; } }
+      padding: 35px 10px 100px !important; } }
   @media only screen and (max-width: 767px) {
     .hang_man {
-      padding: 20px 10px !important; } }
+      padding: 20px 10px 80px !important; } }
   @media only screen and (max-width: 320px) {
     .hang_man {
-      padding: 10px !important; } }
+      padding: 20px 10px !important; } }
   .hang_man .header-page span {
     color: #ff6633;
     font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif;
@@ -1971,7 +1973,7 @@ a {
   border-radius: 10px; }
   @media only screen and (max-width: 767px) {
     .hang-man-content {
-      width: 85%; } }
+      width: 95%; } }
 
 .bg-content {
   padding-bottom: 2px; }
@@ -2620,10 +2622,10 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .test_vocab {
-      padding: 20px 10px !important; } }
+      padding: 156px 10px !important; } }
   @media only screen and (max-width: 767px) {
     .test_vocab {
-      padding: 20px 10px !important; } }
+      padding: 50px 10px !important; } }
   @media only screen and (max-width: 320px) {
     .test_vocab {
       padding: 10px !important; } }
@@ -2749,15 +2751,9 @@ a {
             -moz-background-size: auto 100%;
             background-size: auto 100%;
             background-position: 0; } }
-    @media only screen and (max-width: 991px) {
-      .test_vocab .test-vocab-content {
-        width: 80%; } }
     @media only screen and (max-width: 767px) {
       .test_vocab .test-vocab-content {
-        width: 80%; } }
-    @media only screen and (max-width: 320px) {
-      .test_vocab .test-vocab-content {
-        width: 85%; } }
+        width: 95%; } }
 
 .popup-result {
   display: none;
@@ -3120,13 +3116,14 @@ strong {
     clear: both; }
 
 #wrapper {
-  max-width: 750px;
+  max-width: 860px;
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
   position: relative; }
   @media only screen and (min-width: 992px) {
     #wrapper {
+      max-width: 750px;
       padding-bottom: 25px; } }
 
 .wrap-page {

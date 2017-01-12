@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
     <div class="wrap-page iwords-page">
         <div class="header-page clearfix">
             <p><span>Audio:</span> iWords</p>
@@ -87,7 +88,10 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="assets/js/jquery.mousewheel.min.js"></script>
     <script>
+        $('.scroll-iword').mCustomScrollbar();
 //        (function(){
 //            var w_if = $(window).width();
 //            var h_if = $(window).height();

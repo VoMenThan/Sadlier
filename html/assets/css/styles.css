@@ -2610,6 +2610,9 @@ a {
     border-radius: 3px;
     margin-top: 5px;
     margin-right: 5px; } }
+@media only screen and (max-width: 320px) {
+  .bg-content .input .box-input {
+    width: 16px; } }
 .test_vocab {
   padding: 23px 10px !important;
   background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;

@@ -852,6 +852,15 @@
     }
   }
 }
+@include respond-to($break-320){
+  .bg-content{
+    .input{
+      .box-input{
+        width: 16px;
+      }
+    }
+  }
+}
 
 .test_vocab{
   padding: 23px 10px !important;

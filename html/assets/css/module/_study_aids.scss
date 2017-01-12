@@ -20,13 +20,13 @@
     }
   }
   @include respond-to($break-991){
-    padding: 20px 10px !important;
+    padding: 20px 10px 45px!important;
   }
   @include respond-to($break-767){
-    padding: 20px 10px !important;
+    padding: 20px 10px 40px!important;
   }
   @include respond-to($break-320){
-    padding: 10px 10px !important;
+    padding: 10px 10px 40px!important;
   }
 }
 .page-number{
@@ -93,7 +93,7 @@
         a{
           text-decoration: none;
           display: block;
-          @include size(50px);
+          @include size(60px);
         }
         &.ctrl-prev{
           a{
@@ -144,17 +144,17 @@
     text-align: center;
     padding-top: 23px;
     .control{
-      width: 50px;
-      height:50px;
+      width: 60px;
+      height:60px;
       overflow: hidden;
       display: inline-block;
       margin-right: 7%;
       a{
         display: block;
-        @include size(50px);
+        @include size(60px);
         @include border-radius(50%);
         @include respond-to($break-767){
-          @include size(30px);
+          @include size(50px);
         }
       }
       &.ctrl-next{
@@ -291,8 +291,8 @@
     .box-control {
       .tool-control {
         .control{
-          width: 30px;
-          height: 30px;
+          width: 50px;
+          height: 50px;
           img{
             width: 30px;
           }
@@ -333,14 +333,14 @@
     background-size: cover;
   }
   @include respond-to($break-991){
-    padding: 35px 10px 100px !important;
+    padding: 35px 10px 45px !important;
   }
   @include respond-to($break-767){
-    padding: 20px 10px 80px !important;
+    padding: 20px 10px 40px !important;
 
   }
   @include respond-to($break-320){
-    padding: 20px 10px !important;
+    padding: 20px 10px 40px !important;
   }
   .header-page{
     span{
@@ -822,14 +822,14 @@
 @include respond-to($break-767) {
   .content .box-control .tool-control .control{
     a{
-      @include size(30px);
+      @include size(50px);
     }
   }
   .nav-tool .nav-control .control{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     img{
-      width: 30px;
+      width: 50px;
 
     }
   }
@@ -861,13 +861,13 @@
     background-size: cover;
   }
   @include respond-to($break-991){
-    padding: 20px 10px !important;
+    padding: 20px 10px 45px!important;
   }
   @include respond-to($break-767){
-    padding: 20px 10px !important;
+    padding: 20px 10px 40px !important;
   }
   @include respond-to($break-320){
-    padding: 10px !important;
+    padding: 10px 10px 40px!important;
   }
   .header-page{
     span{

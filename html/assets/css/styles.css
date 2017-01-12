@@ -1587,13 +1587,13 @@ a {
   color: #4fbdbe; }
 @media only screen and (max-width: 991px) {
   .flag_cards {
-    padding: 20px 10px !important; } }
+    padding: 20px 10px 45px !important; } }
 @media only screen and (max-width: 767px) {
   .flag_cards {
-    padding: 20px 10px !important; } }
+    padding: 20px 10px 40px !important; } }
 @media only screen and (max-width: 320px) {
   .flag_cards {
-    padding: 10px 10px !important; } }
+    padding: 10px 10px 40px !important; } }
 
 .page-number {
   text-align: center;
@@ -1667,8 +1667,8 @@ a {
       .content .box-control .tool-control .control a {
         text-decoration: none;
         display: block;
-        width: 50px;
-        height: 50px; }
+        width: 60px;
+        height: 60px; }
       .content .box-control .tool-control .control.ctrl-prev a {
         background: url("../images/ic/vwAchieve_web_back_downstate_btn.png") center center no-repeat transparent;
         -webkit-background-size: auto 100%;
@@ -1720,22 +1720,22 @@ a {
   text-align: center;
   padding-top: 23px; }
   .nav-tool .nav-control .control {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     overflow: hidden;
     display: inline-block;
     margin-right: 7%; }
     .nav-tool .nav-control .control a {
       display: block;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%; }
       @media only screen and (max-width: 767px) {
         .nav-tool .nav-control .control a {
-          width: 30px;
-          height: 30px; } }
+          width: 50px;
+          height: 50px; } }
     .nav-tool .nav-control .control.ctrl-next a {
       background: url("../images/ic/vwAchieve_tablet_shuffle_downstate_btn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;
@@ -1862,8 +1862,8 @@ a {
     font-size: 20px; }
 
   .content .box-control .tool-control .control {
-    width: 30px;
-    height: 30px; }
+    width: 50px;
+    height: 50px; }
     .content .box-control .tool-control .control img {
       width: 30px; }
 
@@ -1892,13 +1892,13 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .hang_man {
-      padding: 35px 10px 100px !important; } }
+      padding: 35px 10px 45px !important; } }
   @media only screen and (max-width: 767px) {
     .hang_man {
-      padding: 20px 10px 80px !important; } }
+      padding: 20px 10px 40px !important; } }
   @media only screen and (max-width: 320px) {
     .hang_man {
-      padding: 20px 10px !important; } }
+      padding: 20px 10px 40px !important; } }
   .hang_man .header-page span {
     color: #ff6633;
     font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif;
@@ -2586,14 +2586,14 @@ a {
 
 @media only screen and (max-width: 767px) {
   .content .box-control .tool-control .control a {
-    width: 30px;
-    height: 30px; }
+    width: 50px;
+    height: 50px; }
 
   .nav-tool .nav-control .control {
-    width: 30px;
-    height: 30px; }
+    width: 50px;
+    height: 50px; }
     .nav-tool .nav-control .control img {
-      width: 30px; }
+      width: 50px; }
 
   .bg-content .input .box-input {
     width: 20px;
@@ -2624,13 +2624,13 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .test_vocab {
-      padding: 20px 10px !important; } }
+      padding: 20px 10px 45px !important; } }
   @media only screen and (max-width: 767px) {
     .test_vocab {
-      padding: 20px 10px !important; } }
+      padding: 20px 10px 40px !important; } }
   @media only screen and (max-width: 320px) {
     .test_vocab {
-      padding: 10px !important; } }
+      padding: 10px 10px 40px !important; } }
   .test_vocab .header-page span {
     color: #ff6633;
     font-size: 31px;

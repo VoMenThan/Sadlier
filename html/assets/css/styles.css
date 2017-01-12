@@ -1583,10 +1583,10 @@ a {
   color: #4fbdbe; }
 @media only screen and (max-width: 991px) {
   .flag_cards {
-    padding: 157px 10px !important; } }
+    padding: 20px 10px !important; } }
 @media only screen and (max-width: 767px) {
   .flag_cards {
-    padding: 50px 10px !important; } }
+    padding: 20px 10px !important; } }
 @media only screen and (max-width: 320px) {
   .flag_cards {
     padding: 10px 10px !important; } }
@@ -1599,12 +1599,9 @@ a {
 
 .bg-white {
   background: #fff;
-  width: 85%;
+  width: 75%;
   margin: auto;
   padding: 2%; }
-  @media only screen and (max-width: 767px) {
-    .bg-white {
-      width: 95%; } }
 
 .content {
   border: 2px solid #ffcb2f;
@@ -1852,9 +1849,11 @@ a {
   .flag_cards .page-number {
     font-size: 45px; } }
 @media only screen and (max-width: 767px) {
+  .bg-white {
+    width: 80%; }
+
   .flag_cards .bg-white .content .box-content {
     font-size: 30px; }
-
   .flag_cards .page-number {
     font-size: 20px; }
 
@@ -1872,6 +1871,9 @@ a {
 
   .content .flag img {
     width: 30px; } }
+@media only screen and (max-width: 320px) {
+  .bg-white {
+    width: 85%; } }
 /*css hangman*/
 .hang_man {
   background: url("../images/img/vw_web_bg.jpg") center center no-repeat transparent;
@@ -1886,13 +1888,13 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .hang_man {
-      padding: 120px 10px !important; } }
+      padding: 20px 10px !important; } }
   @media only screen and (max-width: 767px) {
     .hang_man {
-      padding: 60px 10px !important; } }
+      padding: 20px 10px !important; } }
   @media only screen and (max-width: 320px) {
     .hang_man {
-      padding: 40px 10px !important; } }
+      padding: 10px !important; } }
   .hang_man .header-page span {
     color: #ff6633;
     font-family: "HelveticaNeue-Light", Helvetica, arial, sans-serif;
@@ -1969,7 +1971,7 @@ a {
   border-radius: 10px; }
   @media only screen and (max-width: 767px) {
     .hang-man-content {
-      width: 95%; } }
+      width: 85%; } }
 
 .bg-content {
   padding-bottom: 2px; }
@@ -2618,10 +2620,10 @@ a {
       background-size: cover; } }
   @media only screen and (max-width: 991px) {
     .test_vocab {
-      padding: 156px 10px !important; } }
+      padding: 20px 10px !important; } }
   @media only screen and (max-width: 767px) {
     .test_vocab {
-      padding: 50px 10px !important; } }
+      padding: 20px 10px !important; } }
   @media only screen and (max-width: 320px) {
     .test_vocab {
       padding: 10px !important; } }
@@ -2747,9 +2749,15 @@ a {
             -moz-background-size: auto 100%;
             background-size: auto 100%;
             background-position: 0; } }
+    @media only screen and (max-width: 991px) {
+      .test_vocab .test-vocab-content {
+        width: 80%; } }
     @media only screen and (max-width: 767px) {
       .test_vocab .test-vocab-content {
-        width: 95%; } }
+        width: 80%; } }
+    @media only screen and (max-width: 320px) {
+      .test_vocab .test-vocab-content {
+        width: 85%; } }
 
 .popup-result {
   display: none;

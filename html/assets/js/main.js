@@ -20,8 +20,10 @@ function Page(){
         $('.menu-box').click(function (e) {
             e.stopPropagation();
         })
+
         body.click(function () {
             $('.menu-box').removeClass('open');
+            $('.icon-two').removeClass('active');
         })
 
         if(isMobile()){
@@ -39,8 +41,36 @@ function Page(){
             e.stopPropagation();
         })
 
-        $(document).on('click', 'btn-submit', function () {
+        $(document).on('click', '.btn-submit', function () {
             $('.pupup-submit').fadeIn();
+        })
+
+        //volume
+        $('.icon-two').click(function (event) {
+            event.stopPropagation();
+        })
+
+        $('.volume-btn').click(function (event) {
+            event.stopPropagation();
+            $(this).parent().toggleClass('active');
+        })
+
+        $('.volume-control').change(function () {
+            var $this = $(this);
+            var el = $('.icon-two');
+            var vl = $this.val();
+
+            if(vl > 50){
+                el.removeClass('mid, mute');
+                el.addClass('max');
+            }else if(vl <= 50 && vl > 0){
+                el.removeClass('max, mute');
+                el.addClass('mid');
+            }else{
+                el.removeClass('max, mid');
+                el.addClass('mute');
+            }
+
         })
 
     //    flip flash cards

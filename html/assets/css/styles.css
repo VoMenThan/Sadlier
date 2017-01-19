@@ -3334,28 +3334,80 @@ header {
           -webkit-background-size: auto 100%;
           -moz-background-size: auto 100%;
           background-size: auto 100%; } }
-    .icon-wrapper .menu .item.icon-two a {
-      background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #fff;
-      -webkit-background-size: auto 100%;
-      -moz-background-size: auto 100%;
-      background-size: auto 100%; }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-        .icon-wrapper .menu .item.icon-two a {
-          background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") center center no-repeat #fff;
-          -webkit-background-size: auto 100%;
-          -moz-background-size: auto 100%;
-          background-size: auto 100%; } }
-    .icon-wrapper .menu .item.icon-two.mute a {
-      background: url("../images/ic/vw_web_mute_upstate_btn.png") center center no-repeat #fff;
-      -webkit-background-size: auto 100%;
-      -moz-background-size: auto 100%;
-      background-size: auto 100%; }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-        .icon-wrapper .menu .item.icon-two.mute a {
-          background: url("../images/ic/vw_web_mute_upstate_btn@2x.png") center center no-repeat #fff;
-          -webkit-background-size: auto 100%;
-          -moz-background-size: auto 100%;
-          background-size: auto 100%; } }
+    .icon-wrapper .menu .item.icon-two {
+      position: relative; }
+      .icon-wrapper .menu .item.icon-two.active .ctrl-vl {
+        display: block; }
+      .icon-wrapper .menu .item.icon-two .ctrl-vl {
+        position: absolute;
+        width: 30px;
+        top: 100%;
+        left: 50%;
+        background: #fff;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        padding: 5px 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+        box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+        display: none; }
+      .icon-wrapper .menu .item.icon-two .volume-control {
+        writing-mode: bt-lr;
+        /* IE */
+        -webkit-appearance: slider-vertical;
+        -moz-appearance: slider-vertical;
+        appearance: slider-vertical;
+        width: 25px;
+        height: 70px; }
+      .icon-wrapper .menu .item.icon-two a {
+        background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two a {
+            background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") center center no-repeat #fff;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
+      .icon-wrapper .menu .item.icon-two.max a {
+        background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two.max a {
+            background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn@2x.png") center center no-repeat #fff;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
+      .icon-wrapper .menu .item.icon-two.mid a {
+        background: url("../images/ic/vwAchieve_tablet_sound_upstate_m_icn.png") center center no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two.mid a {
+            background: url("../images/ic/vwAchieve_tablet_sound_upstate_m_icn@2x.png") center center no-repeat #fff;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
+      .icon-wrapper .menu .item.icon-two.mute a {
+        background: url("../images/ic/vw_web_mute_upstate_btn.png") center center no-repeat #fff;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+          .icon-wrapper .menu .item.icon-two.mute a {
+            background: url("../images/ic/vw_web_mute_upstate_btn@2x.png") center center no-repeat #fff;
+            -webkit-background-size: auto 100%;
+            -moz-background-size: auto 100%;
+            background-size: auto 100%; } }
     .icon-wrapper .menu .item.icon-three a {
       background: url("../images/ic/vwAchieve_tablet_hamburger_upstate_icn.png") center center no-repeat transparent;
       -webkit-background-size: auto 100%;

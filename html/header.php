@@ -19,7 +19,12 @@
                         <ul class="menu">
                             <li class="item logo-tm"><a href="#"></a></li>
                             <li class="item icon-one instruction"><a href="javascript:;" class="tooltip-infomation" ></a></li>
-                            <li class="item icon-two mute"><a href="#"></a></li>
+                            <li class="item icon-two">
+                                <a href="javascript:;" class="volume-btn"></a>
+                                <div class="ctrl-vl">
+                                    <input type="range" orient="vertical" class="volume-control" value="100" />
+                                </div>
+                            </li>
                             <li class="item icon-three"><a href="#"></a></li>
                         </ul>
                     </div>

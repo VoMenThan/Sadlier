@@ -205,6 +205,10 @@
       line-height: 34px;
       font-family: $main-ds;
       color: #2867b6;
+      > span{
+        height: 34px;
+      }
+
       select{
         padding: 0 25px 0 0;
         background: url("../images/ic/vwAchieve_web_dropdownArrow.png") right center no-repeat;

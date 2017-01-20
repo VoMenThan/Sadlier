@@ -1274,6 +1274,8 @@ a {
     line-height: 34px;
     font-family: "DroidSerif", Helvetica, arial, sans-serif;
     color: #2867b6; }
+    .iwords-page .lesson-show p > span {
+      height: 34px; }
     .iwords-page .lesson-show p select {
       padding: 0 25px 0 0;
       background: url("../images/ic/vwAchieve_web_dropdownArrow.png") right center no-repeat;

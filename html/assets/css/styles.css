@@ -1272,6 +1272,7 @@ a {
     width: calc(100% / 3);
     font-size: 16px;
     line-height: 34px;
+    min-height: 34px;
     font-family: "DroidSerif", Helvetica, arial, sans-serif;
     color: #2867b6; }
     .iwords-page .lesson-show p > span {

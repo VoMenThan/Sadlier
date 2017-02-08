@@ -82,8 +82,9 @@ strong{
 }
 
 header{
-  background: #fff;
   padding-top: 75px;
+  position: relative;
+  z-index: 10;
   @include respond-to($break-991){
     padding-top: 41px;
   }
@@ -396,8 +397,11 @@ select{
       }
       .icon-two{
         position: absolute;
-        right: 0%;
+        right: 0;
         top: 0;
+        &.item{
+          position: absolute;
+        }
       }
       .icon-three{
         position: absolute;

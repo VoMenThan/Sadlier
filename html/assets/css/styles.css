@@ -3241,8 +3241,9 @@ strong {
       color: #89c5e7; }
 
 header {
-  background: #fff;
-  padding-top: 75px; }
+  padding-top: 75px;
+  position: relative;
+  z-index: 10; }
   @media only screen and (max-width: 991px) {
     header {
       padding-top: 41px; } }
@@ -3553,8 +3554,10 @@ select {
       top: 0; }
     .icon-wrapper .menu .icon-two {
       position: absolute;
-      right: 0%;
+      right: 0;
       top: 0; }
+      .icon-wrapper .menu .icon-two.item {
+        position: absolute; }
     .icon-wrapper .menu .icon-three {
       position: absolute;
       left: 0;

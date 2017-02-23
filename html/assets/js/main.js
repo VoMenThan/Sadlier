@@ -61,14 +61,18 @@ function Page(){
             var vl = $this.val();
 
             if(vl > 50){
-                el.removeClass('mid, mute');
+                el.removeClass('mute');
+                el.removeClass('mid');
                 el.addClass('max');
+                console.log(1)
             }else if(vl <= 50 && vl > 0){
-                el.removeClass('max, mute');
+                el.removeClass('mute');
+                el.removeClass('max');
                 el.addClass('mid');
             }else{
                 el.removeClass('max, mid');
                 el.addClass('mute');
+                console.log(2)
             }
 
         })

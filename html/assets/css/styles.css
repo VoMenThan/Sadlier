@@ -1624,7 +1624,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 10; }
+    z-index: 9; }
     .content .flag a {
       display: block;
       width: 40px;
@@ -3367,7 +3367,17 @@ header {
         -moz-appearance: slider-vertical;
         appearance: slider-vertical;
         width: 25px;
-        height: 70px; }
+        height: 70px;
+        cursor: pointer; }
+        .icon-wrapper .menu .item.icon-two .volume-control::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          width: 20px;
+          height: 20px;
+          background: red;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          display: block; }
       .icon-wrapper .menu .item.icon-two a {
         background: url("../images/ic/vwAchieve_tablet_sound_upstate_icn.png") center center no-repeat #fff;
         -webkit-background-size: auto 100%;
